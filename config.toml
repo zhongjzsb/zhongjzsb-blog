@@ -17,7 +17,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "John Doe"
+  name = "Jingyu Bao"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -105,5 +105,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     
   [[menu.main]]
     name = "Book"
-    url = "/_book/index.html"
+    url = "/_book/"
+    weight = 50
 
