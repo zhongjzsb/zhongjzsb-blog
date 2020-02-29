@@ -1,0 +1,205 @@
+---
+title:  "Chapter 1.5 Fixed Income Securities"
+date: 2015-06-28
+output: html_document
+draft: true
+tags:
+    - fin
+---
+
+
+
+<div id="chapter-1.5-fixed-income-securities" class="section level1">
+<h1>Chapter 1.5 Fixed Income Securities</h1>
+<div id="description" class="section level2">
+<h2><a name="description"></a> Description</h2>
+<p>From chpater 3 in <a href="http://people.orie.cornell.edu/davidr/SDAFE/index.html"><em>Statistics and Data Analysis for Financial Engineering</em></a> (David Ruppert).</p>
+<p>For semiannual coupon,</p>
+<p><span class="math display">\[
+PRICE = \frac{C}{r} + \bigg(PAR - \frac{C}{r} \bigg)(1 + r)^{- 2T}
+\]</span></p>
+<p>{% highlight r %}
+# Program to create Fig 3.2
+bondvalue = function(c,T,r,par)
+{
+#
+# Computes bv = bond values (current prices) corresponding
+# to all values of yield to maturity in the
+# input vector r
+#
+# INPUT
+# c = coupon payment (semi-annual)
+# T = time to maturity (in years)
+# r = vector of yields to maturity (semi-annual rates)
+# par = par value
+#
+bv = c/r + (par - c/r) * (1+r)^(-2*T)
+bv
+}
+################################</p>
+</div>
+</div>
+<div id="computes-the-yield-to-maturity-of-a-bond-paying-semi-annual" class="section level1">
+<h1>Computes the yield to maturity of a bond paying semi-annual</h1>
+</div>
+<div id="coupon-payments" class="section level1">
+<h1>coupon payments</h1>
+</div>
+<div id="section" class="section level1">
+<h1></h1>
+</div>
+<div id="price-coupon-payment-and-time-to-maturity-in-years" class="section level1">
+<h1>price, coupon payment, and time to maturity (in years)</h1>
+</div>
+<div id="are-set-below" class="section level1">
+<h1>are set below</h1>
+</div>
+<div id="section-1" class="section level1">
+<h1></h1>
+</div>
+<div id="uses-the-function-bondvalue" class="section level1">
+<h1>Uses the function “bondvalue”</h1>
+</div>
+<div id="section-2" class="section level1">
+<h1></h1>
+<p>price = 1200 # current price of the bond
+C = 40 # coupon payment
+T= 30 # time to maturity
+par = 1000 # par value of the bond</p>
+<p>r = seq(.02,.05,length=300)
+value = bondvalue(C,T,r,par)
+yield2M = spline(value,r,xout=price)</p>
+<p>plot(r,value,xlab=‘yield to maturity’,ylab=‘price of bond’,type=“l”,
+main=“par = 1000, coupon payment = 40, T = 30”,lwd=2)
+abline(h=1200)
+abline(v=yield2M)
+{% endhighlight %}</p>
+<div class="figure">
+<img src="/images/2015-06-28-Chapter-1-5-Fixed-Income-Securities/unnamed-chunk-1-1.png" alt="center" />
+<p class="caption">center</p>
+</div>
+<p>{% highlight r %}
+################
+# Finding r from the price using a root finder</p>
+<p>uniroot(function(r) bondvalue(C,T,r,par) - price, c(0.001,.1))
+{% endhighlight %}</p>
+<p>{% highlight text %}
+## $root
+## [1] 0.03240908
+##
+## $f.root
+## [1] -0.3334967
+##
+## $iter
+## [1] 6
+##
+## $init.it
+## [1] NA
+##
+## $estim.prec
+## [1] 6.103516e-05
+{% endhighlight %}</p>
+<p><strong>Problem 3</strong> <em>Use uniroot to find the yield to maturity of the 30-year par $1000 bond with coupon payments of $40 that is selling at $1200.</em></p>
+<p>{% highlight r %}
+T = 30
+C = 40
+par = 1000
+price = 1200
+uniroot(function(r) bondvalue(C,T,r,par) - price, c(0.001,.1))
+{% endhighlight %}</p>
+<p>{% highlight text %}
+## $root
+## [1] 0.03240908
+##
+## $f.root
+## [1] -0.3334967
+##
+## $iter
+## [1] 6
+##
+## $init.it
+## [1] NA
+##
+## $estim.prec
+## [1] 6.103516e-05
+{% endhighlight %}</p>
+<p><strong>Problem 4</strong> <em>Find the yield to maturity of a par $10,000 bond selling at $9800 with semiannual coupon payments equal to $280 and maturing in 8 years.</em></p>
+<p>{% highlight r %}
+T = 8
+C = 280
+par = 10000
+price = 9800
+uniroot(function(r) bondvalue(C,T,r,par) - price, c(0.001,.1))
+{% endhighlight %}</p>
+<p>{% highlight text %}
+## $root
+## [1] 0.02959024
+##
+## $f.root
+## [1] -0.3783491
+##
+## $iter
+## [1] 4
+##
+## $init.it
+## [1] NA
+##
+## $estim.prec
+## [1] 0.0001175906
+{% endhighlight %}</p>
+<div id="exercises" class="section level2">
+<h2>Exercises</h2>
+<div id="problem-1." class="section level3">
+<h3><a name="problem1"></a> Problem 1.</h3>
+<p>Suppose that the forward rate is <span class="math inline">\(r(t) = 0.028 + 0.00042t\)</span>.</p>
+<p>[a]. What is the yield to maturity of a bond maturing in 20 years?</p>
+<p>[b]. What is the price of a par $1000 zero-coupon bond maturing in 15 years?</p>
+</div>
+<div id="answer" class="section level3">
+<h3>Answer:</h3>
+<p>[a]. Using the formula</p>
+<p><span class="math display">\[
+Yield_{20} = \bigg( \prod_{t = 1}^{20} (1 + r(t)) \bigg)^{1/20} - 1
+\]</span></p>
+<p>{% highlight r %}
+r &lt;- function(t){0.028 + 0.00042*t}
+yield &lt;- prod(1 + r(c(1:20)))^(1/20) - 1
+{% endhighlight %}</p>
+<p>The yield to marturity of a bond maturing in 20 years is 0.0324072.</p>
+<p>[b]. The price is par dividing the forward rate at each year.</p>
+<p>{% highlight r %}
+P_15 &lt;- 1000/prod(1 + r(c(1:15)))
+{% endhighlight %}</p>
+<p>Therefore, the price of a par $1000 zero-coupon bond maturing in 15 years is 629.2972379.</p>
+</div>
+<div id="problem-2." class="section level3">
+<h3><a name="problem2"></a> Problem 2.</h3>
+<p>A coupon bond has a coupon rate of 3% and a current yield of 2.8%.</p>
+<p>[a]. Is the bond selling above or below par? Why or why not?</p>
+<p>[b]. Is the yield to maturity above or below 2.8%? Why or why not?</p>
+</div>
+<div id="answer-1" class="section level3">
+<h3>Answer:</h3>
+<p>[a]. Following the figure above, if the coupon rate is 3% and current yield is 2.8%, i.e. coupon rate (coupon/par) is larger than current yield (coupon/current price), par is less than current price. Then, the bond is selling above par.</p>
+<p>[b]. The yield to maturity is below 2.8%. Because current yield is always bewteen coupon rate and yield to maturity. Because</p>
+<p><span class="math display">\[
+PRICE = \frac{C}{r} + \bigg(PAR - \frac{C}{r} \bigg)(1 + r)^{- 2T}
+\]</span></p>
+<p>PAR is larger than C/r. The price gets larger when T gets larger. Therefore, the current yield will goes down, and the yield to maturity, the average of yields, will below current yield.</p>
+</div>
+<div id="problem-3." class="section level3">
+<h3><a name="problem3"></a> Problem 3.</h3>
+<p>Suppose that the forward rate is <span class="math inline">\(r(t) = 0.032 + 0.001t + 0.0002t^2\)</span>.</p>
+<p>[a]. What is the five-year continuously compounded spot rate?</p>
+<p>[b]. What is the price of a zero-coupon bond that matures in five years?</p>
+</div>
+<div id="answer-2" class="section level3">
+<h3>Answer:</h3>
+<p>[a]. Let <span class="math inline">\(t=5\)</span></p>
+<p>[b]. Using formula</p>
+<p><span class="math display">\[
+PRICE = PAR \times \int_{0}^{5} r(t) \, dt
+\]</span></p>
+</div>
+</div>
+</div>

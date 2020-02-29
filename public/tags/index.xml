@@ -7,98 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 24 Dec 2018 12:29:41 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Demo</title>
-      <link>/tags/demo/</link>
-      <pubDate>Mon, 24 Dec 2018 12:29:41 +0800</pubDate>
+      <title>tools</title>
+      <link>/tags/tools/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/demo/</guid>
+      <guid>/tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Image</title>
-      <link>/tags/image/</link>
-      <pubDate>Mon, 24 Dec 2018 12:29:41 +0800</pubDate>
+      <title>windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/image/</guid>
+      <guid>/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Typography</title>
-      <link>/tags/typography/</link>
-      <pubDate>Sat, 29 Sep 2018 11:36:33 +0800</pubDate>
+      <title>html</title>
+      <link>/tags/html/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/typography/</guid>
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>r</title>
+      <link>/tags/r/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>test</title>
+      <link>/tags/test/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>/tags/test/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>jackie</title>
+      <link>/tags/jackie/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>/tags/jackie/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>development</title>
-      <link>/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>tech</title>
+      <link>/tags/tech/</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/development/</guid>
+      <guid>/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>go</title>
-      <link>/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/go/</guid>
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>golang</title>
-      <link>/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>github</title>
+      <link>/tags/github/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/golang/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>myself</title>
+      <link>/tags/myself/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>/tags/myself/</guid>
       <description></description>
     </item>
     

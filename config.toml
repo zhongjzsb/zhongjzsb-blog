@@ -3,8 +3,18 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "zhongjzsb"
 theme = "hermit"
+disqusShortname = "zhongjzsb"
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = [
+  "\\.Rmd$", 
+  "\\.Rmarkdown$", 
+  "_files$", 
+  "_cache$", 
+  "others/.*", 
+  "src/.*", 
+  "content/posts/unpublished/.*"
+] # "layout/.*"
+
 
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -26,16 +36,33 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 [taxonomies]
   tag = "tags"
+
+  # ----------
+  # add author
+  # author = "authors"
+
+  # disableKinds = ["taxonomyTerm"] # to disable authors.
+
+  # Reference: https://www.netlify.com/blog/2018/07/24/hugo-tips-how-to-create-author-pages/
+
+  # -------
   # Categories are disabled by default.
+  category = "categories"
 
 # [permalinks]
 #    post = "/:year/:month/:day/:slug/"
 
 [params]
-  dateform        = "Feb 28, 2020"
-  dateformShort   = "Feb 28"
-  dateformNum     = "2020-02-28"
-  dateformNumTime = "2020-02-28 15:04 -0700"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  
+  author = "Jingyu Bao" # create default author
+
+  draft = true
+  
+  bio = "Something about Jingyu"
 
   # Metadata mostly used in document's head
   # description = ""
@@ -55,7 +82,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   relatedPosts = false  # Add a related content section to all single posts page
 
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
-  
+
   # Add custom css
   # customCSS = ["css/foo.css", "css/bar.css"]
 
@@ -63,18 +90,19 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/"
-
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
+    url = "https://twitter.com/zhongjzsb"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/zhongjzsb"
 
+  [[params.social]]
+    name = "email"
+    url = "zhongjzsb@gmail.com"
+
+  # ---------------
   # copy from original config
-  description = "A website built through Hugo and blogdown."
+  description = "something random"
   # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion = "9.12.0"
   highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
@@ -84,11 +112,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   MathJaxVersion = "2.7.5"
   # path to the favicon, under "static"
   favicon = "favicon.ico"
-  [params.logo]
-  url = "logo.png"
-  width = 50
-  height = 50
-  alt = "Logo"
+  # [params.logo]
+  # url = "logo.png"
+  # width = 50
+  # height = 50
+  # alt = "Logo"
 
 
 [menu]
@@ -102,9 +130,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "About"
     url = "/about/"
     weight = 20
-    
+
   [[menu.main]]
     name = "Book"
-    url = "/_book/"
-    weight = 50
-
+    url = "book.zhongjzsb.com"
+    weight = 30

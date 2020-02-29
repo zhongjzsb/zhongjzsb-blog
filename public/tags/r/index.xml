@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>r on zhongjzsb</title>
+    <link>/tags/r/</link>
+    <description>Recent content in r on zhongjzsb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 23 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rmd test</title>
+      <link>/posts/test/2020-02-23-rmd-test/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/test/2020-02-23-rmd-test/</guid>
+      <description>here is the Rmd and html</description>
+    </item>
+    
+    <item>
+      <title>Install SparkR</title>
+      <link>/posts/tech/2016-10-18-install-sparkr/</link>
+      <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/tech/2016-10-18-install-sparkr/</guid>
+      <description>SparkR Installation Required program:
+ Java Maven Rtools Scala  </description>
+    </item>
+    
+  </channel>
+</rss>
