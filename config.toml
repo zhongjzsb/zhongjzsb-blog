@@ -133,5 +133,5 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[menu.main]]
     name = "Book"
-    url = "book.zhongjzsb.com"
+    url = "https://book.zhongjzsb.com"
     weight = 30
