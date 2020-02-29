@@ -6,12 +6,12 @@ theme = "hermit"
 disqusShortname = "zhongjzsb"
 
 ignoreFiles = [
-  "\\.Rmd$", 
-  "\\.Rmarkdown$", 
-  "_files$", 
-  "_cache$", 
-  "others/.*", 
-  "src/.*", 
+  "\\.Rmd$",
+  "\\.Rmarkdown$",
+  "_files$",
+  "_cache$",
+  "others/.*",
+  "src/.*",
   "content/posts/test/.*"
 ] # "layout/.*"
 
@@ -49,19 +49,19 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Categories are disabled by default.
   category = "categories"
 
-# [permalinks]
-#    post = "/:year/:month/:day/:slug/"
+[permalinks]
+   post = "/:year/:month/:day/:slug/"
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
-  
+
   author = "Jingyu Bao" # create default author
 
   draft = true
-  
+
   bio = "Something about Jingyu"
 
   # Metadata mostly used in document's head
