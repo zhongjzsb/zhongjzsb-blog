@@ -22,30 +22,12 @@
     </item>
     
     <item>
-      <title>Github Website Post</title>
-      <link>/posts/test/2020-02-24-github-website-post/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/test/2020-02-24-github-website-post/</guid>
-      <description>Hello Github</description>
-    </item>
-    
-    <item>
       <title>My Windows Tools</title>
       <link>/posts/tech/2020-02-24-my-windows-tools/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/tech/2020-02-24-my-windows-tools/</guid>
       <description>Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
-    </item>
-    
-    <item>
-      <title>Rmd test</title>
-      <link>/posts/test/2020-02-23-rmd-test/</link>
-      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/test/2020-02-23-rmd-test/</guid>
-      <description>here is the Rmd and html</description>
     </item>
     
     <item>
@@ -106,6 +88,25 @@ You will see.</description>
       <guid>/posts/tech/2016-10-18-install-sparkr/</guid>
       <description>SparkR Installation Required program:
  Java Maven Rtools Scala  </description>
+    </item>
+    
+    <item>
+      <title>Best Food in Tsinghua</title>
+      <link>/posts/life/2016-04-10-best-food-in-tsinghua/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/life/2016-04-10-best-food-in-tsinghua/</guid>
+      <description>The best food in Tsinghua I will definitely miss the &amp;ldquo;PAIGUTANG&amp;rdquo; the most!</description>
+    </item>
+    
+    <item>
+      <title>Another Birthday Again</title>
+      <link>/posts/life/2016-04-09-another-birthday/</link>
+      <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/life/2016-04-09-another-birthday/</guid>
+      <description>This is another birthday. I didn&amp;rsquo;t do anything special.
+Tried a lot of new Emacs features and really love it!</description>
     </item>
     
   </channel>

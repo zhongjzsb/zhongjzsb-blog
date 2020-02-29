@@ -12,7 +12,7 @@ ignoreFiles = [
   "_cache$", 
   "others/.*", 
   "src/.*", 
-  "content/posts/unpublished/.*"
+  "content/posts/test/.*"
 ] # "layout/.*"
 
 
@@ -98,7 +98,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[params.social]]
     name = "email"
-    url = "zhongjzsb@gmail.com"
+    url = "mailto:zhongjzsb@gmail.com"
 
   # ---------------
   # copy from original config

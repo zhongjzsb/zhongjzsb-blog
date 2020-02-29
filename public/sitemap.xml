@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>/posts/test/2020-02-24-github-website-post/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/tech/2020-02-24-my-windows-tools/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -43,26 +38,6 @@
   </url>
   
   <url>
-    <loc>/tags/html/</loc>
-    <lastmod>2020-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2020-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/test/2020-02-23-rmd-test/</loc>
-    <lastmod>2020-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/test/</loc>
-    <lastmod>2020-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/jackie/</loc>
     <lastmod>2020-02-22T00:00:00+00:00</lastmod>
   </url>
@@ -80,6 +55,11 @@
   <url>
     <loc>/tags/tech/</loc>
     <lastmod>2019-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/html/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -114,6 +94,11 @@
   
   <url>
     <loc>/posts/tech/2016-10-18-install-sparkr/</loc>
+    <lastmod>2016-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
     <lastmod>2016-10-18T00:00:00+00:00</lastmod>
   </url>
   

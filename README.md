@@ -2,14 +2,16 @@
 
 ## TODO
 
-- add mail-to option, instead of email icon.
+- [x] Add mail-to option, instead of email icon. Learned from [here](https://github.com/Track3/hermit/issues/30)
 
-[references](https://www.gohugo.org/theme/casper/)
+## References
 
-[bookdown](https://rachaellappan.github.io/bookdown/)
+- [hugo](https://www.gohugo.org/theme/casper/)
+- [hugo doc](https://gohugo.io/getting-started/)
+- [bookdown](https://rachaellappan.github.io/bookdown/)
+- [workflow](https://rstats.wtf/project-oriented-workflow.html)
+- tidyverse glue
 
-[workflow](https://rstats.wtf/project-oriented-workflow.html)
+## acknowledge
 
-tidyverse glue
-
-[hugo doc](https://gohugo.io/getting-started/)
+The blog theme is [hermit](https://github.com/Track3/hermit).
