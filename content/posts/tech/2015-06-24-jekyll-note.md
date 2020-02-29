@@ -7,8 +7,6 @@ tags:
     - mac
 ---
 
-# Jekyll Note
-
 ## 1. A little problem
 
 Learning from [youtube](https://www.youtube.com/watch?v=iWowJBRMtpc)

@@ -7,8 +7,4 @@ tags:
 ---
 
 
-The best food in Tsinghua
-==================================================
-
-
 I will definitely miss the "PAIGUTANG" the most!

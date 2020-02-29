@@ -8,8 +8,6 @@ tags:
 
 
 This is another birthday.
-===============================================
-
 
 I didn't do anything special.
 

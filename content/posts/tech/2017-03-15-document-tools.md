@@ -6,9 +6,6 @@ tags:
     - tools
 ---
 
-Document Tools
-==================================================
-
 Emacs is funny.
 
 Atom is slow.

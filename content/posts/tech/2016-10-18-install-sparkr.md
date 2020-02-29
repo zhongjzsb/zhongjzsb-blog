@@ -7,12 +7,8 @@ tags:
     - r
 ---
 
-
-SparkR Installation
-==================================================
-
-
 Required program:
+
 1. Java
 2. Maven
 3. Rtools

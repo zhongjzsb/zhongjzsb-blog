@@ -7,7 +7,7 @@ tags:
     - github
 ---
 
-# Finally
+## Finally
 
 ## Something about github:
 

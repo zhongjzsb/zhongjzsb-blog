@@ -6,8 +6,19 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Sat, 29 Feb 2020 06:22:38 +0000</lastBuildDate>
 		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>the year of mouse</title>
+			<link>/posts/jackie/2020-02-29-the-year-of-mouse/</link>
+			<pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
+			
+			<guid>/posts/jackie/2020-02-29-the-year-of-mouse/</guid>
+			<description>happy anniversary</description>
+			<content type="html"><![CDATA[<p>happy anniversary</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>My Windows Tools</title>
@@ -82,7 +93,7 @@ You can download the notebook from here.</description>
 			<guid>/posts/life/2019-10-28-back-to-github/</guid>
 			<description>Finally Something about github: if you want to delete commit from github, here are the steps you want to use (Reference website):
  git reset &amp;ndash;hard &amp;lt;commit-id&amp;gt; git push origin -f  </description>
-			<content type="html"><![CDATA[<h1 id="finally">Finally</h1>
+			<content type="html"><![CDATA[<h2 id="finally">Finally</h2>
 <h2 id="something-about-github">Something about github:</h2>
 <p>if you want to delete commit from github, here are the steps you want to use (<a href="https://gist.github.com/CrookedNumber/8964442#targetText=To%20remove%20the%20last%20commit,to%20remove%20even%20more%20commits">Reference website</a>):</p>
 <ol>
@@ -98,12 +109,11 @@ You can download the notebook from here.</description>
 			<pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
 			
 			<guid>/posts/tech/2017-03-15-document-tools/</guid>
-			<description>Document Tools Emacs is funny.
+			<description>Emacs is funny.
 Atom is slow.
 Sublime is the final choice?
 You will see.</description>
-			<content type="html"><![CDATA[<h1 id="document-tools">Document Tools</h1>
-<p>Emacs is funny.</p>
+			<content type="html"><![CDATA[<p>Emacs is funny.</p>
 <p>Atom is slow.</p>
 <p>Sublime is the final choice?</p>
 <p>You will see.</p>
@@ -116,10 +126,9 @@ You will see.</description>
 			<pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
 			
 			<guid>/posts/tech/2016-10-18-install-sparkr/</guid>
-			<description>SparkR Installation Required program:
+			<description>Required program:
  Java Maven Rtools Scala  </description>
-			<content type="html"><![CDATA[<h1 id="sparkr-installation">SparkR Installation</h1>
-<p>Required program:</p>
+			<content type="html"><![CDATA[<p>Required program:</p>
 <ol>
 <li>Java</li>
 <li>Maven</li>
@@ -135,9 +144,8 @@ You will see.</description>
 			<pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
 			
 			<guid>/posts/life/2016-04-10-best-food-in-tsinghua/</guid>
-			<description>The best food in Tsinghua I will definitely miss the &amp;ldquo;PAIGUTANG&amp;rdquo; the most!</description>
-			<content type="html"><![CDATA[<h1 id="the-best-food-in-tsinghua">The best food in Tsinghua</h1>
-<p>I will definitely miss the &ldquo;PAIGUTANG&rdquo; the most!</p>
+			<description>I will definitely miss the &amp;ldquo;PAIGUTANG&amp;rdquo; the most!</description>
+			<content type="html"><![CDATA[<p>I will definitely miss the &ldquo;PAIGUTANG&rdquo; the most!</p>
 ]]></content>
 		</item>
 		
@@ -147,9 +155,10 @@ You will see.</description>
 			<pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
 			
 			<guid>/posts/life/2016-04-09-another-birthday/</guid>
-			<description>This is another birthday. I didn&amp;rsquo;t do anything special.
+			<description>This is another birthday.
+I didn&amp;rsquo;t do anything special.
 Tried a lot of new Emacs features and really love it!</description>
-			<content type="html"><![CDATA[<h1 id="this-is-another-birthday">This is another birthday.</h1>
+			<content type="html"><![CDATA[<p>This is another birthday.</p>
 <p>I didn&rsquo;t do anything special.</p>
 <p>Tried a lot of new Emacs features and really love it!</p>
 ]]></content>
@@ -161,7 +170,7 @@ Tried a lot of new Emacs features and really love it!</description>
 			<pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
 			
 			<guid>/posts/tech/2015-06-24-jekyll-note/</guid>
-			<description>Jekyll Note 1. A little problem Learning from youtube
+			<description>1. A little problem Learning from youtube
 In terminal (using Python 2.7 instead of Python 3.4)
 install vertualenv
 {% highlight R %}
@@ -173,9 +182,9 @@ install vertualenv
  stop using python2.7
  deactivate
  2. Start Jekyll Then begin jekyll in your workspace
- jekyll new blogname</description>
-			<content type="html"><![CDATA[<h1 id="jekyll-note">Jekyll Note</h1>
-<h2 id="1-a-little-problem">1. A little problem</h2>
+ jekyll new blogname
+  jekyll serve</description>
+			<content type="html"><![CDATA[<h2 id="1-a-little-problem">1. A little problem</h2>
 <p>Learning from <a href="https://www.youtube.com/watch?v=iWowJBRMtpc">youtube</a></p>
 <p>In terminal (using Python 2.7 instead of Python 3.4)</p>
 <p>install vertualenv</p>

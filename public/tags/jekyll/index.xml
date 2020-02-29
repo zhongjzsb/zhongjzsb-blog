@@ -18,7 +18,7 @@
       <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>/posts/tech/2015-06-24-jekyll-note/</guid>
-      <description>Jekyll Note 1. A little problem Learning from youtube
+      <description>1. A little problem Learning from youtube
 In terminal (using Python 2.7 instead of Python 3.4)
 install vertualenv
 {% highlight R %}
@@ -30,7 +30,8 @@ install vertualenv
  stop using python2.7
  deactivate
  2. Start Jekyll Then begin jekyll in your workspace
- jekyll new blogname</description>
+ jekyll new blogname
+  jekyll serve</description>
     </item>
     
   </channel>

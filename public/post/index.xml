@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>zhongjzsb</title>
-    <link>/</link>
-    <description>Recent content on zhongjzsb</description>
+    <title>Posts on zhongjzsb</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on zhongjzsb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 06:22:38 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>the year of mouse</title>
-      <link>/posts/jackie/2020-02-29-the-year-of-mouse/</link>
+      <link>/posts/jackie/the-year-of-mouse/</link>
       <pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
       
-      <guid>/posts/jackie/2020-02-29-the-year-of-mouse/</guid>
+      <guid>/posts/jackie/the-year-of-mouse/</guid>
       <description>happy anniversary</description>
     </item>
     
     <item>
-      <title>About zhongjzsb</title>
-      <link>/about/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <title>sdfdsf</title>
+      <link>/posts/sdfdsf/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
-      <description>Gamer.</description>
+      <guid>/posts/sdfdsf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sfddsf</title>
+      <link>/2020/02/29/sfddsf/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/02/29/sfddsf/</guid>
+      <description>sdfds</description>
     </item>
     
     <item>
@@ -83,7 +92,7 @@ You can download the notebook from here.</description>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/tech/2017-03-15-document-tools/</guid>
-      <description>Emacs is funny.
+      <description>Document Tools Emacs is funny.
 Atom is slow.
 Sublime is the final choice?
 You will see.</description>
@@ -95,17 +104,8 @@ You will see.</description>
       <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>/posts/tech/2016-10-18-install-sparkr/</guid>
-      <description>Required program:
+      <description>SparkR Installation Required program:
  Java Maven Rtools Scala  </description>
-    </item>
-    
-    <item>
-      <title>Best Food in Tsinghua</title>
-      <link>/posts/life/2016-04-10-best-food-in-tsinghua/</link>
-      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/life/2016-04-10-best-food-in-tsinghua/</guid>
-      <description>I will definitely miss the &amp;ldquo;PAIGUTANG&amp;rdquo; the most!</description>
     </item>
     
   </channel>
