@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Hugo Hermit"
+title = "zhongjzsb"
 theme = "hermit"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -32,17 +32,17 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 #    post = "/:year/:month/:day/:slug/"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateform        = "Feb 28, 2020"
+  dateformShort   = "Feb 28"
+  dateformNum     = "2020-02-28"
+  dateformNumTime = "2020-02-28 15:04 -0700"
 
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "A minimal and fast theme for Hugo."
+  homeSubtitle = "Life islLong memory time series"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
