@@ -2,6 +2,8 @@
 
 ## TODO
 
+- add mail-to option, instead of email icon.
+
 [references](https://www.gohugo.org/theme/casper/)
 
 [bookdown](https://rachaellappan.github.io/bookdown/)
