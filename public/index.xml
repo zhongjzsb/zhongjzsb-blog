@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Blog Setup</title>
+      <link>/posts/life/blog-setup/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/life/blog-setup/</guid>
+      <description>I finnally set-up my blog with netlify.</description>
+    </item>
+    
+    <item>
       <title>About zhongjzsb</title>
       <link>/about/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
@@ -55,16 +64,6 @@
       
       <guid>/posts/tech/2019-11-24-my-emacs-init-file/</guid>
       <description>Steps  install ido-vertical install company install solarized-dark install ess install yasnippet install poly-R install smex install expand-region install aggressive-indent install org-bullet install session install undo-tree install auto-complete install anzu add molokai-theme-kit.el in to .emacs.d  Can be found in simplenote file.</description>
-    </item>
-    
-    <item>
-      <title>Interactive Plots Examples</title>
-      <link>/posts/tech/2019-10-31-interactive-plots-examples/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/tech/2019-10-31-interactive-plots-examples/</guid>
-      <description>This is an test with the ipython notebook generated html.
-You can download the notebook from here.</description>
     </item>
     
     <item>

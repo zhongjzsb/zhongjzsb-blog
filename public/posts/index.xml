@@ -21,6 +21,17 @@
 		</item>
 		
 		<item>
+			<title>Blog Setup</title>
+			<link>/posts/life/blog-setup/</link>
+			<pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+			
+			<guid>/posts/life/blog-setup/</guid>
+			<description>I finnally set-up my blog with netlify.</description>
+			<content type="html"><![CDATA[<p>I finnally set-up my blog with <a href="https://www.netlify.com">netlify</a>.</p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>My Windows Tools</title>
 			<link>/posts/tech/2020-02-24-my-windows-tools/</link>
 			<pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
@@ -69,19 +80,6 @@
 <li>add molokai-theme-kit.el in to .emacs.d</li>
 </ol>
 <p>Can be found in simplenote file.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Interactive Plots Examples</title>
-			<link>/posts/tech/2019-10-31-interactive-plots-examples/</link>
-			<pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
-			
-			<guid>/posts/tech/2019-10-31-interactive-plots-examples/</guid>
-			<description>This is an test with the ipython notebook generated html.
-You can download the notebook from here.</description>
-			<content type="html"><![CDATA[<p>This is an test with the ipython notebook generated <a href="/src/python/2019-10-31-Interactive-Plots-Examples.html">html</a>.</p>
-<p>You can download the notebook from <a href="/src/python/2019-10-31-Interactive-Plots-Examples.ipynb">here</a>.</p>
 ]]></content>
 		</item>
 		

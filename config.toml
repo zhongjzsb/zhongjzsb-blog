@@ -3,8 +3,6 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "zhongjzsb"
 theme = "hermit"
-disqusShortname = "zhongjzsb"
-
 ignoreFiles = [
   "\\.Rmd$",
   "\\.Rmarkdown$",
@@ -16,15 +14,15 @@ ignoreFiles = [
 ] # "layout/.*"
 
 
-# enableGitInfo = true
+enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
-# disqusShortname = "yourdiscussshortname"
+googleAnalytics = "UA-159320532-1"
+disqusShortname = "zhongjzsb"
 
 [author]
   name = "Jingyu Bao"
@@ -102,6 +100,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # ---------------
   # copy from original config
+
   description = "something random"
   # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion = "9.12.0"
@@ -110,8 +109,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   highlightjsTheme = "github"
   MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
   MathJaxVersion = "2.7.5"
+
   # path to the favicon, under "static"
   favicon = "favicon.ico"
+
   # [params.logo]
   # url = "logo.png"
   # width = 50
