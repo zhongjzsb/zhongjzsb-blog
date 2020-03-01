@@ -6,19 +6,8 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 29 Feb 2020 06:22:38 +0000</lastBuildDate>
+		<lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
 		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>the year of mouse</title>
-			<link>/posts/jackie/2020-02-29-the-year-of-mouse/</link>
-			<pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
-			
-			<guid>/posts/jackie/2020-02-29-the-year-of-mouse/</guid>
-			<description>happy anniversary</description>
-			<content type="html"><![CDATA[<p>happy anniversary</p>
-]]></content>
-		</item>
 		
 		<item>
 			<title>Blog Setup</title>
@@ -32,6 +21,35 @@
 		</item>
 		
 		<item>
+			<title>When will the next light bulb go out?</title>
+			<link>/posts/light-bulb-go-out/</link>
+			<pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+			
+			<guid>/posts/light-bulb-go-out/</guid>
+			<description>Today our 💡 bulb in the second floor went out. It looks like this:This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.Jackie and I was discussing about how many lights we need to buy.
+So first thing comes to my mind is that the lifetime of a bulb is exponetially distributed.</description>
+			<content type="html"><![CDATA[
+
+
+<p>Today our 💡 bulb in the second floor went out. It looks like this:
+<img src="/posts/2020-02-29-when-does-the-next-light-bulb-broke_files/special-bulb-york-mills.jpg" alt="special-bulb" width="400" height="200" /></p>
+<p>This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.
+Jackie and I was discussing about how many lights we need to buy.</p>
+<p>So first thing comes to my mind is that the lifetime of a bulb is exponetially distributed. It comes out so natural but Jackie asked me why it is the case? So I did some search and this <a href="https://math.stackexchange.com/questions/2478820/exponential-bulbs">math stackexchange</a> has some explanation about this. I think the essential assumption is that</p>
+<blockquote>
+<p>If a used item has no better (or worse) life expectancy than a new one, then it is a candidate for an exponential lifetime model.</p>
+</blockquote>
+<p>Since exponential distribution is memory-less. I guess it should be a good fit to that if we assume an random old bulb is as good as a new one.</p>
+<p>Once we agreed on this exponential assumption. It linked to <a href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson Distribution wiki</a>:</p>
+<blockquote>
+<p>If for every <span class="math inline">\(t &gt; 0\)</span> the number of arrivals in the time interval <span class="math inline">\([0, t]\)</span> follows the Poisson distribution with mean <span class="math inline">\(\lambda t\)</span>, then the sequence of inter-arrival times are independent and identically distributed exponential random variables having mean <span class="math inline">\(1/\lambda\)</span>.</p>
+</blockquote>
+<p>In this case, the bulb is installed in 2017 and the best estimate of this bulb is 3 years as we only have one sample. We will then expect the next light bulb will go out in 3 years.</p>
+<p>We don’t need to buy two lights if we think 3 years is long time. 😄</p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>My Windows Tools</title>
 			<link>/posts/tech/2020-02-24-my-windows-tools/</link>
 			<pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
@@ -39,18 +57,6 @@
 			<guid>/posts/tech/2020-02-24-my-windows-tools/</guid>
 			<description>Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
 			<content type="html"><![CDATA[<p><a href="https://github.com/Wox-launcher/Wox">Wox</a> with <a href="https://www.voidtools.com/">Everything</a> can search &lsquo;everything&rsquo; in your Windows machine.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>This is a jackie test</title>
-			<link>/posts/jackie/2020-02-22-jackie-test/</link>
-			<pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
-			
-			<guid>/posts/jackie/2020-02-22-jackie-test/</guid>
-			<description>More to come This is a test for Jackie with comments in her article 🌟</description>
-			<content type="html"><![CDATA[<h2 id="more-to-come">More to come</h2>
-<p>This is a test for Jackie with comments in her article 🌟</p>
 ]]></content>
 		</item>
 		

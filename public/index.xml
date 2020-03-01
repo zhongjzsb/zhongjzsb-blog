@@ -14,10 +14,10 @@
     
     <item>
       <title>the year of mouse</title>
-      <link>/posts/jackie/2020-02-29-the-year-of-mouse/</link>
+      <link>/jackie-posts/2020-02-29-the-year-of-mouse/</link>
       <pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
       
-      <guid>/posts/jackie/2020-02-29-the-year-of-mouse/</guid>
+      <guid>/jackie-posts/2020-02-29-the-year-of-mouse/</guid>
       <description>happy anniversary</description>
     </item>
     
@@ -28,6 +28,16 @@
       
       <guid>/posts/life/blog-setup/</guid>
       <description>I finnally set-up my blog with netlify.</description>
+    </item>
+    
+    <item>
+      <title>When will the next light bulb go out?</title>
+      <link>/posts/light-bulb-go-out/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/light-bulb-go-out/</guid>
+      <description>Today our 💡 bulb in the second floor went out. It looks like this:This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.Jackie and I was discussing about how many lights we need to buy.
+So first thing comes to my mind is that the lifetime of a bulb is exponetially distributed.</description>
     </item>
     
     <item>
@@ -50,10 +60,10 @@
     
     <item>
       <title>This is a jackie test</title>
-      <link>/posts/jackie/2020-02-22-jackie-test/</link>
+      <link>/jackie-posts/2020-02-22-jackie-test/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/jackie/2020-02-22-jackie-test/</guid>
+      <guid>/jackie-posts/2020-02-22-jackie-test/</guid>
       <description>More to come This is a test for Jackie with comments in her article 🌟</description>
     </item>
     
@@ -96,15 +106,6 @@ You will see.</description>
       <guid>/posts/tech/2016-10-18-install-sparkr/</guid>
       <description>Required program:
  Java Maven Rtools Scala  </description>
-    </item>
-    
-    <item>
-      <title>Best Food in Tsinghua</title>
-      <link>/posts/life/2016-04-10-best-food-in-tsinghua/</link>
-      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/life/2016-04-10-best-food-in-tsinghua/</guid>
-      <description>I will definitely miss the &amp;ldquo;PAIGUTANG&amp;rdquo; the most!</description>
     </item>
     
   </channel>

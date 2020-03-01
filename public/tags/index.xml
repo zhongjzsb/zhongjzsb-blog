@@ -22,6 +22,24 @@
     </item>
     
     <item>
+      <title>life</title>
+      <link>/tags/life/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>/tags/tech/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tools</title>
       <link>/tags/tools/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
@@ -45,15 +63,6 @@
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/jackie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>/tags/tech/</link>
-      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -90,15 +99,6 @@
       <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/spark/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tsinghua</title>
-      <link>/tags/tsinghua/</link>
-      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tsinghua/</guid>
       <description></description>
     </item>
     
