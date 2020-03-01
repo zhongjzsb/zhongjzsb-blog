@@ -19,8 +19,12 @@
 - [workflow](https://rstats.wtf/project-oriented-workflow.html)
 - tidyverse glue
 - [github emoji](https://gist.github.com/rxaviers/7360908)
-- [free images](https://unsplash.com/)
 - [hugo best practice](https://github.com/spech66/hugo-best-practices)
+
+Free images:
+- [pexels](https://www.pexels.com/)
+- [unsplash](https://unsplash.com/)
+- [stocksnap](https://stocksnap.io/)
 
 ## acknowledge
 
