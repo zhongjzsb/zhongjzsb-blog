@@ -8,17 +8,17 @@ tags:
   - life
   - tech
 comments: no
-images: 
-    - /posts/2020-02-29-when-does-the-next-light-bulb-broke_files/special-bulb-york-mills.jpg
+images:
+    - /images/special-bulb-york-mills.jpg
 ---
 
 Today our :bulb: bulb in the second floor went out. It looks like this:
-![special-bulb](/posts/2020-02-29-when-does-the-next-light-bulb-broke_files/special-bulb-york-mills.jpg){width=400px height=200px}
+![special-bulb](/images/special-bulb-york-mills.jpg){width=400px height=200px}
 
 This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.
 Jackie and I was discussing about how many lights we need to buy.
 
-So first thing comes to my mind is that the lifetime of a bulb is exponetially distributed. It comes out so natural but Jackie asked me why it is the case? So I did some search and this [math stackexchange](https://math.stackexchange.com/questions/2478820/exponential-bulbs) has some explanation about this. I think the essential assumption is that
+So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed. It comes out so natural but Jackie asked me why it is the case? So I did some search and this [math stackexchange](https://math.stackexchange.com/questions/2478820/exponential-bulbs) has some explanation about this. I think the essential assumption is that
 
 > If a used item has no better (or worse) life expectancy than a new one, then it is a candidate for an exponential lifetime model.
 
@@ -30,4 +30,4 @@ Once we agreed on this exponential assumption. It linked to [Poisson Distributio
 
 In this case, the bulb is installed in 2017 and the best estimate of this bulb is 3 years as we only have one sample. We will then expect the next light bulb will go out in 3 years.
 
-We don't need to buy two lights if we think 3 years is long time. :smile: 
+We don't need to buy two lights if we think 3 years is long time. :smile:

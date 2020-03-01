@@ -14,12 +14,13 @@ ignoreFiles = [
 ] # "layout/.*"
 
 
-enableGitInfo = true
+enableGitInfo = false
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+copyright = "&copy; Jingyu Bao & Jackie Liu, {year}"
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 googleAnalytics = "UA-159320532-1"
 disqusShortname = "zhongjzsb"
@@ -69,7 +70,7 @@ disqusShortname = "zhongjzsb"
 
   homeSubtitle = "Life is a Long memory time series"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  # bgImg = ""  # Homepage background-image URL
+  bgImg = "https://unsplash.com/photos/FtZL0r4DZYk"  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = "https://github.com/username/repository/commit/"
@@ -127,21 +128,27 @@ disqusShortname = "zhongjzsb"
 [menu]
 
   [[menu.main]]
-    name = "Posts"
+    name = "Baobao's Posts"
     url = "/posts/"
     weight = 10
 
   [[menu.main]]
     name = "Jackie's Posts"
     url = "/jackie-posts/"
-    weight = 10
+    weight = 20
 
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 20
+    weight = 30
 
   [[menu.main]]
-    name = "Book"
-    url = "https://book.zhongjzsb.com"
-    weight = 30
+    name = "Archive"
+    url = "/tags/"
+    weight = 40
+
+
+  # [[menu.main]]
+  #   name = "Book"
+  #   url = "https://book.zhongjzsb.com"
+  #   weight = 40
