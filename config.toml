@@ -91,6 +91,10 @@ disqusShortname = "zhongjzsb"
     url = "https://twitter.com/zhongjzsb"
 
   [[params.social]]
+    name = "twitch"
+    url = "https://www.twitch.tv/zhongjzsb"
+
+  [[params.social]]
     name = "github"
     url = "https://github.com/zhongjzsb"
 
