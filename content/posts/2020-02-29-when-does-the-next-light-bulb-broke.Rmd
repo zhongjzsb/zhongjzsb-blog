@@ -8,7 +8,8 @@ tags:
   - life
   - tech
 comments: no
-images: ~
+images: 
+    - /posts/2020-02-29-when-does-the-next-light-bulb-broke_files/special-bulb-york-mills.jpg
 ---
 
 Today our :bulb: bulb in the second floor went out. It looks like this:
