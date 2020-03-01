@@ -6,7 +6,7 @@
 
 - [x] Add mail-to option, instead of email icon. Learned from [here](https://github.com/Track3/hermit/issues/30)
 - [x] Fixed section by add _index.md in the posts/baobao-posts/ folder. Learned from [here](https://gohugo.io/content-management/sections/)
-
+- [ ] change the theme color [potential solution](https://discourse.gohugo.io/t/change-highlight-color-in-hermit-theme/20564/10) and [github](https://github.com/Track3/hermit/issues/58)
 
 ## Site Management
 
@@ -28,6 +28,6 @@ Free images:
 - [unsplash](https://unsplash.com/)
 - [stocksnap](https://stocksnap.io/)
 
-## acknowledge
+## Acknowledge
 
 The blog theme is [hermit](https://github.com/Track3/hermit).

@@ -5,4 +5,4 @@ images:
     - /images/special-bulb-york-mills.jpg
 ---
 
-Gamer.
+Everyone is so busy. Nobody really care about who you are.

@@ -1,7 +1,7 @@
 ---
 title:  "Mac Jekyll Note"
 date:   2015-06-24
-key: 2015-06-24
+key: 2015-06-24T10:00:00Z
 tags:
     - tools
 ---

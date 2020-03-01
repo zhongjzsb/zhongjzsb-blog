@@ -64,15 +64,13 @@ disqusShortname = "zhongjzsb"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   author = "Jingyu Bao" # create default author
+  bio = "something about zhongjzsb"
 
-  draft = true
-
-  bio = "Something about Jingyu"
 
   # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
-  themeColor = "#494f5c"
+  description = "something about zhongjzsb"
+  images = [""]
+  # themeColor = "#494f5c"
 
   homeSubtitle = "Life is a long memory time series"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -83,13 +81,11 @@ disqusShortname = "zhongjzsb"
 
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
-
   relatedPosts = false  # Add a related content section to all single posts page
-
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
   # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+  # customCSS = ["/static/assets/scss/_predefined.scss"]
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
@@ -102,6 +98,10 @@ disqusShortname = "zhongjzsb"
     url = "https://www.twitch.tv/zhongjzsb"
 
   [[params.social]]
+    name = "linkedin"
+    url = "http://linkedin.com/in/jingyu-bao-00495646"
+
+  [[params.social]]
     name = "github"
     url = "https://github.com/zhongjzsb"
 
@@ -112,7 +112,6 @@ disqusShortname = "zhongjzsb"
   # ---------------
   # copy from original config
 
-  description = "something random"
   # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion = "9.12.0"
   highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
