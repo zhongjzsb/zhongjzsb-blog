@@ -11,6 +11,7 @@
 - [bookdown](https://rachaellappan.github.io/bookdown/)
 - [workflow](https://rstats.wtf/project-oriented-workflow.html)
 - tidyverse glue
+- [github emoji](https://gist.github.com/rxaviers/7360908)
 
 ## acknowledge
 
