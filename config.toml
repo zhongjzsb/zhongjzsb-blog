@@ -7,6 +7,9 @@ ignoreFiles = [
   "\\.Rmd$",
   "\\.Rmdtest$", # the test Rmd files
   "\\.Rmarkdown$",
+  ".Rprofile",
+  ".Rhistory",
+  ".Rproj",
   "_files$",
   "_cache$",
   "others/.*",
@@ -49,8 +52,10 @@ disqusShortname = "zhongjzsb"
   # Categories are disabled by default.
   category = "categories"
 
+
 [permalinks]
-   post = "/:year/:month/:day/:slug/"
+   post = "/:section/:year/:month/:day/:slug/"
+   # post = "/:section/"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -69,7 +74,7 @@ disqusShortname = "zhongjzsb"
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Life is a Long memory time series"
+  homeSubtitle = "Life is a long memory time series"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   bgImg = "/images/special-bulb-york-mills.jpg"  # Homepage background-image URL
 
@@ -130,17 +135,17 @@ disqusShortname = "zhongjzsb"
 
   [[menu.main]]
     name = "Baobao's Posts"
-    url = "/baobao-posts/"
+    url = "/posts/baobao-posts/"
     weight = 10
 
   [[menu.main]]
     name = "Jackie's Posts"
-    url = "/jackie-posts/"
+    url = "/posts/jackie-posts/"
     weight = 20
 
   [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/about"
     weight = 30
 
   [[menu.main]]

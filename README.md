@@ -5,6 +5,8 @@
 ## TODO
 
 - [x] Add mail-to option, instead of email icon. Learned from [here](https://github.com/Track3/hermit/issues/30)
+- [x] Fixed section by add _index.md in the posts/baobao-posts/ folder. Learned from [here](https://gohugo.io/content-management/sections/)
+
 
 ## Site Management
 

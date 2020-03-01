@@ -7,17 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Jingyu Bao &amp; Jackie Liu, {year}</copyright>
-    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 10:30:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog Setup</title>
-      <link>/baobao-posts/blog-setup/</link>
-      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <link>/posts/baobao-posts/blog-setup/</link>
+      <pubDate>Sat, 29 Feb 2020 10:30:00 +0000</pubDate>
       
-      <guid>/baobao-posts/blog-setup/</guid>
+      <guid>/posts/baobao-posts/blog-setup/</guid>
       <description>I finnally set-up my blog with netlify.</description>
     </item>
     

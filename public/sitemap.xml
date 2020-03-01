@@ -3,8 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/jackie-posts/</loc>
-    <lastmod>2020-02-29T06:22:38+00:00</lastmod>
+    <loc>/posts/baobao-posts/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/finance/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/baobao-posts/index-market-cap-in-us-market/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/jackie-posts/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
+    <lastmod>2020-02-29T10:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/baobao-posts/blog-setup/</loc>
+    <lastmod>2020-02-29T10:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tools/</loc>
+    <lastmod>2020-02-29T10:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,28 +53,8 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/posts/jackie-posts/2020-02-29-the-year-of-mouse/</loc>
     <lastmod>2020-02-29T06:22:38+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/jackie-posts/2020-02-29-the-year-of-mouse/</loc>
-    <lastmod>2020-02-29T06:22:38+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/baobao-posts/</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/baobao-posts/blog-setup/</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -48,12 +68,7 @@
   </url>
   
   <url>
-    <loc>/tags/tools/</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/baobao-posts/light-bulb-go-out/</loc>
+    <loc>/posts/baobao-posts/light-bulb-go-out/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,22 +83,22 @@
   </url>
   
   <url>
-    <loc>/baobao-posts/2020-02-24-my-windows-tools/</loc>
+    <loc>/posts/baobao-posts/2020-02-24-my-windows-tools/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/jackie-posts/2020-02-22-jackie-test/</loc>
+    <loc>/posts/jackie-posts/2020-02-22-jackie-test/</loc>
     <lastmod>2020-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/baobao-posts/2019-11-24-my-emacs-init-file/</loc>
+    <loc>/posts/baobao-posts/2019-11-24-my-emacs-init-file/</loc>
     <lastmod>2019-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/baobao-posts/2019-10-28-back-to-github/</loc>
+    <loc>/posts/baobao-posts/2019-10-28-back-to-github/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,27 +108,27 @@
   </url>
   
   <url>
-    <loc>/baobao-posts/2017-03-15-document-tools/</loc>
+    <loc>/posts/baobao-posts/2017-03-15-document-tools/</loc>
     <lastmod>2017-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/baobao-posts/2016-10-18-install-sparkr/</loc>
+    <loc>/posts/baobao-posts/2016-10-18-install-sparkr/</loc>
     <lastmod>2016-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/baobao-posts/2016-04-10-best-food-in-tsinghua/</loc>
+    <loc>/posts/baobao-posts/2016-04-10-best-food-in-tsinghua/</loc>
     <lastmod>2016-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/baobao-posts/2016-04-09-another-birthday/</loc>
+    <loc>/posts/baobao-posts/2016-04-09-another-birthday/</loc>
     <lastmod>2016-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/baobao-posts/2015-06-24-jekyll-note/</loc>
+    <loc>/posts/baobao-posts/2015-06-24-jekyll-note/</loc>
     <lastmod>2015-06-24T00:00:00+00:00</lastmod>
   </url>
   

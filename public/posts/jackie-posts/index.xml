@@ -1,0 +1,36 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Jackie&#39;s Posts on zhongjzsb</title>
+		<link>/posts/jackie-posts/</link>
+		<description>Recent content in Jackie&#39;s Posts on zhongjzsb</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>&amp;copy; Jingyu Bao &amp; Jackie Liu, {year}</copyright>
+		<lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+		<atom:link href="/posts/jackie-posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>The year of mouse</title>
+			<link>/posts/jackie-posts/2020-02-29-the-year-of-mouse/</link>
+			<pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
+			
+			<guid>/posts/jackie-posts/2020-02-29-the-year-of-mouse/</guid>
+			<description>happy anniversary</description>
+			<content type="html"><![CDATA[<p>happy anniversary</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>This is a jackie test</title>
+			<link>/posts/jackie-posts/2020-02-22-jackie-test/</link>
+			<pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+			
+			<guid>/posts/jackie-posts/2020-02-22-jackie-test/</guid>
+			<description>More to come This is a test for Jackie with comments in her article 🌟</description>
+			<content type="html"><![CDATA[<h2 id="more-to-come">More to come</h2>
+<p>This is a test for Jackie with comments in her article 🌟</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

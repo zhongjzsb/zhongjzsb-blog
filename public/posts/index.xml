@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on zhongjzsb</title>
+		<link>/posts/</link>
+		<description>Recent content in Posts on zhongjzsb</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>&amp;copy; Jingyu Bao &amp; Jackie Liu, {year}</copyright>
+		<lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Baobao&#39;s Posts</title>
+			<link>/posts/baobao-posts/</link>
+			<pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+			
+			<guid>/posts/baobao-posts/</guid>
+			<description></description>
+			<content type="html"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Jackie&#39;s Posts</title>
+			<link>/posts/jackie-posts/</link>
+			<pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+			
+			<guid>/posts/jackie-posts/</guid>
+			<description></description>
+			<content type="html"><![CDATA[]]></content>
+		</item>
+		
+	</channel>
+</rss>

@@ -7,44 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Jingyu Bao &amp; Jackie Liu, {year}</copyright>
-    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 10:30:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog Setup</title>
-      <link>/baobao-posts/blog-setup/</link>
-      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <link>/posts/baobao-posts/blog-setup/</link>
+      <pubDate>Sat, 29 Feb 2020 10:30:00 +0000</pubDate>
       
-      <guid>/baobao-posts/blog-setup/</guid>
+      <guid>/posts/baobao-posts/blog-setup/</guid>
       <description>I finnally set-up my blog with netlify.</description>
     </item>
     
     <item>
       <title>My Windows Tools</title>
-      <link>/baobao-posts/2020-02-24-my-windows-tools/</link>
+      <link>/posts/baobao-posts/2020-02-24-my-windows-tools/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/baobao-posts/2020-02-24-my-windows-tools/</guid>
+      <guid>/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
       <description>Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
     </item>
     
     <item>
       <title>My Emacs Init File</title>
-      <link>/baobao-posts/2019-11-24-my-emacs-init-file/</link>
+      <link>/posts/baobao-posts/2019-11-24-my-emacs-init-file/</link>
       <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
+      <guid>/posts/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
       <description>Steps  install ido-vertical install company install solarized-dark install ess install yasnippet install poly-R install smex install expand-region install aggressive-indent install org-bullet install session install undo-tree install auto-complete install anzu add molokai-theme-kit.el in to .emacs.d  Can be found in simplenote file.</description>
     </item>
     
     <item>
       <title>Document Tools</title>
-      <link>/baobao-posts/2017-03-15-document-tools/</link>
+      <link>/posts/baobao-posts/2017-03-15-document-tools/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/baobao-posts/2017-03-15-document-tools/</guid>
+      <guid>/posts/baobao-posts/2017-03-15-document-tools/</guid>
       <description>Emacs is funny.
 Atom is slow.
 Sublime is the final choice?
@@ -53,20 +53,20 @@ You will see.</description>
     
     <item>
       <title>Install SparkR</title>
-      <link>/baobao-posts/2016-10-18-install-sparkr/</link>
+      <link>/posts/baobao-posts/2016-10-18-install-sparkr/</link>
       <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>/baobao-posts/2016-10-18-install-sparkr/</guid>
+      <guid>/posts/baobao-posts/2016-10-18-install-sparkr/</guid>
       <description>Required program:
  Java Maven Rtools Scala  </description>
     </item>
     
     <item>
       <title>Mac Jekyll Note</title>
-      <link>/baobao-posts/2015-06-24-jekyll-note/</link>
+      <link>/posts/baobao-posts/2015-06-24-jekyll-note/</link>
       <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/baobao-posts/2015-06-24-jekyll-note/</guid>
+      <guid>/posts/baobao-posts/2015-06-24-jekyll-note/</guid>
       <description>1. A little problem Learning from youtube
 In terminal (using Python 2.7 instead of Python 3.4)
 install vertualenv
