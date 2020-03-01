@@ -151,7 +151,7 @@ disqusShortname = "zhongjzsb"
   [[menu.main]]
     name = "Archive"
     url = "/tags/"
-    weight = 40
+    weight = 50
 
 
   # [[menu.main]]
