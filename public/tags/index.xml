@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Jingyu Bao &amp; Jackie Liu, {year}</copyright>
-    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 06:22:38 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>random</title>
+      <link>/tags/random/</link>
+      <pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
+      
+      <guid>/tags/random/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>blog</title>
@@ -31,38 +40,20 @@
     </item>
     
     <item>
-      <title>tech</title>
-      <link>/tags/tech/</link>
+      <title>stats</title>
+      <link>/tags/stats/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tech/</guid>
+      <guid>/tags/stats/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tools</title>
       <link>/tags/tools/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>/tags/windows/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jackie</title>
-      <link>/tags/jackie/</link>
-      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/jackie/</guid>
       <description></description>
     </item>
     
@@ -72,33 +63,6 @@
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>myself</title>
-      <link>/tags/myself/</link>
-      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/myself/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r</title>
-      <link>/tags/r/</link>
-      <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spark</title>
-      <link>/tags/spark/</link>
-      <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/spark/</guid>
       <description></description>
     </item>
     

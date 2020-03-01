@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>zhongjzsb</title>
-    <link>/</link>
-    <description>Recent content on zhongjzsb</description>
+    <title>Baobao-posts on zhongjzsb</title>
+    <link>/baobao-posts/</link>
+    <description>Recent content in Baobao-posts on zhongjzsb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Jingyu Bao &amp; Jackie Liu, {year}</copyright>
-    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/baobao-posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>the year of mouse</title>
-      <link>/jackie-posts/2020-02-29-the-year-of-mouse/</link>
-      <pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
-      
-      <guid>/jackie-posts/2020-02-29-the-year-of-mouse/</guid>
-      <description>happy anniversary</description>
-    </item>
     
     <item>
       <title>Blog Setup</title>
@@ -41,30 +32,12 @@ So first thing comes to my mind is that the lifetime of a bulb is exponentially 
     </item>
     
     <item>
-      <title>You never know</title>
-      <link>/about/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Gamer.</description>
-    </item>
-    
-    <item>
       <title>My Windows Tools</title>
       <link>/baobao-posts/2020-02-24-my-windows-tools/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/baobao-posts/2020-02-24-my-windows-tools/</guid>
       <description>Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
-    </item>
-    
-    <item>
-      <title>This is a jackie test</title>
-      <link>/jackie-posts/2020-02-22-jackie-test/</link>
-      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/jackie-posts/2020-02-22-jackie-test/</guid>
-      <description>More to come This is a test for Jackie with comments in her article 🌟</description>
     </item>
     
     <item>
@@ -106,6 +79,48 @@ You will see.</description>
       <guid>/baobao-posts/2016-10-18-install-sparkr/</guid>
       <description>Required program:
  Java Maven Rtools Scala  </description>
+    </item>
+    
+    <item>
+      <title>Best Food in Tsinghua</title>
+      <link>/baobao-posts/2016-04-10-best-food-in-tsinghua/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/baobao-posts/2016-04-10-best-food-in-tsinghua/</guid>
+      <description>I will definitely miss the &amp;ldquo;PAIGUTANG&amp;rdquo; the most!</description>
+    </item>
+    
+    <item>
+      <title>Another Birthday Again</title>
+      <link>/baobao-posts/2016-04-09-another-birthday/</link>
+      <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/baobao-posts/2016-04-09-another-birthday/</guid>
+      <description>This is another birthday.
+I didn&amp;rsquo;t do anything special.
+Tried a lot of new Emacs features and really love it!</description>
+    </item>
+    
+    <item>
+      <title>Mac Jekyll Note</title>
+      <link>/baobao-posts/2015-06-24-jekyll-note/</link>
+      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/baobao-posts/2015-06-24-jekyll-note/</guid>
+      <description>1. A little problem Learning from youtube
+In terminal (using Python 2.7 instead of Python 3.4)
+install vertualenv
+{% highlight R %}
+ pip install virtualenv {% endhighlight R %}
+ using Python 2.7 as temporary
+ virtualenv -p /usr/bin/python2.7 &amp;ndash;distribute temp-python
+ active Python 2.7
+ source temp-python/bin/activate
+ stop using python2.7
+ deactivate
+ 2. Start Jekyll Then begin jekyll in your workspace
+ jekyll new blogname
+  jekyll serve</description>
     </item>
     
   </channel>

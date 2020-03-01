@@ -3,7 +3,7 @@ title:  "This is a jackie test"
 author: Jingqian Liu
 date: 2020-02-22
 tags:
-    - jackie
+    - random
 ---
 
 ## More to come

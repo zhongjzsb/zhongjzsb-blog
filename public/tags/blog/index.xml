@@ -14,10 +14,10 @@
     
     <item>
       <title>Blog Setup</title>
-      <link>/posts/life/blog-setup/</link>
+      <link>/baobao-posts/blog-setup/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/life/blog-setup/</guid>
+      <guid>/baobao-posts/blog-setup/</guid>
       <description>I finnally set-up my blog with netlify.</description>
     </item>
     

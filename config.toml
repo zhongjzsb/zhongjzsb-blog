@@ -5,12 +5,13 @@ title = "zhongjzsb"
 theme = "hermit"
 ignoreFiles = [
   "\\.Rmd$",
+  "\\.Rmdtest$", # the test Rmd files
   "\\.Rmarkdown$",
   "_files$",
   "_cache$",
   "others/.*",
   "src/.*",
-  "content/posts/test/.*"
+  "content/test/.*"
 ] # "layout/.*"
 
 
@@ -70,7 +71,7 @@ disqusShortname = "zhongjzsb"
 
   homeSubtitle = "Life is a Long memory time series"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  bgImg = "https://unsplash.com/photos/FtZL0r4DZYk"  # Homepage background-image URL
+  bgImg = "/images/special-bulb-york-mills.jpg"  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = "https://github.com/username/repository/commit/"
@@ -129,7 +130,7 @@ disqusShortname = "zhongjzsb"
 
   [[menu.main]]
     name = "Baobao's Posts"
-    url = "/posts/"
+    url = "/baobao-posts/"
     weight = 10
 
   [[menu.main]]

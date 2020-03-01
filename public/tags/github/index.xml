@@ -14,10 +14,10 @@
     
     <item>
       <title>Back to Github</title>
-      <link>/posts/life/2019-10-28-back-to-github/</link>
+      <link>/baobao-posts/2019-10-28-back-to-github/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/life/2019-10-28-back-to-github/</guid>
+      <guid>/baobao-posts/2019-10-28-back-to-github/</guid>
       <description>Finally Something about github: if you want to delete commit from github, here are the steps you want to use (Reference website):
  git reset &amp;ndash;hard &amp;lt;commit-id&amp;gt; git push origin -f  </description>
     </item>
