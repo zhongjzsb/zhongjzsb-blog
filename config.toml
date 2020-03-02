@@ -17,7 +17,6 @@ ignoreFiles = [
   "content/test/.*"
 ] # "layout/.*"
 
-
 enableGitInfo = false
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
