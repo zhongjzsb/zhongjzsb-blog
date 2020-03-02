@@ -6,15 +6,17 @@
 
 - [x] Add mail-to option, instead of email icon. Learned from [here](https://github.com/Track3/hermit/issues/30)
 - [x] Fixed section by add _index.md in the posts/baobao-posts/ folder. Learned from [here](https://gohugo.io/content-management/sections/)
-- [x] change the theme color [potential solution](https://discourse.gohugo.io/t/change-highlight-color-in-hermit-theme/20564/10) and [github](https://github.com/Track3/hermit/issues/58)
+- [x] Change the theme color [potential solution](https://discourse.gohugo.io/t/change-highlight-color-in-hermit-theme/20564/10) and [github](https://github.com/Track3/hermit/issues/58)
   > I switched to [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) theme with [hello-friend](https://github.com/panr/hugo-theme-hello-friend) formatting style. The reason is that hello-friend provides a more readable table styple. Simply copy the `styple.css` file to `static/assets/` folder and add `customCSS = ["/assets/style.css"]` into `config.toml`.
-- [x] center the images by
+- [x] Center the images by
     ```markdown
     <center>
     ![](/images/img.jpg){width=400px height=300px}
     </center>
     ```
     Other options are in [StackOverflow](https://stackoverflow.com/questions/24677642/centering-image-and-text-in-r-markdown-for-a-pdf-report/38074465).
+- [ ] Fix author missing.
+
 
 ## Site Management
 
