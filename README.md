@@ -16,8 +16,13 @@
     ```
     Other options are in [StackOverflow](https://stackoverflow.com/questions/24677642/centering-image-and-text-in-r-markdown-for-a-pdf-report/38074465).
 - [ ] Fix author missing.
-- [ ] Fix markdown column width.
-
+- [ ] Fix markdown column width. You can use 
+    ```
+    the website is: [zhongjzsb]
+    [zhongjzsb]: https://www.zhongjzsb.com
+    ```
+    the website is: [zhongjzsb]
+    [zhongjzsb]: https://www.zhongjzsb.com
 
 ## Site Management
 
