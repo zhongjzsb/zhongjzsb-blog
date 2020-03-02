@@ -64,7 +64,7 @@ disqusShortname = "zhongjzsb"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   author = "Jingyu Bao" # create default author
-  bio = "something about zhongjzsb"
+  # bio = "something about zhongjzsb"
 
 
   # Metadata mostly used in document's head
