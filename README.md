@@ -16,7 +16,7 @@
     ```
     Other options are in [StackOverflow](https://stackoverflow.com/questions/24677642/centering-image-and-text-in-r-markdown-for-a-pdf-report/38074465).
 - [ ] Fix author missing.
-- [ ] Fix markdown column width. You can use 
+- [ ] Fix markdown column width. You can use following to reference links. Learned from [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
     ```
     the website is: [zhongjzsb]
 
