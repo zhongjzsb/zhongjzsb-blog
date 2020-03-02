@@ -993,7 +993,7 @@ hr {
 .button.previous .button__icon {
     margin-right: 8px
 }
-
+/*
 .footer {
     padding: 40px 20px;
     flex-grow: 0;
@@ -1041,7 +1041,7 @@ hr {
     border-right: 1px solid;
     padding-right: 10px;
     margin-right: 10px
-}
+} */
 
 @media (max-width:899px) {
     .footer .copyright>:first-child:not(:only-child) {

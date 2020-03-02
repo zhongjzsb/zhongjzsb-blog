@@ -12,7 +12,7 @@ images:
 ---
 
 Today our :bulb: bulb in the second floor went out. It looks like this:
-![special-bulb](/images/special-bulb-york-mills.jpg){width=400px height=200px}
+![special-bulb](/images/special-bulb-york-mills.jpg){width=400px height=300px}
 
 This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.
 Jackie and I was discussing about how many lights we need to buy.
