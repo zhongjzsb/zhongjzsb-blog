@@ -6,7 +6,8 @@
 
 - [x] Add mail-to option, instead of email icon. Learned from [here](https://github.com/Track3/hermit/issues/30)
 - [x] Fixed section by add _index.md in the posts/baobao-posts/ folder. Learned from [here](https://gohugo.io/content-management/sections/)
-- [ ] change the theme color [potential solution](https://discourse.gohugo.io/t/change-highlight-color-in-hermit-theme/20564/10) and [github](https://github.com/Track3/hermit/issues/58)
+- [x] change the theme color [potential solution](https://discourse.gohugo.io/t/change-highlight-color-in-hermit-theme/20564/10) and [github](https://github.com/Track3/hermit/issues/58)
+  > I switched to [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) theme with [hello-friend](https://github.com/panr/hugo-theme-hello-friend) formatting style. The reason is that hello-friend provides a more readable table styple. Simply copy the `styple.css` file to `static/assets/` folder and add `customCSS = ["/assets/style.css"]` into `config.toml`.
 
 ## Site Management
 
@@ -28,6 +29,6 @@ Free images:
 - [unsplash](https://unsplash.com/)
 - [stocksnap](https://stocksnap.io/)
 
-## Acknowledge
+## Acknowledgement
 
-The blog theme is [hermit](https://github.com/Track3/hermit).
+The blog theme is a combination of [hermit](https://github.com/Track3/hermit), [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) and [hello-friend](https://github.com/panr/hugo-theme-hello-friend)

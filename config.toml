@@ -1,8 +1,8 @@
-baseURL = "/"
+baseURL = "https://zhongjzsb.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "zhongjzsb"
-theme = "hermit"
+theme = "hugo-theme-hello-friend-ng"
 ignoreFiles = [
   "\\.Rmd$",
   "\\.Rmdtest$", # the test Rmd files
@@ -24,7 +24,8 @@ pygmentsUseClasses  = true
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
 # copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-copyright = "&copy; Jingyu Bao & Jackie Liu, {year}"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+# copyright = "&copy; Jingyu Bao & Jackie Liu, {year}"
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 googleAnalytics = "UA-159320532-1"
 disqusShortname = "zhongjzsb"
@@ -73,7 +74,7 @@ disqusShortname = "zhongjzsb"
   # themeColor = "#494f5c"
 
   homeSubtitle = "Life is a long memory time series"
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  footerCopyright = '&#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   bgImg = "/images/special-bulb-york-mills.jpg"  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -85,7 +86,7 @@ disqusShortname = "zhongjzsb"
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
   # Add custom css
-  # customCSS = ["/static/assets/scss/_predefined.scss"]
+  customCSS = ["/assets/style.css"]
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
@@ -99,7 +100,7 @@ disqusShortname = "zhongjzsb"
 
   [[params.social]]
     name = "linkedin"
-    url = "http://linkedin.com/in/jingyu-bao-00495646"
+    url = "http://linkedin.com/in/jingyu-bao"
 
   [[params.social]]
     name = "github"
@@ -123,7 +124,12 @@ disqusShortname = "zhongjzsb"
   # path to the favicon, under "static"
   favicon = "favicon.ico"
 
-  # [params.logo]
+  # for hello-friend-ng
+  [languages.en.params.logo]
+      logoText = "/home/jingyu"
+      logoHomeLink = "/"
+
+   # [params.logo]
   # url = "logo.png"
   # width = 50
   # height = 50
