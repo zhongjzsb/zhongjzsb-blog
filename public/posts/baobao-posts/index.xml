@@ -16,7 +16,7 @@
             
             <guid>/posts/baobao-posts/index-market-cap-in-us-market/</guid>
             <description>List of index and the percent over total US stock market. source from wikipedia and the offical websites.
-Major index and their market cap.IndexMarket Cap (%)CommentS&amp;amp;P 50080%S&amp;amp;P 4007%S&amp;amp;P 6003%S&amp;amp;P 150090%S&amp;amp;P 10051%Russell 300098%Russell 100088.2%90% of Russell 3000Russell 20009.</description>
+Major index and their market cap.Index Market Cap (%) CommentS&amp;amp;P 50080%S&amp;amp;P 4007%S&amp;amp;P 6003%S&amp;amp;P 150090%S&amp;amp;P 10051%Russell 300098%Russell 100088.2%90% of Russell 3000Russell 20009.</description>
             <content type="html"><![CDATA[
 
 
@@ -24,14 +24,14 @@
 <table>
 <caption>Major index and their market cap.</caption>
 <colgroup>
-<col width="48%" />
-<col width="11%" />
-<col width="40%" />
+<col width="23%" />
+<col width="24%" />
+<col width="51%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Index</td>
-<td>Market Cap (%)</td>
+<td>Index   </td>
+<td>Market Cap (%)   </td>
 <td>Comment</td>
 </tr>
 <tr class="even">

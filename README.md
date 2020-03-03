@@ -16,15 +16,18 @@
     ```
     Other options are in [StackOverflow](https://stackoverflow.com/questions/24677642/centering-image-and-text-in-r-markdown-for-a-pdf-report/38074465).
 - [ ] Fix author missing.
-- [ ] Fix markdown column width. You can use following to reference links. Learned from [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [x] Fix markdown column width. You can use following to reference links. Learned from [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
     ```
     the website is: [zhongjzsb]
 
     [zhongjzsb]: https://www.zhongjzsb.com
     ```
-    the website is: [zhongjzsb]
+    the website is: [zhongjzsb].
+
+    Use `&nbsp;&nbsp;&nbsp;&nbsp;` as inline white space in the table and `Table Formatter` extension in vs code.
 
     [zhongjzsb]: https://www.zhongjzsb.com
+
 
 ## Site Management
 
