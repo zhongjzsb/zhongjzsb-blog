@@ -28,6 +28,7 @@
 
     [zhongjzsb]: https://www.zhongjzsb.com
 
+- [ ] math formula does not work in mobile browser.
 
 ## Site Management
 
