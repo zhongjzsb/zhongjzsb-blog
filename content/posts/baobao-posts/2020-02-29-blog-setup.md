@@ -8,4 +8,4 @@ slug:
     blog-setup
 ---
 
-I finnally set-up my blog with [netlify](https://www.netlify.com).
+I finally set-up my blog with [netlify](https://www.netlify.com).
