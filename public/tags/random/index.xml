@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>random on zhongjzsb</title>
-    <link>/tags/random/</link>
+    <link>https://zhongjzsb.com/tags/random/</link>
     <description>Recent content in random on zhongjzsb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 29 Feb 2020 06:22:38 +0000</lastBuildDate>
     
-	<atom:link href="/tags/random/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhongjzsb.com/tags/random/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The year of mouse</title>
-      <link>/posts/jackie-posts/2020-02-29-the-year-of-mouse/</link>
+      <link>https://zhongjzsb.com/posts/jackie-posts/2020-02-29-the-year-of-mouse/</link>
       <pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
       
-      <guid>/posts/jackie-posts/2020-02-29-the-year-of-mouse/</guid>
+      <guid>https://zhongjzsb.com/posts/jackie-posts/2020-02-29-the-year-of-mouse/</guid>
       <description>happy anniversary</description>
     </item>
     
     <item>
       <title>This is a jackie test</title>
-      <link>/posts/jackie-posts/2020-02-22-jackie-test/</link>
+      <link>https://zhongjzsb.com/posts/jackie-posts/2020-02-22-jackie-test/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/jackie-posts/2020-02-22-jackie-test/</guid>
+      <guid>https://zhongjzsb.com/posts/jackie-posts/2020-02-22-jackie-test/</guid>
       <description>More to come This is a test for Jackie with comments in her article 🌟</description>
     </item>
     
     <item>
       <title>Document Tools</title>
-      <link>/posts/baobao-posts/2017-03-15-document-tools/</link>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/posts/baobao-posts/2017-03-15-document-tools/</guid>
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</guid>
       <description>Emacs is funny.
 Atom is slow.
 Sublime is the final choice?

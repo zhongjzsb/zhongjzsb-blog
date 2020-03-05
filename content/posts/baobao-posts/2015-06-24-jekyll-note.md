@@ -1,7 +1,8 @@
 ---
 title:  "Mac Jekyll Note"
-date:   2015-06-24
-key: 2015-06-24T10:00:00Z
+date: 2015-06-24T10:00:00Z
+author: Jingyu Bao
+draft: true
 tags:
     - tools
 ---

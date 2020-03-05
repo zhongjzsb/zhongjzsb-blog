@@ -9,19 +9,23 @@
 - [x] Change the theme color [potential solution](https://discourse.gohugo.io/t/change-highlight-color-in-hermit-theme/20564/10) and [github](https://github.com/Track3/hermit/issues/58)
   > I switched to [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) theme with [hello-friend](https://github.com/panr/hugo-theme-hello-friend) formatting style. The reason is that hello-friend provides a more readable table styple. Simply copy the `styple.css` file to `static/assets/` folder and add `customCSS = ["/assets/style.css"]` into `config.toml`.
 - [x] Center the images by
+
     ```markdown
     <center>
     ![](/images/img.jpg){width=400px height=300px}
     </center>
     ```
+
     Other options are in [StackOverflow](https://stackoverflow.com/questions/24677642/centering-image-and-text-in-r-markdown-for-a-pdf-report/38074465).
 - [ ] Fix author missing.
 - [x] Fix markdown column width. You can use following to reference links. Learned from [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
     ```
     the website is: [zhongjzsb]
 
     [zhongjzsb]: https://www.zhongjzsb.com
     ```
+
     the website is: [zhongjzsb].
 
     Use `&nbsp;&nbsp;&nbsp;&nbsp;` as inline white space in the table and `Table Formatter` extension in vs code.

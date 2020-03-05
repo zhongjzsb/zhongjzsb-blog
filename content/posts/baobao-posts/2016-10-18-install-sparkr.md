@@ -2,6 +2,7 @@
 title:  "Install SparkR"
 author: Jingyu Bao
 date: 2016-10-18
+draft: true
 tags:
     - tools
 ---

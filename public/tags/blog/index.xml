@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on zhongjzsb</title>
-    <link>/tags/blog/</link>
+    <link>https://zhongjzsb.com/tags/blog/</link>
     <description>Recent content in blog on zhongjzsb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 29 Feb 2020 10:30:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhongjzsb.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog Setup</title>
-      <link>/posts/baobao-posts/blog-setup/</link>
+      <link>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</link>
       <pubDate>Sat, 29 Feb 2020 10:30:00 +0000</pubDate>
       
-      <guid>/posts/baobao-posts/blog-setup/</guid>
+      <guid>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</guid>
       <description>I finally set-up my blog with netlify.</description>
     </item>
     

@@ -2,85 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tools on zhongjzsb</title>
-    <link>/tags/tools/</link>
+    <link>https://zhongjzsb.com/tags/tools/</link>
     <description>Recent content in tools on zhongjzsb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 29 Feb 2020 10:30:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhongjzsb.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog Setup</title>
-      <link>/posts/baobao-posts/blog-setup/</link>
+      <link>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</link>
       <pubDate>Sat, 29 Feb 2020 10:30:00 +0000</pubDate>
       
-      <guid>/posts/baobao-posts/blog-setup/</guid>
+      <guid>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</guid>
       <description>I finally set-up my blog with netlify.</description>
     </item>
     
     <item>
       <title>My Windows Tools</title>
-      <link>/posts/baobao-posts/2020-02-24-my-windows-tools/</link>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2020-02-24-my-windows-tools/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
       <description>Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
     </item>
     
     <item>
       <title>My Emacs Init File</title>
-      <link>/posts/baobao-posts/2019-11-24-my-emacs-init-file/</link>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2019-11-24-my-emacs-init-file/</link>
       <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
       <description>Steps  install ido-vertical install company install solarized-dark install ess install yasnippet install poly-R install smex install expand-region install aggressive-indent install org-bullet install session install undo-tree install auto-complete install anzu add molokai-theme-kit.el in to .emacs.d  Can be found in simplenote file.</description>
     </item>
     
     <item>
       <title>Document Tools</title>
-      <link>/posts/baobao-posts/2017-03-15-document-tools/</link>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/posts/baobao-posts/2017-03-15-document-tools/</guid>
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</guid>
       <description>Emacs is funny.
 Atom is slow.
 Sublime is the final choice?
 You will see.</description>
-    </item>
-    
-    <item>
-      <title>Install SparkR</title>
-      <link>/posts/baobao-posts/2016-10-18-install-sparkr/</link>
-      <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/baobao-posts/2016-10-18-install-sparkr/</guid>
-      <description>Required program:
- Java Maven Rtools Scala  </description>
-    </item>
-    
-    <item>
-      <title>Mac Jekyll Note</title>
-      <link>/posts/baobao-posts/2015-06-24-jekyll-note/</link>
-      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/baobao-posts/2015-06-24-jekyll-note/</guid>
-      <description>1. A little problem Learning from youtube
-In terminal (using Python 2.7 instead of Python 3.4)
-install vertualenv
-{% highlight R %}
- pip install virtualenv {% endhighlight R %}
- using Python 2.7 as temporary
- virtualenv -p /usr/bin/python2.7 &amp;ndash;distribute temp-python
- active Python 2.7
- source temp-python/bin/activate
- stop using python2.7
- deactivate
- 2. Start Jekyll Then begin jekyll in your workspace
- jekyll new blogname
-  jekyll serve</description>
     </item>
     
   </channel>

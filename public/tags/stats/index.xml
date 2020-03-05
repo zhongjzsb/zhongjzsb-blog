@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stats on zhongjzsb</title>
-    <link>/tags/stats/</link>
+    <link>https://zhongjzsb.com/tags/stats/</link>
     <description>Recent content in stats on zhongjzsb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/stats/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhongjzsb.com/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>When will the next light bulb go out?</title>
-      <link>/posts/baobao-posts/light-bulb-go-out/</link>
+      <link>https://zhongjzsb.com/posts/baobao-posts/light-bulb-go-out/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/baobao-posts/light-bulb-go-out/</guid>
+      <guid>https://zhongjzsb.com/posts/baobao-posts/light-bulb-go-out/</guid>
       <description>Today our 💡 bulb in the second floor went out. It looks like this:
 This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.Jackie and I was discussing about how many lights we need to buy.
 So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed.</description>

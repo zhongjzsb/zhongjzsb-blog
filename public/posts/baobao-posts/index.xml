@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Baobao&#39;s Posts on zhongjzsb</title>
-        <link>/posts/baobao-posts/</link>
+        <link>https://zhongjzsb.com/posts/baobao-posts/</link>
         <description>Recent content in Baobao&#39;s Posts on zhongjzsb</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
-        <atom:link href="/posts/baobao-posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://zhongjzsb.com/posts/baobao-posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Index Market Cap in US Market</title>
-            <link>/posts/baobao-posts/index-market-cap-in-us-market/</link>
+            <link>https://zhongjzsb.com/posts/baobao-posts/index-market-cap-in-us-market/</link>
             <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
             
-            <guid>/posts/baobao-posts/index-market-cap-in-us-market/</guid>
+            <guid>https://zhongjzsb.com/posts/baobao-posts/index-market-cap-in-us-market/</guid>
             <description>List of index and the percent over total US stock market. source from wikipedia and the offical websites.
 Major index and their market cap.Index Market Cap (%) CommentS&amp;amp;P 50080%S&amp;amp;P 4007%S&amp;amp;P 6003%S&amp;amp;P 150090%S&amp;amp;P 10051%Russell 300098%Russell 100088.2%90% of Russell 3000Russell 20009.</description>
             <content type="html"><![CDATA[
@@ -109,10 +109,10 @@
         
         <item>
             <title>Blog Setup</title>
-            <link>/posts/baobao-posts/blog-setup/</link>
+            <link>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</link>
             <pubDate>Sat, 29 Feb 2020 10:30:00 +0000</pubDate>
             
-            <guid>/posts/baobao-posts/blog-setup/</guid>
+            <guid>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</guid>
             <description>I finally set-up my blog with netlify.</description>
             <content type="html"><![CDATA[<p>I finally set-up my blog with <a href="https://www.netlify.com">netlify</a>.</p>
 ]]></content>
@@ -120,10 +120,10 @@
         
         <item>
             <title>When will the next light bulb go out?</title>
-            <link>/posts/baobao-posts/light-bulb-go-out/</link>
+            <link>https://zhongjzsb.com/posts/baobao-posts/light-bulb-go-out/</link>
             <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
             
-            <guid>/posts/baobao-posts/light-bulb-go-out/</guid>
+            <guid>https://zhongjzsb.com/posts/baobao-posts/light-bulb-go-out/</guid>
             <description>Today our 💡 bulb in the second floor went out. It looks like this:
 This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.Jackie and I was discussing about how many lights we need to buy.
 So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed.</description>
@@ -152,10 +152,10 @@ Jackie and I was discussing about how many lights we need to buy.</p>
         
         <item>
             <title>My Windows Tools</title>
-            <link>/posts/baobao-posts/2020-02-24-my-windows-tools/</link>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2020-02-24-my-windows-tools/</link>
             <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
             
-            <guid>/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
             <description>Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
             <content type="html"><![CDATA[<p><a href="https://github.com/Wox-launcher/Wox">Wox</a> with <a href="https://www.voidtools.com/">Everything</a> can search &lsquo;everything&rsquo; in your Windows machine.</p>
 ]]></content>
@@ -163,10 +163,10 @@ Jackie and I was discussing about how many lights we need to buy.</p>
         
         <item>
             <title>My Emacs Init File</title>
-            <link>/posts/baobao-posts/2019-11-24-my-emacs-init-file/</link>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2019-11-24-my-emacs-init-file/</link>
             <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
             
-            <guid>/posts/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
             <description>Steps  install ido-vertical install company install solarized-dark install ess install yasnippet install poly-R install smex install expand-region install aggressive-indent install org-bullet install session install undo-tree install auto-complete install anzu add molokai-theme-kit.el in to .emacs.d  Can be found in simplenote file.</description>
             <content type="html"><![CDATA[<h2 id="steps">Steps</h2>
 <ol>
@@ -192,10 +192,10 @@ Jackie and I was discussing about how many lights we need to buy.</p>
         
         <item>
             <title>Back to Github</title>
-            <link>/posts/baobao-posts/2019-10-28-back-to-github/</link>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2019-10-28-back-to-github/</link>
             <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
             
-            <guid>/posts/baobao-posts/2019-10-28-back-to-github/</guid>
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2019-10-28-back-to-github/</guid>
             <description>Finally Something about github: if you want to delete commit from github, here are the steps you want to use (Reference website):
  git reset &amp;ndash;hard &amp;lt;commit-id&amp;gt; git push origin -f  </description>
             <content type="html"><![CDATA[<h2 id="finally">Finally</h2>
@@ -210,10 +210,10 @@ Jackie and I was discussing about how many lights we need to buy.</p>
         
         <item>
             <title>Document Tools</title>
-            <link>/posts/baobao-posts/2017-03-15-document-tools/</link>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</link>
             <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
             
-            <guid>/posts/baobao-posts/2017-03-15-document-tools/</guid>
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</guid>
             <description>Emacs is funny.
 Atom is slow.
 Sublime is the final choice?
@@ -226,98 +226,13 @@ You will see.</description>
         </item>
         
         <item>
-            <title>Install SparkR</title>
-            <link>/posts/baobao-posts/2016-10-18-install-sparkr/</link>
-            <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/baobao-posts/2016-10-18-install-sparkr/</guid>
-            <description>Required program:
- Java Maven Rtools Scala  </description>
-            <content type="html"><![CDATA[<p>Required program:</p>
-<ol>
-<li>Java</li>
-<li>Maven</li>
-<li>Rtools</li>
-<li>Scala</li>
-</ol>
-]]></content>
-        </item>
-        
-        <item>
             <title>Best Food in Tsinghua</title>
-            <link>/posts/baobao-posts/2016-04-10-best-food-in-tsinghua/</link>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2016-04-10-best-food-in-tsinghua/</link>
             <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
             
-            <guid>/posts/baobao-posts/2016-04-10-best-food-in-tsinghua/</guid>
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2016-04-10-best-food-in-tsinghua/</guid>
             <description>I will definitely miss the &amp;ldquo;PAIGUTANG&amp;rdquo; the most!</description>
             <content type="html"><![CDATA[<p>I will definitely miss the &ldquo;PAIGUTANG&rdquo; the most!</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Another Birthday Again</title>
-            <link>/posts/baobao-posts/2016-04-09-another-birthday/</link>
-            <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/baobao-posts/2016-04-09-another-birthday/</guid>
-            <description>This is another birthday.
-I didn&amp;rsquo;t do anything special.
-Tried a lot of new Emacs features and really love it!</description>
-            <content type="html"><![CDATA[<p>This is another birthday.</p>
-<p>I didn&rsquo;t do anything special.</p>
-<p>Tried a lot of new Emacs features and really love it!</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Mac Jekyll Note</title>
-            <link>/posts/baobao-posts/2015-06-24-jekyll-note/</link>
-            <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/baobao-posts/2015-06-24-jekyll-note/</guid>
-            <description>1. A little problem Learning from youtube
-In terminal (using Python 2.7 instead of Python 3.4)
-install vertualenv
-{% highlight R %}
- pip install virtualenv {% endhighlight R %}
- using Python 2.7 as temporary
- virtualenv -p /usr/bin/python2.7 &amp;ndash;distribute temp-python
- active Python 2.7
- source temp-python/bin/activate
- stop using python2.7
- deactivate
- 2. Start Jekyll Then begin jekyll in your workspace
- jekyll new blogname
-  jekyll serve</description>
-            <content type="html"><![CDATA[<h2 id="1-a-little-problem">1. A little problem</h2>
-<p>Learning from <a href="https://www.youtube.com/watch?v=iWowJBRMtpc">youtube</a></p>
-<p>In terminal (using Python 2.7 instead of Python 3.4)</p>
-<p>install vertualenv</p>
-<p>{% highlight R %}</p>
-<blockquote>
-<p>pip install virtualenv
-{% endhighlight R %}</p>
-</blockquote>
-<p>using Python 2.7 as temporary</p>
-<blockquote>
-<p>virtualenv -p /usr/bin/python2.7 &ndash;distribute temp-python</p>
-</blockquote>
-<p>active Python 2.7</p>
-<blockquote>
-<p>source temp-python/bin/activate</p>
-</blockquote>
-<p>stop using python2.7</p>
-<blockquote>
-<p>deactivate</p>
-</blockquote>
-<h2 id="2-start-jekyll">2. Start Jekyll</h2>
-<p>Then begin jekyll in your workspace</p>
-<blockquote>
-<p>jekyll new blogname</p>
-</blockquote>
-<blockquote>
-<p>jekyll serve</p>
-</blockquote>
 ]]></content>
         </item>
         
