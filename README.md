@@ -43,6 +43,7 @@
 
 - [hugo](https://www.gohugo.org/theme/casper/)
 - [hugo doc](https://gohugo.io/getting-started/)
+- [Alison Hill](https://alison.rbind.io/)
 - [bookdown](https://rachaellappan.github.io/bookdown/)
 - [workflow](https://rstats.wtf/project-oriented-workflow.html)
 - tidyverse glue
