@@ -41,12 +41,15 @@
 
 ## References
 
+Official Websites:
+
 - [hugo](https://www.gohugo.org/theme/casper/)
 - [hugo doc](https://gohugo.io/getting-started/)
-- [Alison Hill](https://alison.rbind.io/)
 - [bookdown](https://rachaellappan.github.io/bookdown/)
-- [workflow](https://rstats.wtf/project-oriented-workflow.html)
-- tidyverse glue
+
+Practice:
+
+- [Alison Hill](https://alison.rbind.io/)
 - [github emoji](https://gist.github.com/rxaviers/7360908)
 - [hugo best practice](https://github.com/spech66/hugo-best-practices)
 
