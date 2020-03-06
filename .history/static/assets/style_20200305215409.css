@@ -11,8 +11,8 @@
     --dark-color: #a9a9b3;
     --dark-color-secondary: #73747b;
     --dark-border-color: #4a4b50;
-    --phoneWidth: (max-width: 684px);
-    --tabletWidth: (max-width: 900px)
+    --phoneWidth: (max-width:684px);
+    --tabletWidth: (max-width:900px)
 }
 
 @font-face {
@@ -316,9 +316,11 @@ a.read-more:hover {
     0% {
         opacity: 0
     }
+
     50% {
         opacity: 1
     }
+
     to {
         opacity: 0
     }
@@ -328,9 +330,11 @@ a.read-more:hover {
     0% {
         opacity: 0
     }
+
     50% {
         opacity: 1
     }
+
     to {
         opacity: 0
     }
@@ -360,6 +364,7 @@ a.read-more:hover {
         top: 50px;
         right: 10px
     }
+
     .dark-theme .menu {
         background: #3b3d42;
         background: var(--dark-background-secondary)
@@ -411,6 +416,7 @@ a.read-more:hover {
         align-items: flex-start;
         padding: 0
     }
+
     .menu__inner li {
         margin-left: 0 !important;
         padding: 10px
@@ -569,12 +575,15 @@ h4 {
     h1 {
         font-size: 2rem
     }
+
     h2 {
         font-size: 1.4rem
     }
+
     h3 {
         font-size: 1.15rem
     }
+
     h4 {
         font-size: 1.125rem
     }
@@ -738,6 +747,7 @@ ul {
 }
 
 @media (max-width:683px) {
+
     ol,
     ul {
         margin-left: 20px

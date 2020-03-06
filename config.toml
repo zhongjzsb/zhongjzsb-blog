@@ -65,7 +65,7 @@ disqusShortname = "zhongjzsb"
 
   author = "Jingyu Bao" # create default author
   # bio = "something about zhongjzsb"
-
+  comment = true # add comment option in post
 
   # Metadata mostly used in document's head
   description = "something about zhongjzsb"
