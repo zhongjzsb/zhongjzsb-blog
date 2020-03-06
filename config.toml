@@ -128,7 +128,7 @@ disqusShortname = "zhongjzsb"
       logoText = "/home/jingyu"
       logoHomeLink = "/"
 
-   # [params.logo]
+  # [params.logo]
   # url = "logo.png"
   # width = 50
   # height = 50

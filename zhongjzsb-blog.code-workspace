@@ -4,5 +4,8 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"launch": {
+		"defaultTheme": "hugo-theme-hello-friend-ng"
+	}
 }

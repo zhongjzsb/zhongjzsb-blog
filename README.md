@@ -17,10 +17,23 @@
     ```
 
     Other options are in [StackOverflow](https://stackoverflow.com/questions/24677642/centering-image-and-text-in-r-markdown-for-a-pdf-report/38074465).
-- [ ] Fix author missing.
+- [x] Fix author missing. Add following into `/layouts/posts/single.html`. The code is copied from `hermit` theme.
+
+  ```html
+        {{- with $.Param "author" }}
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-feather">
+                <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                <line x1="16" y1="8" x2="2" y2="22"></line>
+                <line x1="17.5" y1="15" x2="9" y2="15"></line>
+            </svg>{{ . }}</p>
+        {{- end }}
+  ```
+
 - [x] Fix markdown column width. You can use following to reference links. Learned from [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-    ```
+    ```markdown
     the website is: [zhongjzsb]
 
     [zhongjzsb]: https://www.zhongjzsb.com
@@ -32,7 +45,7 @@
 
     [zhongjzsb]: https://www.zhongjzsb.com
 
-- [ ] math formula does not work in mobile browser.
+- [x] math formula does not work in mobile browser. First tried [GoHugo Doc](https://www.gohugo.org/doc/tutorials/mathjax_en/) without luck. Then googled [this site](https://divadnojnarg.github.io/blog/mathjax/) and used the second method to fix this problem.
 
 ## Site Management
 
