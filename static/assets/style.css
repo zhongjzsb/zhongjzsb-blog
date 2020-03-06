@@ -992,6 +992,7 @@ hr {
     color: #999;
     color: var(--light-color-secondary)
 }
+*/
 
 .dark-theme .footer {
     color: #73747b;
@@ -1011,7 +1012,7 @@ hr {
     .footer__inner {
         flex-direction: column
     }
-} */
+}
 
 .footer a {
     color: inherit
