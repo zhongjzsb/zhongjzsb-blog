@@ -138,14 +138,19 @@ disqusShortname = "zhongjzsb"
 [menu]
 
   [[menu.main]]
-    name = "Baobao's Posts"
+    name = "Baobao"
     url = "/posts/baobao-posts/"
     weight = 10
 
   [[menu.main]]
-    name = "Jackie's Posts"
+    name = "Jackie"
     url = "/posts/jackie-posts/"
     weight = 20
+
+  # [[menu.main]]
+  #   name = "Notes"
+  #   url = "/notes/"
+  #   weight = 20
 
   [[menu.main]]
     name = "About"
