@@ -82,7 +82,7 @@ disqusShortname = "zhongjzsb"
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
   relatedPosts = false  # Add a related content section to all single posts page
-  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  code_copy_button = false # Turn on/off the code-copy-button for code-fields
 
   # Add custom css
   customCSS = ["/assets/style.css"]
@@ -128,11 +128,11 @@ disqusShortname = "zhongjzsb"
       logoText = "/home/jingyu"
       logoHomeLink = "/"
 
-  # [params.logo]
-  # url = "logo.png"
-  # width = 50
-  # height = 50
-  # alt = "Logo"
+  [params.logo]
+  url = "logo.png"
+  width = 50
+  height = 50
+  alt = "Logo"
 
 
 [menu]

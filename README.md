@@ -2,6 +2,43 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f0111f58-fcf4-451f-9a3d-4062b9ab619d/deploy-status)](https://app.netlify.com/sites/zhongjzsb/deploys)
 
+## Usage
+
+- To create new Rmarkdown file.
+
+  ```shell
+  hugo new -k rmd /posts/baobao-posts/xx.rmd
+  ```
+
+  This is based on the archetypes.
+
+  ```yaml
+  ---
+  title: "{{ replace .Name "-" " " | title }}"
+  date: {{ .Date }}
+  author: Jingyu Bao
+  slug: some-slug
+  draft: true
+  tags:
+      - test
+  output:
+      blogdown::html_page:
+          highlight: zenburn
+  ---
+  ```
+
+- To create new **markdown** file.
+
+  ```shell
+  hugo new -k post /posts/baobao-posts/xx.md
+  ```
+
+- To render single Rmarkdown file, use
+
+  ```r
+  blogdown:::build_rmds('content/posts/path/filename.Rmd')
+  ```
+
 ## TODO
 
 - [x] Add mail-to option, instead of email icon. Learned from [here](https://github.com/Track3/hermit/issues/30)
@@ -47,6 +84,26 @@
 
 - [x] Math formula does not work in mobile browser. First tried [GoHugo Doc](https://www.gohugo.org/doc/tutorials/mathjax_en/) without luck. Then googled [this site](https://divadnojnarg.github.io/blog/mathjax/) and used the second method to fix this problem.
 
+- [x] Change the post `max-width` to `1000px` in `static/assets/style.css`.
+
+  ```css
+  .post {
+      width: 100%;
+      max-width: 1000px;
+      text-align: left;
+      padding: 20px;
+      margin: 20px auto
+  }
+  ```
+
+- [ ] Syntax in Rmarkdown YAML.
+
+  ```yaml
+  output:
+    blogdown::html_page:
+        highlight: zenburn
+  ```
+
 ## Site Management
 
 - [Google Search Console](https://search.google.com/search-console/about)
@@ -71,6 +128,10 @@ Free images:
 - [pexels](https://www.pexels.com/)
 - [unsplash](https://unsplash.com/)
 - [stocksnap](https://stocksnap.io/)
+
+R:
+
+- [Rmarkdown-reference](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 
 ## Acknowledgement
 

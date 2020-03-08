@@ -1,0 +1,86 @@
+---
+title: "COVID-19"
+author: "Jingyu Bao"
+date: 2020-03-08T13:49:09-04:00
+output:
+    blogdown::html_page:
+        highlight: zenburn
+slug: covid-19
+draft: true
+tags:
+  - stats
+---
+
+We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. Then more than 90 countries has been affected by the virus.
+
+```{r setup, include=FALSE}
+# blogdown:::build_rmds('content/posts/baobao-posts/2020-03-08-covid-19.Rmd')
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, message=FALSE, warning=FALSE}
+library(lubridate)
+library(data.table)
+library(stringr)
+library("kableExtra")
+library(RCurl)
+```
+
+```{r, include=TRUE}
+site_link <- paste0("https://raw.githubusercontent.com/",
+    "CSSEGISandData/COVID-19/",
+    "master/csse_covid_19_data/",
+    "csse_covid_19_time_series/"
+)
+confirmed_data <- fread(getURL(paste0(site_link, "time_series_19-covid-Confirmed.csv")))
+recovered_data <- fread(getURL(paste0(site_link, "time_series_19-covid-Recovered.csv")))
+death_data <- fread(getURL(paste0(site_link, "time_series_19-covid-Deaths.csv")))
+
+# Ref: https://stackoverflow.com/questions/32940580/convert-some-column-classes-in-data-table
+cols <- names(recovered_data)[5:dim(recovered_data)[2]]
+recovered_data[, (cols) := lapply(.SD, as.integer), .SDcols = cols]
+```
+
+
+```{r}
+confirmed <- melt(
+    confirmed_data,
+    id=1:4,
+    measure=colnames(confirmed_data)[5:dim(confirmed_data)[2]],
+    value.factor=TRUE,
+    variable.name = "Date",
+    value.name = "Num"
+)
+recovered <- melt(
+    recovered_data,
+    id=1:4,
+    measure=colnames(recovered_data)[5:dim(recovered_data)[2]],
+    value.factor=TRUE,
+    variable.name = "Date",
+    value.name = "Num"
+)
+death <- melt(
+    death_data,
+    id=1:4,
+    measure=colnames(death_data)[5:dim(death_data)[2]],
+    value.factor=TRUE,
+    variable.name = "Date",
+    value.name = "Num"
+)
+
+confirmed[, Type:='confirmed']
+recovered[, Type:='recovered']
+death[, Type:='death']
+
+data <- rbindlist(list(confirmed, recovered, death), fill = TRUE)
+data[is.na(Num), Num:=0]
+# data[, Time:=mdy_hm(Time)]
+data[, Date:=mdy(Date)]
+```
+
+
+```{r}
+kable(head(data))
+```
+
