@@ -6,15 +6,16 @@ output:
     blogdown::html_page:
         highlight: zenburn
 slug: covid-19
-draft: true
+draft: false
 tags:
   - stats
 ---
 
-We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. Then more than 90 countries has been affected by the virus.
+We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. Then more than 100 countries has been affected by the virus.
 
 ```{r setup, include=FALSE}
 # blogdown:::build_rmds('content/posts/baobao-posts/2020-03-08-covid-19.Rmd')
+knitr::opts_knit$set(root.dir = "C:/Users/zhong/Dropbox/Github/zhongjzsb-blog")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -23,8 +24,10 @@ knitr::opts_chunk$set(echo = TRUE)
 library(lubridate)
 library(data.table)
 library(stringr)
-library("kableExtra")
+library(kableExtra)
 library(RCurl)
+library(ggplot2)
+library(plotly)
 ```
 
 ```{r, include=TRUE}
@@ -77,6 +80,7 @@ data <- rbindlist(list(confirmed, recovered, death), fill = TRUE)
 data[is.na(Num), Num:=0]
 # data[, Time:=mdy_hm(Time)]
 data[, Date:=mdy(Date)]
+data[, IsChina:=as.factor(ifelse(`Country/Region`=='Mainland China', 'China', 'OutsideChina'))]
 ```
 
 
@@ -84,3 +88,21 @@ data[, Date:=mdy(Date)]
 kable(head(data))
 ```
 
+
+```{r}
+regional_data <- data[, .(TotalNum=sum(Num)), by=.(Type, IsChina, Date)]
+p.line <- ggplot(regional_data, aes(x = Date, y = TotalNum, col=Type)) +
+  geom_line() + facet_grid(. ~ IsChina)
+p.line.plotly <- ggplotly(p.line)
+htmlwidgets::saveWidget(
+  p.line.plotly, 
+  paste0(getwd(), '/static/html/covid-19-line.html'),
+  background = 'grey',
+  title='China vs Outside')
+```
+
+<center>
+<iframe style="height: 500px; width: 1000px; border: none" src="/html/covid-19-line.html"></iframe>
+</center>
+
+Some other analysis.

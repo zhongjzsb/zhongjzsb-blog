@@ -6,7 +6,7 @@ output:
     blogdown::html_page:
         highlight: zenburn
 slug: covid-19
-draft: true
+draft: false
 tags:
   - stats
 ---
@@ -75,12 +75,14 @@ code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
 </style>
 
 
-<p>We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. Then more than 90 countries has been affected by the virus.</p>
+<p>We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. Then more than 100 countries has been affected by the virus.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">library</span>(lubridate)</a>
 <a class="sourceLine" id="cb1-2" title="2"><span class="kw">library</span>(data.table)</a>
 <a class="sourceLine" id="cb1-3" title="3"><span class="kw">library</span>(stringr)</a>
-<a class="sourceLine" id="cb1-4" title="4"><span class="kw">library</span>(<span class="st">&quot;kableExtra&quot;</span>)</a>
-<a class="sourceLine" id="cb1-5" title="5"><span class="kw">library</span>(RCurl)</a></code></pre></div>
+<a class="sourceLine" id="cb1-4" title="4"><span class="kw">library</span>(kableExtra)</a>
+<a class="sourceLine" id="cb1-5" title="5"><span class="kw">library</span>(RCurl)</a>
+<a class="sourceLine" id="cb1-6" title="6"><span class="kw">library</span>(ggplot2)</a>
+<a class="sourceLine" id="cb1-7" title="7"><span class="kw">library</span>(plotly)</a></code></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1">site_link &lt;-<span class="st"> </span><span class="kw">paste0</span>(<span class="st">&quot;https://raw.githubusercontent.com/&quot;</span>,</a>
 <a class="sourceLine" id="cb2-2" title="2">    <span class="st">&quot;CSSEGISandData/COVID-19/&quot;</span>,</a>
 <a class="sourceLine" id="cb2-3" title="3">    <span class="st">&quot;master/csse_covid_19_data/&quot;</span>,</a>
@@ -125,7 +127,8 @@ code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
 <a class="sourceLine" id="cb3-30" title="30">data &lt;-<span class="st"> </span><span class="kw">rbindlist</span>(<span class="kw">list</span>(confirmed, recovered, death), <span class="dt">fill =</span> <span class="ot">TRUE</span>)</a>
 <a class="sourceLine" id="cb3-31" title="31">data[<span class="kw">is.na</span>(Num), Num<span class="op">:</span><span class="er">=</span><span class="dv">0</span>]</a>
 <a class="sourceLine" id="cb3-32" title="32"><span class="co"># data[, Time:=mdy_hm(Time)]</span></a>
-<a class="sourceLine" id="cb3-33" title="33">data[, Date<span class="op">:</span><span class="er">=</span><span class="kw">mdy</span>(Date)]</a></code></pre></div>
+<a class="sourceLine" id="cb3-33" title="33">data[, Date<span class="op">:</span><span class="er">=</span><span class="kw">mdy</span>(Date)]</a>
+<a class="sourceLine" id="cb3-34" title="34">data[, IsChina<span class="op">:</span><span class="er">=</span><span class="kw">as.factor</span>(<span class="kw">ifelse</span>(<span class="st">`</span><span class="dt">Country/Region</span><span class="st">`</span><span class="op">==</span><span class="st">&#39;Mainland China&#39;</span>, <span class="st">&#39;China&#39;</span>, <span class="st">&#39;OutsideChina&#39;</span>))]</a></code></pre></div>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="kw">kable</span>(<span class="kw">head</span>(data))</a></code></pre></div>
 <table>
 <thead>
@@ -150,6 +153,9 @@ Num
 </th>
 <th style="text-align:left;">
 Type
+</th>
+<th style="text-align:left;">
+IsChina
 </th>
 </tr>
 </thead>
@@ -176,6 +182,9 @@ Mainland China
 <td style="text-align:left;">
 confirmed
 </td>
+<td style="text-align:left;">
+China
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -198,6 +207,9 @@ Mainland China
 </td>
 <td style="text-align:left;">
 confirmed
+</td>
+<td style="text-align:left;">
+China
 </td>
 </tr>
 <tr>
@@ -222,6 +234,9 @@ Mainland China
 <td style="text-align:left;">
 confirmed
 </td>
+<td style="text-align:left;">
+China
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -244,6 +259,9 @@ Mainland China
 </td>
 <td style="text-align:left;">
 confirmed
+</td>
+<td style="text-align:left;">
+China
 </td>
 </tr>
 <tr>
@@ -268,6 +286,9 @@ Mainland China
 <td style="text-align:left;">
 confirmed
 </td>
+<td style="text-align:left;">
+China
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -291,6 +312,23 @@ Mainland China
 <td style="text-align:left;">
 confirmed
 </td>
+<td style="text-align:left;">
+China
+</td>
 </tr>
 </tbody>
 </table>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1">regional_data &lt;-<span class="st"> </span>data[, .(<span class="dt">TotalNum=</span><span class="kw">sum</span>(Num)), by=.(Type, IsChina, Date)]</a>
+<a class="sourceLine" id="cb5-2" title="2">p.line &lt;-<span class="st"> </span><span class="kw">ggplot</span>(regional_data, <span class="kw">aes</span>(<span class="dt">x =</span> Date, <span class="dt">y =</span> TotalNum, <span class="dt">col=</span>Type)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb5-3" title="3"><span class="st">  </span><span class="kw">geom_line</span>() <span class="op">+</span><span class="st"> </span><span class="kw">facet_grid</span>(. <span class="op">~</span><span class="st"> </span>IsChina)</a>
+<a class="sourceLine" id="cb5-4" title="4">p.line.plotly &lt;-<span class="st"> </span><span class="kw">ggplotly</span>(p.line)</a>
+<a class="sourceLine" id="cb5-5" title="5">htmlwidgets<span class="op">::</span><span class="kw">saveWidget</span>(</a>
+<a class="sourceLine" id="cb5-6" title="6">  p.line.plotly, </a>
+<a class="sourceLine" id="cb5-7" title="7">  <span class="kw">paste0</span>(<span class="kw">getwd</span>(), <span class="st">&#39;/static/html/covid-19-line.html&#39;</span>),</a>
+<a class="sourceLine" id="cb5-8" title="8">  <span class="dt">background =</span> <span class="st">&#39;grey&#39;</span>,</a>
+<a class="sourceLine" id="cb5-9" title="9">  <span class="dt">title=</span><span class="st">&#39;China vs Outside&#39;</span>)</a></code></pre></div>
+<center>
+<iframe style="height: 500px; width: 1000px; border: none" src="/html/covid-19-line.html">
+</iframe>
+</center>
+<p>Some other analysis.</p>

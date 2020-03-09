@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>COVID-19</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/covid-19/</link>
+      <pubDate>Sun, 08 Mar 2020 13:49:09 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/covid-19/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
       <title>Index Market Cap in US Market</title>
       <link>https://zhongjzsb.com/posts/baobao-posts/index-market-cap-in-us-market/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
@@ -95,18 +104,6 @@ So first thing comes to my mind is that the lifetime of a bulb is exponentially 
       <guid>https://zhongjzsb.com/posts/baobao-posts/2019-10-28-back-to-github/</guid>
       <description>Finally Something about github: if you want to delete commit from github, here are the steps you want to use (Reference website):
  git reset &amp;ndash;hard &amp;lt;commit-id&amp;gt; git push origin -f  </description>
-    </item>
-    
-    <item>
-      <title>Document Tools</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</link>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</guid>
-      <description>Emacs is funny.
-Atom is slow.
-Sublime is the final choice?
-You will see.</description>
     </item>
     
   </channel>

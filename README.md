@@ -122,6 +122,7 @@ Practice:
 - [Alison Hill](https://alison.rbind.io/)
 - [github emoji](https://gist.github.com/rxaviers/7360908)
 - [hugo best practice](https://github.com/spech66/hugo-best-practices)
+- [build hugo theme](https://www.zeolearn.com/magazine/develop-a-theme-for-hugo)
 
 Free images:
 
