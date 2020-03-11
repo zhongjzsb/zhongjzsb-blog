@@ -4,7 +4,9 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"liveServer.settings.port": 5501
+	},
 	"launch": {
 		"defaultTheme": "hugo-theme-hello-friend-ng"
 	}

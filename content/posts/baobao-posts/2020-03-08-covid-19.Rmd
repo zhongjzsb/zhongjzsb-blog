@@ -3,8 +3,8 @@ title: "COVID-19"
 author: "Jingyu Bao"
 date: 2020-03-08T13:49:09-04:00
 output:
-    blogdown::html_page:
-        highlight: zenburn
+  blogdown::html_page:
+    highlight: zenburn
 slug: covid-19
 draft: false
 tags:
@@ -16,9 +16,9 @@ We are living in the history. COVID-19 has been spreading the world for more tha
 ```{r setup, include=FALSE}
 # blogdown:::build_rmds('content/posts/baobao-posts/2020-03-08-covid-19.Rmd')
 knitr::opts_knit$set(root.dir = "C:/Users/zhong/Dropbox/Github/zhongjzsb-blog")
+knitr::opts_chunk$set(tidy.opts=list(width.cutoff=120), tidy=TRUE)
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
 
 ```{r, message=FALSE, warning=FALSE}
 library(lubridate)
@@ -44,7 +44,6 @@ death_data <- fread(getURL(paste0(site_link, "time_series_19-covid-Deaths.csv"))
 cols <- names(recovered_data)[5:dim(recovered_data)[2]]
 recovered_data[, (cols) := lapply(.SD, as.integer), .SDcols = cols]
 ```
-
 
 ```{r}
 confirmed <- melt(
@@ -83,11 +82,9 @@ data[, Date:=mdy(Date)]
 data[, IsChina:=as.factor(ifelse(`Country/Region`=='Mainland China', 'China', 'OutsideChina'))]
 ```
 
-
 ```{r}
 kable(head(data))
 ```
-
 
 ```{r}
 regional_data <- data[, .(TotalNum=sum(Num)), by=.(Type, IsChina, Date)]
@@ -95,7 +92,7 @@ p.line <- ggplot(regional_data, aes(x = Date, y = TotalNum, col=Type)) +
   geom_line() + facet_grid(. ~ IsChina)
 p.line.plotly <- ggplotly(p.line)
 htmlwidgets::saveWidget(
-  p.line.plotly, 
+  p.line.plotly,
   paste0(getwd(), '/static/html/covid-19-line.html'),
   background = 'grey',
   title='China vs Outside')
