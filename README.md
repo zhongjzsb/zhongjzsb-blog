@@ -116,6 +116,142 @@
       highlight: zenburn
   ```
 
+- [ ] Add Hugo shortcodes from [book theme](https://themes.gohugo.io/hugo-book/) to current site.
+
+  [scss-to-css](https://jsonformatter.org/scss-to-css)
+
+  ```css
+  .flex {
+    display: flex;
+  }
+  .flex-auto {
+    flex: 1 1 auto;
+  }
+  .flex-even {
+    flex: 1 1;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .justify-start {
+    justify-content: flex-start;
+  }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .mx-auto {
+    margin: 0 auto;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .hidden {
+    display: none;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .markdown-inner > :first-child {
+    margin-top: 0;
+  }
+  .markdown-inner > :last-child {
+    margin-bottom: 0;
+  }
+  .book-expand {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e9ecef;
+    border-radius: 0.25rem;
+    overflow: hidden;
+  }
+  .book-expand .book-expand-head {
+    background: #f8f9fa;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  .book-expand .book-expand-content {
+    display: none;
+    padding: 1rem;
+  }
+  .book-expand input[type="checkbox"]:checked + .book-expand-content {
+    display: block;
+  }
+  .book-tabs {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e9ecef;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .book-tabs label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px transparent;
+    cursor: pointer;
+  }
+  .book-tabs .book-tabs-content {
+    order: 999;
+    width: 100%;
+    border-top: 1px solid #f8f9fa;
+    padding: 1rem;
+    display: none;
+  }
+  .book-tabs input[type="radio"]:checked + label {
+    border-bottom: 1px solid #05b;
+  }
+  .book-tabs input[type="radio"]:checked + label + .book-tabs-content {
+    display: block;
+  }
+  .book-columns {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  .book-columns > div {
+    margin: 1rem 0;
+    min-width: 10rem;
+    padding: 0 1rem;
+  }
+  a.book-btn {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: #05b;
+    line-height: 2rem;
+    padding: 0 1rem;
+    border: 1px solid #05b;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  a.book-btn:hover {
+    text-decoration: none;
+  }
+  .book-hint.info {
+    border-left-color: #6bf;
+    background-color: rgba(102, 187, 255, 0.1);
+  }
+  .book-hint.warning {
+    border-left-color: #fd6;
+    background-color: rgba(255, 221, 102, 0.1);
+  }
+  .book-hint.danger {
+    border-left-color: #f66;
+    background-color: rgba(255, 102, 102, 0.1);
+  }
+  ```
+
 ## Site Management
 
 - [Google Search Console](https://search.google.com/search-console/about)

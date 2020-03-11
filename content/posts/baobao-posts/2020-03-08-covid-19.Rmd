@@ -99,7 +99,7 @@ htmlwidgets::saveWidget(
 ```
 
 <center>
-<iframe style="height: 500px; width: 1000px; border: none" src="/html/covid-19-line.html"></iframe>
+<iframe style="height: 300px; width: 400px; border: none" src="/html/covid-19-line.html"></iframe>
 </center>
 
 Some other analysis.

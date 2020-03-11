@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stats on zhongjzsb</title>
+    <link>http://localhost:1313/tags/stats/</link>
+    <description>Recent content in stats on zhongjzsb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 08 Mar 2020 13:49:09 -0400</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/stats/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COVID-19</title>
+      <link>http://localhost:1313/posts/baobao-posts/covid-19/</link>
+      <pubDate>Sun, 08 Mar 2020 13:49:09 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/baobao-posts/covid-19/</guid>
+      <description>a.sourceLine {display: inline-block;line-height: 1.25;}a.sourceLine {pointer-events: none;color: inherit;text-decoration: inherit;}a.sourceLine:empty {height: 1.2em;}.sourceCode {overflow: visible;}code.sourceCode {white-space: pre;position: relative;}div.sourceCode {margin: 1em 0;}pre.sourceCode {margin: 0;}@media screen {div.sourceCode {overflow: auto;}}@media print {code.sourceCode {white-space: pre-wrap;}a.sourceLine {text-indent: -1em;padding-left: 1em;}}pre.</description>
+    </item>
+    
+    <item>
+      <title>When Will the Next Light Bulb Go Out?</title>
+      <link>http://localhost:1313/posts/baobao-posts/light-bulb-go-out/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/baobao-posts/light-bulb-go-out/</guid>
+      <description>Today our 💡 bulb in the second floor went out. It looks like this:
+This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.Jackie and I was discussing about how many lights we need to buy.
+So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed.</description>
+    </item>
+    
+  </channel>
+</rss>

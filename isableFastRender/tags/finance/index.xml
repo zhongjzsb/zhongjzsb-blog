@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>finance on zhongjzsb</title>
+    <link>http://localhost:1313/tags/finance/</link>
+    <description>Recent content in finance on zhongjzsb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Index Market Cap in US Market</title>
+      <link>http://localhost:1313/posts/baobao-posts/index-market-cap-in-us-market/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/baobao-posts/index-market-cap-in-us-market/</guid>
+      <description>List of index and the percent over total US stock market. source from wikipedia and the offical websites.
+Major index and their market cap.Index Market Cap (%) CommentS&amp;amp;P 50080%S&amp;amp;P 4007%S&amp;amp;P 6003%S&amp;amp;P 150090%S&amp;amp;P 10051%Russell 300098%Russell 100088.2%90% of Russell 3000Russell 20009.</description>
+    </item>
+    
+  </channel>
+</rss>

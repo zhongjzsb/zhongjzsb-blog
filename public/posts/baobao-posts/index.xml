@@ -15,81 +15,192 @@
             <pubDate>Sun, 08 Mar 2020 13:49:09 -0400</pubDate>
             
             <guid>https://zhongjzsb.com/posts/baobao-posts/covid-19/</guid>
-            <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+            <description>a.sourceLine {display: inline-block;line-height: 1.25;}a.sourceLine {pointer-events: none;color: inherit;text-decoration: inherit;}a.sourceLine:empty {height: 1.2em;}.sourceCode {overflow: visible;}code.sourceCode {white-space: pre;position: relative;}div.sourceCode {margin: 1em 0;}pre.sourceCode {margin: 0;}@media screen {div.sourceCode {overflow: auto;}}@media print {code.sourceCode {white-space: pre-wrap;}a.sourceLine {text-indent: -1em;padding-left: 1em;}}pre.</description>
             <content type="html"><![CDATA[
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
+  a.sourceLine {
+    display: inline-block;
+    line-height: 1.25;
   }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  { color: #cccccc; background-color: #303030; }
-@media screen {
-a.sourceLine::before { text-decoration: underline; }
-}
-code span.al { color: #ffcfaf; } /* Alert */
-code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
-code span.at { } /* Attribute */
-code span.bn { color: #dca3a3; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #f0dfaf; } /* ControlFlow */
-code span.ch { color: #dca3a3; } /* Char */
-code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
-code span.co { color: #7f9f7f; } /* Comment */
-code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
-code span.do { color: #7f9f7f; } /* Documentation */
-code span.dt { color: #dfdfbf; } /* DataType */
-code span.dv { color: #dcdccc; } /* DecVal */
-code span.er { color: #c3bf9f; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #c0bed1; } /* Float */
-code span.fu { color: #efef8f; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
-code span.kw { color: #f0dfaf; } /* Keyword */
-code span.op { color: #f0efd0; } /* Operator */
-code span.ot { color: #efef8f; } /* Other */
-code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
-code span.sc { color: #dca3a3; } /* SpecialChar */
-code span.ss { color: #cc9393; } /* SpecialString */
-code span.st { color: #cc9393; } /* String */
-code span.va { } /* Variable */
-code span.vs { color: #cc9393; } /* VerbatimString */
-code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
+  a.sourceLine {
+    pointer-events: none;
+    color: inherit;
+    text-decoration: inherit;
+  }
+  a.sourceLine:empty {
+    height: 1.2em;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+  code.sourceCode {
+    white-space: pre;
+    position: relative;
+  }
+  div.sourceCode {
+    margin: 1em 0;
+  }
+  pre.sourceCode {
+    margin: 0;
+  }
+  @media screen {
+    div.sourceCode {
+      overflow: auto;
+    }
+  }
+  @media print {
+    code.sourceCode {
+      white-space: pre-wrap;
+    }
+    a.sourceLine {
+      text-indent: -1em;
+      padding-left: 1em;
+    }
+  }
+  pre.numberSource a.sourceLine {
+    position: relative;
+    left: -4em;
+  }
+  pre.numberSource a.sourceLine::before {
+    content: attr(title);
+    position: relative;
+    left: -1em;
+    text-align: right;
+    vertical-align: baseline;
+    border: none;
+    pointer-events: all;
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 4px;
+    width: 4em;
+  }
+  pre.numberSource {
+    margin-left: 3em;
+    padding-left: 4px;
+  }
+  div.sourceCode {
+    color: #cccccc;
+    background-color: #303030;
+  }
+  @media screen {
+    a.sourceLine::before {
+      text-decoration: underline;
+    }
+  }
+  code span.al {
+    color: #ffcfaf;
+  } /* Alert */
+  code span.an {
+    color: #7f9f7f;
+    font-weight: bold;
+  } /* Annotation */
+  code span.at {
+  } /* Attribute */
+  code span.bn {
+    color: #dca3a3;
+  } /* BaseN */
+  code span.bu {
+  } /* BuiltIn */
+  code span.cf {
+    color: #f0dfaf;
+  } /* ControlFlow */
+  code span.ch {
+    color: #dca3a3;
+  } /* Char */
+  code span.cn {
+    color: #dca3a3;
+    font-weight: bold;
+  } /* Constant */
+  code span.co {
+    color: #7f9f7f;
+  } /* Comment */
+  code span.cv {
+    color: #7f9f7f;
+    font-weight: bold;
+  } /* CommentVar */
+  code span.do {
+    color: #7f9f7f;
+  } /* Documentation */
+  code span.dt {
+    color: #dfdfbf;
+  } /* DataType */
+  code span.dv {
+    color: #dcdccc;
+  } /* DecVal */
+  code span.er {
+    color: #c3bf9f;
+  } /* Error */
+  code span.ex {
+  } /* Extension */
+  code span.fl {
+    color: #c0bed1;
+  } /* Float */
+  code span.fu {
+    color: #efef8f;
+  } /* Function */
+  code span.im {
+  } /* Import */
+  code span.in {
+    color: #7f9f7f;
+    font-weight: bold;
+  } /* Information */
+  code span.kw {
+    color: #f0dfaf;
+  } /* Keyword */
+  code span.op {
+    color: #f0efd0;
+  } /* Operator */
+  code span.ot {
+    color: #efef8f;
+  } /* Other */
+  code span.pp {
+    color: #ffcfaf;
+    font-weight: bold;
+  } /* Preprocessor */
+  code span.sc {
+    color: #dca3a3;
+  } /* SpecialChar */
+  code span.ss {
+    color: #cc9393;
+  } /* SpecialString */
+  code span.st {
+    color: #cc9393;
+  } /* String */
+  code span.va {
+  } /* Variable */
+  code span.vs {
+    color: #cc9393;
+  } /* VerbatimString */
+  code span.wa {
+    color: #7f9f7f;
+    font-weight: bold;
+  } /* Warning */
 </style>
-
-
-<p>We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. Then more than 100 countries has been affected by the virus.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">library</span>(lubridate)</a>
+<p>
+  We are living in the history. COVID-19 has been spreading the world for more
+  than 2 month. It originally started in China. Then more than 100 countries has
+  been affected by the virus.
+</p>
+<div class="sourceCode" id="cb1">
+  <pre
+    class="sourceCode r"
+  ><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">library</span>(lubridate)</a>
 <a class="sourceLine" id="cb1-2" title="2"><span class="kw">library</span>(data.table)</a>
 <a class="sourceLine" id="cb1-3" title="3"><span class="kw">library</span>(stringr)</a>
 <a class="sourceLine" id="cb1-4" title="4"><span class="kw">library</span>(kableExtra)</a>
 <a class="sourceLine" id="cb1-5" title="5"><span class="kw">library</span>(RCurl)</a>
 <a class="sourceLine" id="cb1-6" title="6"><span class="kw">library</span>(ggplot2)</a>
-<a class="sourceLine" id="cb1-7" title="7"><span class="kw">library</span>(plotly)</a></code></pre></div>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1">site_link &lt;-<span class="st"> </span><span class="kw">paste0</span>(<span class="st">&quot;https://raw.githubusercontent.com/&quot;</span>,</a>
+<a class="sourceLine" id="cb1-7" title="7"><span class="kw">library</span>(plotly)</a></code></pre>
+</div>
+<div class="sourceCode" id="cb2">
+  <pre
+    class="sourceCode r"
+  ><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1">site_link &lt;-<span class="st"> </span><span class="kw">paste0</span>(<span class="st">&quot;https://raw.githubusercontent.com/&quot;</span>,</a>
 <a class="sourceLine" id="cb2-2" title="2">    <span class="st">&quot;CSSEGISandData/COVID-19/&quot;</span>,</a>
 <a class="sourceLine" id="cb2-3" title="3">    <span class="st">&quot;master/csse_covid_19_data/&quot;</span>,</a>
 <a class="sourceLine" id="cb2-4" title="4">    <span class="st">&quot;csse_covid_19_time_series/&quot;</span></a>
@@ -100,8 +211,12 @@ code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
 <a class="sourceLine" id="cb2-9" title="9"></a>
 <a class="sourceLine" id="cb2-10" title="10"><span class="co"># Ref: https://stackoverflow.com/questions/32940580/convert-some-column-classes-in-data-table</span></a>
 <a class="sourceLine" id="cb2-11" title="11">cols &lt;-<span class="st"> </span><span class="kw">names</span>(recovered_data)[<span class="dv">5</span><span class="op">:</span><span class="kw">dim</span>(recovered_data)[<span class="dv">2</span>]]</a>
-<a class="sourceLine" id="cb2-12" title="12">recovered_data[, (cols) <span class="op">:</span><span class="er">=</span><span class="st"> </span><span class="kw">lapply</span>(.SD, as.integer), .SDcols =<span class="st"> </span>cols]</a></code></pre></div>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">confirmed &lt;-<span class="st"> </span><span class="kw">melt</span>(</a>
+<a class="sourceLine" id="cb2-12" title="12">recovered_data[, (cols) <span class="op">:</span><span class="er">=</span><span class="st"> </span><span class="kw">lapply</span>(.SD, as.integer), .SDcols =<span class="st"> </span>cols]</a></code></pre>
+</div>
+<div class="sourceCode" id="cb3">
+  <pre
+    class="sourceCode r"
+  ><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">confirmed &lt;-<span class="st"> </span><span class="kw">melt</span>(</a>
 <a class="sourceLine" id="cb3-2" title="2">    confirmed_data,</a>
 <a class="sourceLine" id="cb3-3" title="3">    <span class="dt">id=</span><span class="dv">1</span><span class="op">:</span><span class="dv">4</span>,</a>
 <a class="sourceLine" id="cb3-4" title="4">    <span class="dt">measure=</span><span class="kw">colnames</span>(confirmed_data)[<span class="dv">5</span><span class="op">:</span><span class="kw">dim</span>(confirmed_data)[<span class="dv">2</span>]],</a>
@@ -134,210 +249,385 @@ code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
 <a class="sourceLine" id="cb3-31" title="31">data[<span class="kw">is.na</span>(Num), Num<span class="op">:</span><span class="er">=</span><span class="dv">0</span>]</a>
 <a class="sourceLine" id="cb3-32" title="32"><span class="co"># data[, Time:=mdy_hm(Time)]</span></a>
 <a class="sourceLine" id="cb3-33" title="33">data[, Date<span class="op">:</span><span class="er">=</span><span class="kw">mdy</span>(Date)]</a>
-<a class="sourceLine" id="cb3-34" title="34">data[, IsChina<span class="op">:</span><span class="er">=</span><span class="kw">as.factor</span>(<span class="kw">ifelse</span>(<span class="st">`</span><span class="dt">Country/Region</span><span class="st">`</span><span class="op">==</span><span class="st">&#39;Mainland China&#39;</span>, <span class="st">&#39;China&#39;</span>, <span class="st">&#39;OutsideChina&#39;</span>))]</a></code></pre></div>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="kw">kable</span>(<span class="kw">head</span>(data))</a></code></pre></div>
+<a class="sourceLine" id="cb3-34" title="34">data[, IsChina<span class="op">:</span><span class="er">=</span><span class="kw">as.factor</span>(<span class="kw">ifelse</span>(<span class="st">`</span><span class="dt">Country/Region</span><span class="st">`</span><span class="op">==</span><span class="st">&#39;Mainland China&#39;</span>, <span class="st">&#39;China&#39;</span>, <span class="st">&#39;OutsideChina&#39;</span>))]</a></code></pre>
+</div>
+<div class="sourceCode" id="cb4">
+  <pre
+    class="sourceCode r"
+  ><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="kw">kable</span>(<span class="kw">head</span>(data))</a></code></pre>
+</div>
 <table>
-<thead>
-<tr>
-<th style="text-align:left;">
-Province/State
-</th>
-<th style="text-align:left;">
-Country/Region
-</th>
-<th style="text-align:right;">
-Lat
-</th>
-<th style="text-align:right;">
-Long
-</th>
-<th style="text-align:left;">
-Date
-</th>
-<th style="text-align:right;">
-Num
-</th>
-<th style="text-align:left;">
-Type
-</th>
-<th style="text-align:left;">
-IsChina
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Anhui
-</td>
-<td style="text-align:left;">
-Mainland China
-</td>
-<td style="text-align:right;">
-31.8257
-</td>
-<td style="text-align:right;">
-117.2264
-</td>
-<td style="text-align:left;">
-2020-01-22
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:left;">
-confirmed
-</td>
-<td style="text-align:left;">
-China
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Beijing
-</td>
-<td style="text-align:left;">
-Mainland China
-</td>
-<td style="text-align:right;">
-40.1824
-</td>
-<td style="text-align:right;">
-116.4142
-</td>
-<td style="text-align:left;">
-2020-01-22
-</td>
-<td style="text-align:right;">
-14
-</td>
-<td style="text-align:left;">
-confirmed
-</td>
-<td style="text-align:left;">
-China
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Chongqing
-</td>
-<td style="text-align:left;">
-Mainland China
-</td>
-<td style="text-align:right;">
-30.0572
-</td>
-<td style="text-align:right;">
-107.8740
-</td>
-<td style="text-align:left;">
-2020-01-22
-</td>
-<td style="text-align:right;">
-6
-</td>
-<td style="text-align:left;">
-confirmed
-</td>
-<td style="text-align:left;">
-China
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Fujian
-</td>
-<td style="text-align:left;">
-Mainland China
-</td>
-<td style="text-align:right;">
-26.0789
-</td>
-<td style="text-align:right;">
-117.9874
-</td>
-<td style="text-align:left;">
-2020-01-22
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:left;">
-confirmed
-</td>
-<td style="text-align:left;">
-China
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Gansu
-</td>
-<td style="text-align:left;">
-Mainland China
-</td>
-<td style="text-align:right;">
-36.0611
-</td>
-<td style="text-align:right;">
-103.8343
-</td>
-<td style="text-align:left;">
-2020-01-22
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:left;">
-confirmed
-</td>
-<td style="text-align:left;">
-China
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Guangdong
-</td>
-<td style="text-align:left;">
-Mainland China
-</td>
-<td style="text-align:right;">
-23.3417
-</td>
-<td style="text-align:right;">
-113.4244
-</td>
-<td style="text-align:left;">
-2020-01-22
-</td>
-<td style="text-align:right;">
-26
-</td>
-<td style="text-align:left;">
-confirmed
-</td>
-<td style="text-align:left;">
-China
-</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th style="text-align:left;">
+        Province/State
+      </th>
+      <th style="text-align:left;">
+        Country/Region
+      </th>
+      <th style="text-align:right;">
+        Lat
+      </th>
+      <th style="text-align:right;">
+        Long
+      </th>
+      <th style="text-align:left;">
+        Date
+      </th>
+      <th style="text-align:right;">
+        Num
+      </th>
+      <th style="text-align:left;">
+        Type
+      </th>
+      <th style="text-align:left;">
+        IsChina
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left;">
+        Anhui
+      </td>
+      <td style="text-align:left;">
+        Mainland China
+      </td>
+      <td style="text-align:right;">
+        31.8257
+      </td>
+      <td style="text-align:right;">
+        117.2264
+      </td>
+      <td style="text-align:left;">
+        2020-01-22
+      </td>
+      <td style="text-align:right;">
+        1
+      </td>
+      <td style="text-align:left;">
+        confirmed
+      </td>
+      <td style="text-align:left;">
+        China
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">
+        Beijing
+      </td>
+      <td style="text-align:left;">
+        Mainland China
+      </td>
+      <td style="text-align:right;">
+        40.1824
+      </td>
+      <td style="text-align:right;">
+        116.4142
+      </td>
+      <td style="text-align:left;">
+        2020-01-22
+      </td>
+      <td style="text-align:right;">
+        14
+      </td>
+      <td style="text-align:left;">
+        confirmed
+      </td>
+      <td style="text-align:left;">
+        China
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">
+        Chongqing
+      </td>
+      <td style="text-align:left;">
+        Mainland China
+      </td>
+      <td style="text-align:right;">
+        30.0572
+      </td>
+      <td style="text-align:right;">
+        107.8740
+      </td>
+      <td style="text-align:left;">
+        2020-01-22
+      </td>
+      <td style="text-align:right;">
+        6
+      </td>
+      <td style="text-align:left;">
+        confirmed
+      </td>
+      <td style="text-align:left;">
+        China
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">
+        Fujian
+      </td>
+      <td style="text-align:left;">
+        Mainland China
+      </td>
+      <td style="text-align:right;">
+        26.0789
+      </td>
+      <td style="text-align:right;">
+        117.9874
+      </td>
+      <td style="text-align:left;">
+        2020-01-22
+      </td>
+      <td style="text-align:right;">
+        1
+      </td>
+      <td style="text-align:left;">
+        confirmed
+      </td>
+      <td style="text-align:left;">
+        China
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">
+        Gansu
+      </td>
+      <td style="text-align:left;">
+        Mainland China
+      </td>
+      <td style="text-align:right;">
+        36.0611
+      </td>
+      <td style="text-align:right;">
+        103.8343
+      </td>
+      <td style="text-align:left;">
+        2020-01-22
+      </td>
+      <td style="text-align:right;">
+        0
+      </td>
+      <td style="text-align:left;">
+        confirmed
+      </td>
+      <td style="text-align:left;">
+        China
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">
+        Guangdong
+      </td>
+      <td style="text-align:left;">
+        Mainland China
+      </td>
+      <td style="text-align:right;">
+        23.3417
+      </td>
+      <td style="text-align:right;">
+        113.4244
+      </td>
+      <td style="text-align:left;">
+        2020-01-22
+      </td>
+      <td style="text-align:right;">
+        26
+      </td>
+      <td style="text-align:left;">
+        confirmed
+      </td>
+      <td style="text-align:left;">
+        China
+      </td>
+    </tr>
+  </tbody>
 </table>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1">regional_data &lt;-<span class="st"> </span>data[, .(<span class="dt">TotalNum=</span><span class="kw">sum</span>(Num)), by=.(Type, IsChina, Date)]</a>
+<div class="sourceCode" id="cb5">
+  <pre
+    class="sourceCode r"
+  ><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1">regional_data &lt;-<span class="st"> </span>data[, .(<span class="dt">TotalNum=</span><span class="kw">sum</span>(Num)), by=.(Type, IsChina, Date)]</a>
 <a class="sourceLine" id="cb5-2" title="2">p.line &lt;-<span class="st"> </span><span class="kw">ggplot</span>(regional_data, <span class="kw">aes</span>(<span class="dt">x =</span> Date, <span class="dt">y =</span> TotalNum, <span class="dt">col=</span>Type)) <span class="op">+</span></a>
 <a class="sourceLine" id="cb5-3" title="3"><span class="st">  </span><span class="kw">geom_line</span>() <span class="op">+</span><span class="st"> </span><span class="kw">facet_grid</span>(. <span class="op">~</span><span class="st"> </span>IsChina)</a>
 <a class="sourceLine" id="cb5-4" title="4">p.line.plotly &lt;-<span class="st"> </span><span class="kw">ggplotly</span>(p.line)</a>
 <a class="sourceLine" id="cb5-5" title="5">htmlwidgets<span class="op">::</span><span class="kw">saveWidget</span>(</a>
-<a class="sourceLine" id="cb5-6" title="6">  p.line.plotly, </a>
+<a class="sourceLine" id="cb5-6" title="6">  p.line.plotly,</a>
 <a class="sourceLine" id="cb5-7" title="7">  <span class="kw">paste0</span>(<span class="kw">getwd</span>(), <span class="st">&#39;/static/html/covid-19-line.html&#39;</span>),</a>
 <a class="sourceLine" id="cb5-8" title="8">  <span class="dt">background =</span> <span class="st">&#39;grey&#39;</span>,</a>
-<a class="sourceLine" id="cb5-9" title="9">  <span class="dt">title=</span><span class="st">&#39;China vs Outside&#39;</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb5-9" title="9">  <span class="dt">title=</span><span class="st">&#39;China vs Outside&#39;</span>)</a></code></pre>
+</div>
 <center>
-<iframe style="height: 500px; width: 1000px; border: none" src="/html/covid-19-line.html">
-</iframe>
+  <iframe
+    style="height: 500px; width: 1000px; border: none"
+    src="/html/covid-19-line.html"
+  >
+  </iframe>
 </center>
 <p>Some other analysis.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>test-shortcodes</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/test-shortcodes/</link>
+            <pubDate>Sun, 08 Mar 2020 13:49:09 -0400</pubDate>
+            
+            <guid>https://zhongjzsb.com/posts/baobao-posts/test-shortcodes/</guid>
+            <description>Columns Columns help organize shorter pieces of content horizontally for readability.
+{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt;# Left ContentLorem markdownum insigne...&amp;lt;---&amp;gt; &amp;lt;!-- magic sparator, between columns --&amp;gt;# Mid ContentLorem markdownum insigne...&amp;lt;---&amp;gt; &amp;lt;!-- magic sparator, between columns --&amp;gt;# Right ContentLorem markdownum insigne...{{&amp;lt; /columns &amp;gt;}}Example Left Content Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!</description>
+            <content type="html"><![CDATA[<h1 id="columns">Columns</h1>
+<p>Columns help organize shorter pieces of content horizontally for readability.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">{{<span class="p">&lt;</span> <span class="nt">columns</span> <span class="p">&gt;</span>}} <span class="c">&lt;!-- begin columns block --&gt;</span>
+# Left Content
+Lorem markdownum insigne...
+
+<span class="p">&lt;</span><span class="nt">---</span><span class="p">&gt;</span> <span class="c">&lt;!-- magic sparator, between columns --&gt;</span>
+
+# Mid Content
+Lorem markdownum insigne...
+
+<span class="p">&lt;</span><span class="nt">---</span><span class="p">&gt;</span> <span class="c">&lt;!-- magic sparator, between columns --&gt;</span>
+
+# Right Content
+Lorem markdownum insigne...
+{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">columns</span> <span class="p">&gt;</span>}}
+</code></pre></div><h2 id="example">Example</h2>
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <h2 id="left-content">Left Content</h2>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <h2 id="mid-content">Mid Content</h2>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter!
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <h2 id="right-content">Right Content</h2>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.
+  </div>
+  
+</div>
+
+<h1 id="expand">Expand</h1>
+<p>Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.</p>
+<h2 id="example-1">Example</h2>
+<h3 id="default">Default</h3>
+<div class="highlight"><pre class="chroma"><code class="language-tpl" data-lang="tpl"><span class="cp">{{</span><span class="o">&lt;</span> <span class="na">expand</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span><span class="x">## Markdown content
+</span><span class="x">Lorem markdownum insigne...
+</span><span class="x"></span><span class="cp">{{</span><span class="o">&lt;</span> <span class="o">/</span><span class="na">expand</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span></code></pre></div><div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span></span>
+      <span>↕</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <h2 id="markdown-content">Markdown content</h2>
+<p>Lorem markdownum insigne&hellip;
+    </div>
+  </label>
+</div>
+
+<h3 id="with-custom-label">With Custom Label</h3>
+<div class="highlight"><pre class="chroma"><code class="language-tpl" data-lang="tpl"><span class="cp">{{</span><span class="o">&lt;</span> <span class="na">expand</span> <span class="s2">&#34;Custom Label&#34;</span> <span class="s2">&#34;...&#34;</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span><span class="x">## Markdown content
+</span><span class="x">Lorem markdownum insigne...
+</span><span class="x"></span><span class="cp">{{</span><span class="o">&lt;</span> <span class="o">/</span><span class="na">expand</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span></code></pre></div><div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>Hello</span>
+      <span>...</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <h2 id="markdown-content">Markdown content</h2>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.
+    </div>
+  </label>
+</div>
+
+<h1 id="hints">Hints</h1>
+<p>Hint shortcode can be used as hint/alerts/notification block.
+There are 3 colors to choose: <code>info</code>, <code>warning</code> and <code>danger</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-tpl" data-lang="tpl"><span class="cp">{{</span><span class="o">&lt;</span> <span class="na">hint</span> <span class="o">[</span><span class="na">info</span><span class="o">|</span><span class="na">warning</span><span class="o">|</span><span class="na">danger</span><span class="o">]</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span><span class="x">**Markdown content**
+</span><span class="x">Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+</span><span class="x">stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+</span><span class="x"></span><span class="cp">{{</span><span class="o">&lt;</span> <span class="o">/</span><span class="na">hint</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span></code></pre></div><h2 id="example-2">Example</h2>
+<blockquote class="book-hint info">
+  <strong>Markdown content</strong>
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+</blockquote>
+
+<blockquote class="book-hint warning">
+  <strong>Markdown content</strong>
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+</blockquote>
+
+<blockquote class="book-hint danger">
+  <strong>Markdown content</strong>
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+</blockquote>
+
+<h1 id="tabs">Tabs</h1>
+<p>Tabs let you organize content by context, for example installation instructions for each supported platform.</p>
+<div class="highlight"><pre class="chroma"><code class="language-tpl" data-lang="tpl"><span class="cp">{{</span><span class="o">&lt;</span> <span class="na">tabs</span> <span class="s2">&#34;uniqueid&#34;</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span><span class="x"></span><span class="cp">{{</span><span class="o">&lt;</span> <span class="na">tab</span> <span class="s2">&#34;MacOS&#34;</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x"> # MacOS Content </span><span class="cp">{{</span><span class="o">&lt;</span> <span class="o">/</span><span class="na">tab</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span><span class="x"></span><span class="cp">{{</span><span class="o">&lt;</span> <span class="na">tab</span> <span class="s2">&#34;Linux&#34;</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x"> # Linux Content </span><span class="cp">{{</span><span class="o">&lt;</span> <span class="o">/</span><span class="na">tab</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span><span class="x"></span><span class="cp">{{</span><span class="o">&lt;</span> <span class="na">tab</span> <span class="s2">&#34;Windows&#34;</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x"> # Windows Content </span><span class="cp">{{</span><span class="o">&lt;</span> <span class="o">/</span><span class="na">tab</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span><span class="x"></span><span class="cp">{{</span><span class="o">&lt;</span> <span class="o">/</span><span class="na">tabs</span> <span class="o">&gt;</span><span class="cp">}}</span><span class="x">
+</span></code></pre></div><h2 id="example-3">Example</h2>
+
+
+
+
+<div class="book-tabs"><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
+  <label for="tabs-uniqueid-0">MacOS</label>
+  <div class="book-tabs-content markdown-inner"><h1 id="macos">MacOS</h1>
+<p>This is tab <strong>MacOS</strong> content.</p>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.</p>
+</div><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
+  <label for="tabs-uniqueid-1">Linux</label>
+  <div class="book-tabs-content markdown-inner"><h1 id="linux">Linux</h1>
+<p>This is tab <strong>Linux</strong> content.</p>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.</p>
+</div><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"  />
+  <label for="tabs-uniqueid-2">Windows</label>
+  <div class="book-tabs-content markdown-inner"><h1 id="windows">Windows</h1>
+<p>This is tab <strong>Windows</strong> content.</p>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.</p>
+</div></div>
+
 ]]></content>
         </item>
         
