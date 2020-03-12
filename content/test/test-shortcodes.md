@@ -83,7 +83,7 @@ Lorem markdownum insigne...
 {{</* /expand */>}}
 ```
 
-{{< expand "Hello" "..." >}}
+{{< expand "Hello" >}}
 ## Markdown content
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
@@ -176,3 +176,18 @@ protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
 Miseratus fonte Ditis conubia.
 {{< /tab >}}
 {{< /tabs >}}
+
+
+# Buttons
+
+Buttons are styled links that can lead to local page or external link.
+
+## Example
+
+```tpl
+{{</* button relref="/" [class="..."] */>}}Get Home{{</* /button */>}}
+{{</* button href="https://github.com/alex-shpak/hugo-book" */>}}Contribute{{</* /button */>}}
+```
+
+{{< button relref="/" >}}Get Home{{< /button >}}
+{{< button href="https://github.com/alex-shpak/hugo-book" >}}Contribute{{< /button >}}
