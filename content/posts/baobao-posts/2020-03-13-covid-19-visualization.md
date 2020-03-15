@@ -1,14 +1,22 @@
 ---
-title: "COVID-19"
+title: "COVID-19 Visualization"
 author: "Jingyu Bao"
 date: 2020-03-13T19:49:09-04:00
-slug: covid-19
+slug: covid-19-visualization
 draft: false
+toc: true
 tags:
   - stats
 ---
 
-We are living the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
+We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
+
+## Geo Plots for China, US and the World (ggplot + geom_sf)
+
+Two types of geo plots here.
+
+- Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead.
+- Remaining (Number of Remaining Cases): it's the number of cumulative confirmed cases subtracts the numbers of recovered and dead cases.
 
 <!-- | Cumulative Confirmed Cases                 | Remaining Cases                        |
 | ------------------------------------------ | -------------------------------------- |
@@ -44,25 +52,36 @@ We are living the history. COVID-19 has been spreading the world for more than 2
 {{< /tab >}}
 {{< /tabs >}}
 
+## HTML Plot (ggplotly)
+
 Comparing China and outside of China.
 
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html"></iframe>
 </div>
 
-<!-- <center>
-<iframe style="height: 600px; width: 1000px; border: none" src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
-</center> -->
+## Top 20 Countries Facet Plot (ggplot + facet_wrap)
 
+The plots are ranking from the most the the least of the top 20 countries.
 
+[![alt][top20countries]][top20countries]
 
+[top20countries]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true
+
+## Shiny App
+
+This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). In some cases, you might find the app doesn't work. That's because I only use the free-tier [shinyapps.io](https://www.shinyapps.io/), whose monthly active hour is 25 hours.
+
+<div class='iframe-container'>
+<iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
+</div>
 
 
 ## References
 
+- The data source is from [JHU CSSE](https://github.com/CSSEGISandData/COVID-19)
 - Code are saved in [github](https://github.com/zhongjzsb/COVID-19).
-
-- The code will be updated daily.
+- The contents is scheduled to update daily.
 
     ```r
     source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R')

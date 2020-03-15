@@ -10,14 +10,21 @@
         <atom:link href="https://zhongjzsb.com/posts/baobao-posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>COVID-19</title>
-            <link>https://zhongjzsb.com/posts/baobao-posts/covid-19/</link>
+            <title>COVID-19 Visualization</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/covid-19-visualization/</link>
             <pubDate>Fri, 13 Mar 2020 19:49:09 -0400</pubDate>
             
-            <guid>https://zhongjzsb.com/posts/baobao-posts/covid-19/</guid>
-            <description>We are living the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
-Confirmed   Cumulative Confirmed Cases              Remaining   Remaining Cases              Comparing China and outside of China.</description>
-            <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
+            <guid>https://zhongjzsb.com/posts/baobao-posts/covid-19-visualization/</guid>
+            <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
+Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.
+ Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead.</description>
+            <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
+<h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
+<p>Two types of geo plots here.</p>
+<ul>
+<li>Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead.</li>
+<li>Remaining (Number of Remaining Cases): it&rsquo;s the number of cumulative confirmed cases subtracts the numbers of recovered and dead cases.</li>
+</ul>
 <!-- | Cumulative Confirmed Cases                 | Remaining Cases                        |
 | ------------------------------------------ | -------------------------------------- |
 | [![alt][china_confirmed]][china_confirmed] | [![alt][china_current]][china_current] |
@@ -67,20 +74,29 @@ Confirmed   Cumulative Confirmed Cases              Remaining   Remaining Case
 </tbody>
 </table></div></div>
 
+<h2 id="html-plot-ggplotly">HTML Plot (ggplotly)</h2>
 <p>Comparing China and outside of China.</p>
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html"></iframe>
 </div>
-<!-- <center>
-<iframe style="height: 600px; width: 1000px; border: none" src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
-</center> -->
+<h2 id="top-20-countries-facet-plot-ggplot--facet_wrap">Top 20 Countries Facet Plot (ggplot + facet_wrap)</h2>
+<p>The plots are ranking from the most the the least of the top 20 countries.</p>
+<p><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true" alt="alt"></a></p>
+<h2 id="shiny-app">Shiny App</h2>
+<p>This is a shinyapp locating <a href="https://zhongjzsb.shinyapps.io/covid-19/">here</a>. In some cases, you might find the app doesn&rsquo;t work. That&rsquo;s because I only use the free-tier <a href="https://www.shinyapps.io/">shinyapps.io</a>, whose monthly active hour is 25 hours.</p>
+<div class='iframe-container'>
+<iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
+</div>
 <h2 id="references">References</h2>
 <ul>
+<li>
+<p>The data source is from <a href="https://github.com/CSSEGISandData/COVID-19">JHU CSSE</a></p>
+</li>
 <li>
 <p>Code are saved in <a href="https://github.com/zhongjzsb/COVID-19">github</a>.</p>
 </li>
 <li>
-<p>The code will be updated daily.</p>
+<p>The contents is scheduled to update daily.</p>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R&#39;</span><span class="p">)</span>
 <span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R&#39;</span><span class="p">)</span>
 </code></pre></div></li>
