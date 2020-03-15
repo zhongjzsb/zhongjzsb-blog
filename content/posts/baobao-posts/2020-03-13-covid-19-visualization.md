@@ -62,7 +62,7 @@ Comparing China and outside of China.
 
 ## Top 20 Countries Facet Plot (ggplot + facet_wrap)
 
-The plots are ranking from the most the the least of the top 20 countries.
+The plots are ranking from the most the the least of the top 20 countries. The view experience in mobile device will be better if you use landscape.
 
 [![alt][top20countries]][top20countries]
 
@@ -70,7 +70,7 @@ The plots are ranking from the most the the least of the top 20 countries.
 
 ## Shiny App
 
-This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). In some cases, you might find the app doesn't work. That's because I only use the free-tier [shinyapps.io](https://www.shinyapps.io/), whose monthly active hour is 25 hours.
+This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). In some cases, you might find the app doesn't work. That's because I only use the free-tier [shinyapps.io](https://www.shinyapps.io/), whose monthly active hour is 25 hours. So I decided not spend too much time to optimize the view experience in this section.
 
 <div class='iframe-container'>
 <iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
@@ -80,7 +80,7 @@ This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). In
 ## References
 
 - The data source is from [JHU CSSE](https://github.com/CSSEGISandData/COVID-19)
-- Code are saved in [github](https://github.com/zhongjzsb/COVID-19).
+- Code is saved in [github](https://github.com/zhongjzsb/COVID-19).
 - The contents is scheduled to update daily.
 
     ```r
