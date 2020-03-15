@@ -1528,6 +1528,7 @@ div.code-toolbar > .toolbar span:hover {
 }
 .book-tabs input[type="radio"]:checked + label {
   border-bottom: 1px solid #20bfca;
+  background-color: #00808088;
 }
 .book-tabs input[type="radio"]:checked + label + .book-tabs-content {
   display: block;

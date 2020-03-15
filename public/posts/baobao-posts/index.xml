@@ -16,31 +16,57 @@
             
             <guid>https://zhongjzsb.com/posts/baobao-posts/covid-19/</guid>
             <description>We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
-   Cumulative Confirmed Cases Remaining Cases                  Some other staff
- --References Code are saved in github.</description>
+Confirmed   Cumulative Confirmed Cases              Remaining   Remaining Cases              Some other staff</description>
             <content type="html"><![CDATA[<p>We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
-<table>
+<!-- | Cumulative Confirmed Cases                 | Remaining Cases                        |
+| ------------------------------------------ | -------------------------------------- |
+| [![alt][china_confirmed]][china_confirmed] | [![alt][china_current]][china_current] |
+| [![alt][us_confirmed]][us_confirmed]       | [![alt][us_current]][us_current]       |
+| [![alt][world_confirmed]][world_confirmed] | [![alt][world_current]][world_current] | -->
+
+
+
+
+<div class="book-tabs"><input type="radio" class="hidden" name="tabs-covid-19" id="tabs-covid-19-0" checked="checked" />
+  <label for="tabs-covid-19-0">Confirmed</label>
+  <div class="book-tabs-content markdown-inner"><table>
 <thead>
 <tr>
 <th>Cumulative Confirmed Cases</th>
-<th>Remaining Cases</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_confirmed.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_confirmed.gif?raw=true" alt="alt"></a></td>
-<td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_current.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_current.gif?raw=true" alt="alt"></a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_confirmed.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_confirmed.gif?raw=true" alt="alt"></a></td>
-<td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_current.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_current.gif?raw=true" alt="alt"></a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_confirmed.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_confirmed.gif?raw=true" alt="alt"></a></td>
+</tr>
+</tbody>
+</table></div><input type="radio" class="hidden" name="tabs-covid-19" id="tabs-covid-19-1"  />
+  <label for="tabs-covid-19-1">Remaining</label>
+  <div class="book-tabs-content markdown-inner"><table>
+<thead>
+<tr>
+<th>Remaining Cases</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_current.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_current.gif?raw=true" alt="alt"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_current.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_current.gif?raw=true" alt="alt"></a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_current.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_current.gif?raw=true" alt="alt"></a></td>
 </tr>
 </tbody>
-</table>
+</table></div></div>
+
 <p>Some other staff</p>
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html"></iframe>
@@ -49,10 +75,17 @@
 <iframe style="height: 600px; width: 1000px; border: none" src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
 </center> -->
 <h2 id="references">References</h2>
+<ul>
+<li>
 <p>Code are saved in <a href="https://github.com/zhongjzsb/COVID-19">github</a>.</p>
+</li>
+<li>
+<p>The code will be updated daily.</p>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R&#39;</span><span class="p">)</span>
 <span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R&#39;</span><span class="p">)</span>
-</code></pre></div>]]></content>
+</code></pre></div></li>
+</ul>
+]]></content>
         </item>
         
         <item>
