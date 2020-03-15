@@ -167,3 +167,6 @@ disqusShortname = "zhongjzsb"
   #   name = "Book"
   #   url = "https://book.zhongjzsb.com"
   #   weight = 40
+
+[markup.goldmark.renderer]
+  unsafe= true
