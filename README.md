@@ -124,6 +124,13 @@
 
   > For the current version of chrome "61", this feature moved to the developer tool. To activate it you have to go to: More Tools > Developer tools > Network "tab" then click on Disable cache. Note that this work only when the Developer tool is open.
 
+- [x] Add `raw html in markdown` option in `config.toml` to let hugo render raw html. Based on this [discussion](https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032).
+
+  ```yaml
+  [markup.goldmark.renderer]
+    unsafe= true
+  ```
+
 ## Site Management
 
 - [Google Search Console](https://search.google.com/search-console/about)
