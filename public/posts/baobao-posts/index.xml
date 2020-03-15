@@ -15,9 +15,9 @@
             <pubDate>Fri, 13 Mar 2020 19:49:09 -0400</pubDate>
             
             <guid>https://zhongjzsb.com/posts/baobao-posts/covid-19/</guid>
-            <description>We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
-Confirmed   Cumulative Confirmed Cases              Remaining   Remaining Cases              Some other staff</description>
-            <content type="html"><![CDATA[<p>We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
+            <description>We are living the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
+Confirmed   Cumulative Confirmed Cases              Remaining   Remaining Cases              Comparing China and outside of China.</description>
+            <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
 <!-- | Cumulative Confirmed Cases                 | Remaining Cases                        |
 | ------------------------------------------ | -------------------------------------- |
 | [![alt][china_confirmed]][china_confirmed] | [![alt][china_current]][china_current] |
@@ -67,7 +67,7 @@ Confirmed   Cumulative Confirmed Cases              Remaining   Remaining Case
 </tbody>
 </table></div></div>
 
-<p>Some other staff</p>
+<p>Comparing China and outside of China.</p>
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html"></iframe>
 </div>
