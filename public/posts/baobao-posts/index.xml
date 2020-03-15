@@ -17,7 +17,7 @@
             <guid>https://zhongjzsb.com/posts/baobao-posts/covid-19/</guid>
             <description>We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
    Cumulative Confirmed Cases Remaining Cases                  Some other staff
- --References Code are saved in github.</description>
+ --References Code are saved in github.</description>
             <content type="html"><![CDATA[<p>We are living in the history. COVID-19 has been spreading the world for more than 2 month. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
 <table>
 <thead>
@@ -42,9 +42,9 @@
 </tbody>
 </table>
 <p>Some other staff</p>
-<center>
-<iframe style="height: 500px; width: 1050px; border: none" src="/images/china-vs-outside.html"></iframe>
-</center>
+<div class='iframe-container'>
+    <iframe src="/images/china-vs-outside.html"></iframe>
+</div>
 <!-- <center>
 <iframe style="height: 600px; width: 1000px; border: none" src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
 </center> -->
