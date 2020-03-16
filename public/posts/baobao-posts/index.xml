@@ -16,9 +16,14 @@
             
             <guid>https://zhongjzsb.com/posts/baobao-posts/covid-19-visualization/</guid>
             <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
-Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.
- Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead.</description>
+We will use the following formula a lot in this post.
+$$ Current + Recovered + Death = Confirmed $$
+Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.</description>
             <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
+<p>We will use the following formula a lot in this post.</p>
+<p>$$
+Current + Recovered + Death = Confirmed
+$$</p>
 <h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
 <p>Two types of geo plots here.</p>
 <ul>
@@ -76,6 +81,7 @@ Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots 
 
 <h2 id="html-plot-ggplotly">HTML Plot (ggplotly)</h2>
 <p>Comparing China and outside of China.</p>
+<p>The view experience in mobile device will be better if you use landscape.</p>
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html"></iframe>
 </div>
@@ -83,24 +89,31 @@ Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots 
 <p>The plots are ranking from the most the the least of the top 20 countries.</p>
 <p><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true" alt="alt"></a></p>
 <h2 id="shiny-app">Shiny App</h2>
-<p>This is a shinyapp locating <a href="https://zhongjzsb.shinyapps.io/covid-19/">here</a>. In some cases, you might find the app doesn&rsquo;t work. That&rsquo;s because I only use the free-tier <a href="https://www.shinyapps.io/">shinyapps.io</a>, whose monthly active hour is 25 hours.</p>
+<p>This is a shinyapp locating <a href="https://zhongjzsb.shinyapps.io/covid-19/">here</a>. In some cases, you might find the app doesn&rsquo;t work. That&rsquo;s because I only use the free-tier <a href="https://www.shinyapps.io/">shinyapps.io</a>, whose monthly active hour is 25 hours. So I decided not spend too much time to optimize the view experience in this section.</p>
 <div class='iframe-container'>
 <iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
 </div>
 <h2 id="references">References</h2>
 <ul>
-<li>
-<p>The data source is from <a href="https://github.com/CSSEGISandData/COVID-19">JHU CSSE</a></p>
-</li>
-<li>
-<p>Code are saved in <a href="https://github.com/zhongjzsb/COVID-19">github</a>.</p>
-</li>
-<li>
-<p>The contents is scheduled to update daily.</p>
-<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R&#39;</span><span class="p">)</span>
-<span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R&#39;</span><span class="p">)</span>
-</code></pre></div></li>
+<li>The data source is from <a href="https://github.com/CSSEGISandData/COVID-19">JHU CSSE</a></li>
+<li>Code is saved in <a href="https://github.com/zhongjzsb/COVID-19">github</a>.</li>
+<li>The contents is scheduled to update daily.</li>
 </ul>
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>r code for this post</span>
+      <span>↕</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R&#39;</span><span class="p">)</span>
+<span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R&#39;</span><span class="p">)</span>
+</code></pre></div>
+    </div>
+  </label>
+</div>
+
 ]]></content>
         </item>
         

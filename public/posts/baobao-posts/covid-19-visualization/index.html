@@ -6,8 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Jingyu Bao">
 <meta name="description" content="We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
-Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo plots here.
- Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead." />
+We will use the following formula a lot in this post.
+$$ Current &#43; Recovered &#43; Death = Confirmed $$
+Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo plots here." />
 <meta name="keywords" content=", stats" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -38,11 +39,12 @@ Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo pl
 
 <meta itemprop="name" content="COVID-19 Visualization">
 <meta itemprop="description" content="We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
-Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo plots here.
- Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead.">
+We will use the following formula a lot in this post.
+$$ Current &#43; Recovered &#43; Death = Confirmed $$
+Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo plots here.">
 <meta itemprop="datePublished" content="2020-03-13T19:49:09-04:00" />
-<meta itemprop="dateModified" content="2020-03-13T19:49:09-04:00" />
-<meta itemprop="wordCount" content="190">
+<meta itemprop="dateModified" content="2020-03-15T16:35:53-04:00" />
+<meta itemprop="wordCount" content="245">
 <meta itemprop="image" content="https://zhongjzsb.com/"/>
 
 
@@ -52,8 +54,9 @@ Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo pl
 
 <meta name="twitter:title" content="COVID-19 Visualization"/>
 <meta name="twitter:description" content="We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
-Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo plots here.
- Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead."/>
+We will use the following formula a lot in this post.
+$$ Current &#43; Recovered &#43; Death = Confirmed $$
+Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo plots here."/>
 
 
 
@@ -129,7 +132,7 @@ Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo pl
     <main class="post">
 
         <div class="post-info">
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>One minute
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
 
             
 
@@ -159,6 +162,10 @@ Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo pl
 
             <div class="post-content">
                 <p>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
+<p>We will use the following formula a lot in this post.</p>
+<p>$$
+Current + Recovered + Death = Confirmed
+$$</p>
 <h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
 <p>Two types of geo plots here.</p>
 <ul>
@@ -216,6 +223,7 @@ Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo pl
 
 <h2 id="html-plot-ggplotly">HTML Plot (ggplotly)</h2>
 <p>Comparing China and outside of China.</p>
+<p>The view experience in mobile device will be better if you use landscape.</p>
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html"></iframe>
 </div>
@@ -223,24 +231,31 @@ Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo pl
 <p>The plots are ranking from the most the the least of the top 20 countries.</p>
 <p><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true" alt="alt"></a></p>
 <h2 id="shiny-app">Shiny App</h2>
-<p>This is a shinyapp locating <a href="https://zhongjzsb.shinyapps.io/covid-19/">here</a>. In some cases, you might find the app doesn&rsquo;t work. That&rsquo;s because I only use the free-tier <a href="https://www.shinyapps.io/">shinyapps.io</a>, whose monthly active hour is 25 hours.</p>
+<p>This is a shinyapp locating <a href="https://zhongjzsb.shinyapps.io/covid-19/">here</a>. In some cases, you might find the app doesn&rsquo;t work. That&rsquo;s because I only use the free-tier <a href="https://www.shinyapps.io/">shinyapps.io</a>, whose monthly active hour is 25 hours. So I decided not spend too much time to optimize the view experience in this section.</p>
 <div class='iframe-container'>
 <iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
 </div>
 <h2 id="references">References</h2>
 <ul>
-<li>
-<p>The data source is from <a href="https://github.com/CSSEGISandData/COVID-19">JHU CSSE</a></p>
-</li>
-<li>
-<p>Code are saved in <a href="https://github.com/zhongjzsb/COVID-19">github</a>.</p>
-</li>
-<li>
-<p>The contents is scheduled to update daily.</p>
-<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R&#39;</span><span class="p">)</span>
-<span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R&#39;</span><span class="p">)</span>
-</code></pre></div></li>
+<li>The data source is from <a href="https://github.com/CSSEGISandData/COVID-19">JHU CSSE</a></li>
+<li>Code is saved in <a href="https://github.com/zhongjzsb/COVID-19">github</a>.</li>
+<li>The contents is scheduled to update daily.</li>
 </ul>
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>r code for this post</span>
+      <span>↕</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R&#39;</span><span class="p">)</span>
+<span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R&#39;</span><span class="p">)</span>
+</code></pre></div>
+    </div>
+  </label>
+</div>
+
 
             </div>
         </article>
@@ -259,9 +274,10 @@ Geo Plots for China, US and the World (ggplot &#43; geom_sf) Two types of geo pl
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://zhongjzsb.com/tags/stats">stats</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>190 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>245 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-03-13 19:49 -0400</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="https://github.com/zhongjzsb/zhongjzsb-blog/commit/9f8393caba18876ad1bbccb8ccf4c7ed97383d08" target="_blank" rel="noopener">9f8393c</a> @ 2020-03-15</p>
         </div>
 
         

@@ -11,6 +11,12 @@ tags:
 
 We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 
+We will use the following formula a lot in this post.
+
+$$
+Current + Recovered + Death = Confirmed
+$$
+
 ## Geo Plots for China, US and the World (ggplot + geom_sf)
 
 Two types of geo plots here.
@@ -56,13 +62,15 @@ Two types of geo plots here.
 
 Comparing China and outside of China.
 
+The view experience in mobile device will be better if you use landscape.
+
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html"></iframe>
 </div>
 
 ## Top 20 Countries Facet Plot (ggplot + facet_wrap)
 
-The plots are ranking from the most the the least of the top 20 countries. The view experience in mobile device will be better if you use landscape.
+The plots are ranking from the most the the least of the top 20 countries.
 
 [![alt][top20countries]][top20countries]
 
@@ -83,7 +91,11 @@ This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). In
 - Code is saved in [github](https://github.com/zhongjzsb/COVID-19).
 - The contents is scheduled to update daily.
 
-    ```r
-    source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R')
-    source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R')
-    ```
+{{< expand "r code for this post" >}}
+
+```r
+source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R')
+source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R')
+```
+
+{{< /expand >}}
