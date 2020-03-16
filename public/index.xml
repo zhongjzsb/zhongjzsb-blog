@@ -13,6 +13,18 @@
     
     
     <item>
+      <title>Bag of 2020</title>
+      <link>https://zhongjzsb.com/posts/jackie-posts/my-new-bag/</link>
+      <pubDate>Mon, 16 Mar 2020 12:06:30 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/jackie-posts/my-new-bag/</guid>
+      <description>A sweet birthday treat to myself 😄
+The new Gucci sylvie 1969 in beige, a stunning masterpiece!
+Classic and elegant, can&amp;rsquo;t wait to show off lol
+         </description>
+    </item>
+    
+    <item>
       <title>COVID-19 Visualization</title>
       <link>https://zhongjzsb.com/posts/baobao-posts/covid-19-visualization/</link>
       <pubDate>Fri, 13 Mar 2020 19:49:09 -0400</pubDate>
@@ -97,16 +109,6 @@ So first thing comes to my mind is that the lifetime of a bulb is exponentially 
       
       <guid>https://zhongjzsb.com/posts/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
       <description>Steps  install ido-vertical install company install solarized-dark install ess install yasnippet install poly-R install smex install expand-region install aggressive-indent install org-bullet install session install undo-tree install auto-complete install anzu add molokai-theme-kit.el in to .emacs.d  Can be found in simplenote file.</description>
-    </item>
-    
-    <item>
-      <title>Back to Github</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2019-10-28-back-to-github/</link>
-      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2019-10-28-back-to-github/</guid>
-      <description>Finally Something about github: if you want to delete commit from github, here are the steps you want to use (Reference website):
- git reset &amp;ndash;hard &amp;lt;commit-id&amp;gt; git push origin -f  </description>
     </item>
     
   </channel>

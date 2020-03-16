@@ -3,22 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zhongjzsb.com/posts/jackie-posts/my-new-bag/</loc>
+    <lastmod>2020-03-16T12:06:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhongjzsb.com/posts/</loc>
+    <lastmod>2020-03-16T12:06:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhongjzsb.com/tags/random/</loc>
+    <lastmod>2020-03-16T12:06:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhongjzsb.com/tags/</loc>
+    <lastmod>2020-03-16T12:06:30-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zhongjzsb.com/posts/baobao-posts/covid-19-visualization/</loc>
     <lastmod>2020-03-16T01:04:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhongjzsb.com/posts/</loc>
-    <lastmod>2020-03-16T01:04:06-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zhongjzsb.com/tags/stats/</loc>
-    <lastmod>2020-03-16T01:04:06-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhongjzsb.com/tags/</loc>
     <lastmod>2020-03-16T01:04:06-04:00</lastmod>
   </url>
   
@@ -55,11 +65,6 @@
   <url>
     <loc>https://zhongjzsb.com/tags/tools/</loc>
     <lastmod>2020-03-16T01:04:06-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhongjzsb.com/tags/random/</loc>
-    <lastmod>2020-03-01T15:04:25-05:00</lastmod>
   </url>
   
   <url>
