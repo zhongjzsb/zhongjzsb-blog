@@ -6,3 +6,5 @@ images:
 ---
 
 Everyone is so busy. Nobody really care about who you are.
+
+Sometimes you can find us in [media](/in-media/)
