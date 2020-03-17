@@ -14,7 +14,7 @@
   --phoneWidth: (max-width: 684px);
   --tabletWidth: (max-width: 900px);
 }
-
+/*
 @font-face {
   font-family: Inter;
   font-style: normal;
@@ -85,7 +85,7 @@
   src: url(57acb4797f14814f3f3d8b5ff0dc92f5.woff2) format("woff2"),
     url(6fbcf86a8d4a8411d22ed510f1d72be8.woff) format("woff");
   font-display: swap;
-}
+} */
 
 .button-container {
   display: table;
