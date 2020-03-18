@@ -17,6 +17,12 @@ $$
 Current + Recovered + Death = Confirmed
 $$
 
+## Leaflet Plot
+
+<div class='iframe-container'>
+    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+</div>
+
 ## Geo Plots for China, US and the World (ggplot + geom_sf)
 
 Two types of geo plots here.
@@ -58,11 +64,6 @@ Two types of geo plots here.
 {{< /tab >}}
 {{< /tabs >}}
 
-## Leaflet Plot
-
-<div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
-</div>
 
 ## HTML Plot (ggplotly)
 

@@ -18,12 +18,16 @@
             <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
-Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.</description>
+Leaflet Plot Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.</description>
             <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
 <p>We will use the following formula a lot in this post.</p>
 <p>$$
 Current + Recovered + Death = Confirmed
 $$</p>
+<h2 id="leaflet-plot">Leaflet Plot</h2>
+<div class='iframe-container'>
+    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+</div>
 <h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
 <p>Two types of geo plots here.</p>
 <ul>
@@ -79,10 +83,6 @@ $$</p>
 </tbody>
 </table></div></div>
 
-<h2 id="leaflet-plot">Leaflet Plot</h2>
-<div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
-</div>
 <h2 id="html-plot-ggplotly">HTML Plot (ggplotly)</h2>
 <p>Comparing China and outside of China.</p>
 <p>The view experience in mobile device will be better if you use landscape.</p>
