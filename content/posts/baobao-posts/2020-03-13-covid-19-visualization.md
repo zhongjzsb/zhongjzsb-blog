@@ -20,7 +20,7 @@ $$
 ## Leaflet Plot
 
 <div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+    <iframe src="/images/leaflet-plot.html" allowFullScreen></iframe>
 </div>
 
 ## Geo Plots for China, US and the World (ggplot + geom_sf)

@@ -26,7 +26,7 @@ Current + Recovered + Death = Confirmed
 $$</p>
 <h2 id="leaflet-plot">Leaflet Plot</h2>
 <div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+    <iframe src="/images/leaflet-plot.html" allowFullScreen></iframe>
 </div>
 <h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
 <p>Two types of geo plots here.</p>
