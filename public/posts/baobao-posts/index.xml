@@ -18,7 +18,8 @@
             <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
-Leaflet Plot Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.</description>
+Leaflet Plot DataTable The current state of COVID-19.
+Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.</description>
             <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
 <p>We will use the following formula a lot in this post.</p>
 <p>$$
@@ -26,7 +27,12 @@ Current + Recovered + Death = Confirmed
 $$</p>
 <h2 id="leaflet-plot">Leaflet Plot</h2>
 <div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowFullscreen></iframe>
+    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+</div>
+<h2 id="datatable">DataTable</h2>
+<p>The current state of COVID-19.</p>
+<div class='iframe-container iframe-r-dt'>
+<iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
 </div>
 <h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
 <p>Two types of geo plots here.</p>
@@ -87,7 +93,7 @@ $$</p>
 <p>Comparing China and outside of China.</p>
 <p>The view experience in mobile device will be better if you use landscape.</p>
 <div class='iframe-container'>
-    <iframe src="/images/china-vs-outside.html" allowFullscreen allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
 </div>
 <h2 id="top-20-countries-facet-plot-ggplot--facet_wrap">Top 20 Countries Facet Plot (ggplot + facet_wrap)</h2>
 <p>The plots are ranking from the most the the least of the top 20 countries.</p>
@@ -114,6 +120,7 @@ $$</p>
       <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R&#39;</span><span class="p">)</span>
 <span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R&#39;</span><span class="p">)</span>
 <span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/06-leaflet-plot.R&#39;</span><span class="p">)</span>
+<span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/07-datatable.R&#39;</span><span class="p">)</span>
 </code></pre></div>
     </div>
   </label>

@@ -20,7 +20,15 @@ $$
 ## Leaflet Plot
 
 <div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowFullscreen></iframe>
+    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+</div>
+
+## DataTable
+
+The current state of COVID-19.
+
+<div class='iframe-container iframe-r-dt'>
+<iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
 </div>
 
 ## Geo Plots for China, US and the World (ggplot + geom_sf)
@@ -72,7 +80,7 @@ Comparing China and outside of China.
 The view experience in mobile device will be better if you use landscape.
 
 <div class='iframe-container'>
-    <iframe src="/images/china-vs-outside.html" allowFullscreen allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
 </div>
 
 ## Top 20 Countries Facet Plot (ggplot + facet_wrap)
@@ -104,6 +112,7 @@ This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). In
 source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R')
 source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R')
 source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/06-leaflet-plot.R')
+source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/07-datatable.R')
 ```
 
 {{< /expand >}}

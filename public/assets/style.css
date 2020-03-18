@@ -1584,3 +1584,7 @@ a.book-btn:hover {
   top: 0;
   width: 100%;
 }
+
+.iframe-r-dt > div {
+  background-color: gray;
+}

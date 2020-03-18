@@ -33,7 +33,8 @@ Classic and elegant, can&amp;rsquo;t wait to show off lol
       <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
-Leaflet Plot Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.</description>
+Leaflet Plot DataTable The current state of COVID-19.
+Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.</description>
     </item>
     
     <item>
