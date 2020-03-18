@@ -20,7 +20,7 @@ $$
 ## Leaflet Plot
 
 <div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowFullScreen></iframe>
+    <iframe src="/images/leaflet-plot.html" allowFullscreen></iframe>
 </div>
 
 ## Geo Plots for China, US and the World (ggplot + geom_sf)
@@ -72,7 +72,7 @@ Comparing China and outside of China.
 The view experience in mobile device will be better if you use landscape.
 
 <div class='iframe-container'>
-    <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
+    <iframe src="/images/china-vs-outside.html" allowFullscreen allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 </div>
 
 ## Top 20 Countries Facet Plot (ggplot + facet_wrap)

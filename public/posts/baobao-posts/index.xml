@@ -26,7 +26,7 @@ Current + Recovered + Death = Confirmed
 $$</p>
 <h2 id="leaflet-plot">Leaflet Plot</h2>
 <div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowFullScreen></iframe>
+    <iframe src="/images/leaflet-plot.html" allowFullscreen></iframe>
 </div>
 <h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
 <p>Two types of geo plots here.</p>
@@ -87,7 +87,7 @@ $$</p>
 <p>Comparing China and outside of China.</p>
 <p>The view experience in mobile device will be better if you use landscape.</p>
 <div class='iframe-container'>
-    <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
+    <iframe src="/images/china-vs-outside.html" allowFullscreen allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 </div>
 <h2 id="top-20-countries-facet-plot-ggplot--facet_wrap">Top 20 Countries Facet Plot (ggplot + facet_wrap)</h2>
 <p>The plots are ranking from the most the the least of the top 20 countries.</p>
