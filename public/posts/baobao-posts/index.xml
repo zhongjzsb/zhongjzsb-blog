@@ -18,8 +18,7 @@
             <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
-Leaflet Plot DataTable The current state of COVID-19.
-Geo Plots for China, US and the World (ggplot + geom_sf) Two types of geo plots here.</description>
+Leaflet Plot DataTable The current state of COVID-19. Select the device you&amp;rsquo;r using to browse the table.</description>
             <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
 <p>We will use the following formula a lot in this post.</p>
 <p>$$
@@ -30,10 +29,21 @@ $$</p>
     <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
 </div>
 <h2 id="datatable">DataTable</h2>
-<p>The current state of COVID-19.</p>
-<div class='iframe-container iframe-r-dt'>
+<p>The current state of COVID-19. Select the device you&rsquo;r using to browse the table.</p>
+
+
+
+
+<div class="book-tabs"><input type="radio" class="hidden" name="tabs-covid-19-DT" id="tabs-covid-19-DT-0" checked="checked" />
+  <label for="tabs-covid-19-DT-0">Mobile</label>
+  <div class="book-tabs-content markdown-inner"><div class='iframe-container iframe-r-dt'>
+<iframe src="/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
+</div></div><input type="radio" class="hidden" name="tabs-covid-19-DT" id="tabs-covid-19-DT-1"  />
+  <label for="tabs-covid-19-DT-1">PC</label>
+  <div class="book-tabs-content markdown-inner"><div class='iframe-container iframe-r-dt'>
 <iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
-</div>
+</div></div></div>
+
 <h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
 <p>Two types of geo plots here.</p>
 <ul>

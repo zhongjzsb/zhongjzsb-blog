@@ -25,11 +25,21 @@ $$
 
 ## DataTable
 
-The current state of COVID-19.
+The current state of COVID-19. Select the device you'r using to browse the table.
 
+{{< tabs "covid-19-DT" >}}
+{{< tab "Mobile" >}}
+<div class='iframe-container iframe-r-dt'>
+<iframe src="/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
+</div>
+{{< /tab >}}
+{{< tab "PC" >}}
 <div class='iframe-container iframe-r-dt'>
 <iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
 </div>
+{{< /tab >}}
+{{< /tabs >}}
+
 
 ## Geo Plots for China, US and the World (ggplot + geom_sf)
 
