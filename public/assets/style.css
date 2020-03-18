@@ -1572,7 +1572,7 @@ a.book-btn:hover {
 /* add iframe css */
 .iframe-container {
   overflow: hidden; /* Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
-  padding-top: 56.25%;
+  /* padding-top: 56.25%; */
   position: relative;
 }
 
@@ -1583,8 +1583,4 @@ a.book-btn:hover {
   position: absolute;
   top: 0;
   width: 100%;
-  webkitallowfullscreen: true;
-  mozallowfullscreen: true;
-  allowfullscreen: true;
-  allowtransparency: true;
 }
