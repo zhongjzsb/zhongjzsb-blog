@@ -114,7 +114,7 @@ This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). In
 
 - The data source is from [JHU CSSE](https://github.com/CSSEGISandData/COVID-19)
 - Code is saved in [github](https://github.com/zhongjzsb/COVID-19).
-- The contents is scheduled to update daily.
+- The contents are scheduled to update daily.
 
 {{< expand "r code for this post" >}}
 
