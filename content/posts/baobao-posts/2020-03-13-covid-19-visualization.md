@@ -21,7 +21,7 @@ $$
 
 It's a 5-level leaflet plot.
 
-The html file can be accessed [here](/images/leaflet-plot.html).
+The html file can be accessed from [here](/images/leaflet-plot.html).
 
 Navigate the map in landscape mode in mobile device.
 

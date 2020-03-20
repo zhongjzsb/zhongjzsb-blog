@@ -19,7 +19,7 @@
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
 Leaflet Plot It&amp;rsquo;s a 5-level leaflet plot.
-The html file can be accessed here.
+The html file can be accessed from here.
 Navigate the map in landscape mode in mobile device.</description>
             <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
 <p>We will use the following formula a lot in this post.</p>
@@ -28,7 +28,7 @@ Current + Recovered + Death = Confirmed
 $$</p>
 <h2 id="leaflet-plot">Leaflet Plot</h2>
 <p>It&rsquo;s a 5-level leaflet plot.</p>
-<p>The html file can be accessed <a href="/images/leaflet-plot.html">here</a>.</p>
+<p>The html file can be accessed from <a href="/images/leaflet-plot.html">here</a>.</p>
 <p>Navigate the map in landscape mode in mobile device.</p>
 <div class='iframe-container'>
   <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
