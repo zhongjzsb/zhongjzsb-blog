@@ -19,23 +19,37 @@ $$
 
 ## Leaflet Plot
 
+It's a 5-level leaflet plot.
+
+The html file can be accessed [here](/images/leaflet-plot.html).
+
+Navigate the map in landscape mode in mobile device.
+
 <div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+  <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
 </div>
+
+<!-- | Marker    | Icon    | Min   | Max   |
+| :-------- | :------ | :---- | :---- |
+| lightblue | white   | 1     | 10    |
+| orange    | white   | 11    | 100   |
+| red       | white   | 101   | 1000  |
+| black     | white   | 1001  | 10000 |
+| black     | darkred | 10000 | Inf   | -->
 
 ## DataTable
 
-The current state of COVID-19. Select the device you'r using to browse the table.
+The current state of COVID-19. Select the device to browse the table.
 
 {{< tabs "covid-19-DT" >}}
 {{< tab "Mobile" >}}
 <div class='iframe-container iframe-r-dt'>
-<iframe src="/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
+  <iframe src="/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
 </div>
 {{< /tab >}}
 {{< tab "PC" >}}
 <div class='iframe-container iframe-r-dt'>
-<iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
+  <iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
 </div>
 {{< /tab >}}
 {{< /tabs >}}
@@ -47,12 +61,6 @@ Two types of geo plots here.
 
 - Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead.
 - Remaining (Number of Remaining Cases): it's the number of cumulative confirmed cases subtracts the numbers of recovered and dead cases.
-
-<!-- | Cumulative Confirmed Cases                 | Remaining Cases                        |
-| ------------------------------------------ | -------------------------------------- |
-| [![alt][china_confirmed]][china_confirmed] | [![alt][china_current]][china_current] |
-| [![alt][us_confirmed]][us_confirmed]       | [![alt][us_current]][us_current]       |
-| [![alt][world_confirmed]][world_confirmed] | [![alt][world_current]][world_current] | -->
 
 {{< tabs "covid-19" >}}
 {{< tab "Confirmed" >}}
@@ -82,12 +90,11 @@ Two types of geo plots here.
 {{< /tab >}}
 {{< /tabs >}}
 
-
 ## HTML Plot (ggplotly)
 
 Comparing China and outside of China.
 
-The view experience in mobile device will be better if you use landscape.
+The view experience in mobile device will be better if using landscape.
 
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
@@ -103,12 +110,11 @@ The plots are ranking from the most the the least of the top 20 countries.
 
 ## Shiny App
 
-This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). In some cases, you might find the app doesn't work. That's because I only use the free-tier [shinyapps.io](https://www.shinyapps.io/), whose monthly active hour is 25 hours. So I decided not spend too much time to optimize the view experience in this section.
+This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). The app doesn't work in some cases. That's because I only use the free-tier [shinyapps.io](https://www.shinyapps.io/), whose monthly active hour is 25 hours. So I decided not spend too much time to optimize the view experience in this section.
 
 <div class='iframe-container'>
-<iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
+  <iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
 </div>
-
 
 ## References
 
@@ -116,13 +122,14 @@ This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). In
 - Code is saved in [github](https://github.com/zhongjzsb/COVID-19).
 - The contents are scheduled to update daily.
 
-{{< expand "r code for this post" >}}
+{{< expand "Code for this post" >}}
 
-```r
-source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R')
-source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R')
-source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/06-leaflet-plot.R')
-source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/07-datatable.R')
+```batch
+SET "fetch=source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R')"
+SET "ggplotly=source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R')"
+SET "leaflet=source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/06-leaflet-plot.R')"
+SET "datatable=source('https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/07-datatable.R')"
+Rscript -e "%fetch%; %ggplotly%; %leaflet%; %datatable%"
 ```
 
 {{< /expand >}}

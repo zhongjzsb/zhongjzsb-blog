@@ -18,18 +18,30 @@
             <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
-Leaflet Plot DataTable The current state of COVID-19. Select the device you&amp;rsquo;r using to browse the table.</description>
+Leaflet Plot It&amp;rsquo;s a 5-level leaflet plot.
+The html file can be accessed here.
+Navigate the map in landscape mode in mobile device.</description>
             <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
 <p>We will use the following formula a lot in this post.</p>
 <p>$$
 Current + Recovered + Death = Confirmed
 $$</p>
 <h2 id="leaflet-plot">Leaflet Plot</h2>
+<p>It&rsquo;s a 5-level leaflet plot.</p>
+<p>The html file can be accessed <a href="/images/leaflet-plot.html">here</a>.</p>
+<p>Navigate the map in landscape mode in mobile device.</p>
 <div class='iframe-container'>
-    <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+  <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
 </div>
+<!-- | Marker    | Icon    | Min   | Max   |
+| :-------- | :------ | :---- | :---- |
+| lightblue | white   | 1     | 10    |
+| orange    | white   | 11    | 100   |
+| red       | white   | 101   | 1000  |
+| black     | white   | 1001  | 10000 |
+| black     | darkred | 10000 | Inf   | -->
 <h2 id="datatable">DataTable</h2>
-<p>The current state of COVID-19. Select the device you&rsquo;r using to browse the table.</p>
+<p>The current state of COVID-19. Select the device to browse the table.</p>
 
 
 
@@ -37,11 +49,11 @@ $$</p>
 <div class="book-tabs"><input type="radio" class="hidden" name="tabs-covid-19-DT" id="tabs-covid-19-DT-0" checked="checked" />
   <label for="tabs-covid-19-DT-0">Mobile</label>
   <div class="book-tabs-content markdown-inner"><div class='iframe-container iframe-r-dt'>
-<iframe src="/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
+  <iframe src="/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
 </div></div><input type="radio" class="hidden" name="tabs-covid-19-DT" id="tabs-covid-19-DT-1"  />
   <label for="tabs-covid-19-DT-1">PC</label>
   <div class="book-tabs-content markdown-inner"><div class='iframe-container iframe-r-dt'>
-<iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
+  <iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
 </div></div></div>
 
 <h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
@@ -50,11 +62,6 @@ $$</p>
 <li>Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead.</li>
 <li>Remaining (Number of Remaining Cases): it&rsquo;s the number of cumulative confirmed cases subtracts the numbers of recovered and dead cases.</li>
 </ul>
-<!-- | Cumulative Confirmed Cases                 | Remaining Cases                        |
-| ------------------------------------------ | -------------------------------------- |
-| [![alt][china_confirmed]][china_confirmed] | [![alt][china_current]][china_current] |
-| [![alt][us_confirmed]][us_confirmed]       | [![alt][us_current]][us_current]       |
-| [![alt][world_confirmed]][world_confirmed] | [![alt][world_current]][world_current] | -->
 
 
 
@@ -101,7 +108,7 @@ $$</p>
 
 <h2 id="html-plot-ggplotly">HTML Plot (ggplotly)</h2>
 <p>Comparing China and outside of China.</p>
-<p>The view experience in mobile device will be better if you use landscape.</p>
+<p>The view experience in mobile device will be better if using landscape.</p>
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
 </div>
@@ -109,9 +116,9 @@ $$</p>
 <p>The plots are ranking from the most the the least of the top 20 countries.</p>
 <p><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true" alt="alt"></a></p>
 <h2 id="shiny-app">Shiny App</h2>
-<p>This is a shinyapp locating <a href="https://zhongjzsb.shinyapps.io/covid-19/">here</a>. In some cases, you might find the app doesn&rsquo;t work. That&rsquo;s because I only use the free-tier <a href="https://www.shinyapps.io/">shinyapps.io</a>, whose monthly active hour is 25 hours. So I decided not spend too much time to optimize the view experience in this section.</p>
+<p>This is a shinyapp locating <a href="https://zhongjzsb.shinyapps.io/covid-19/">here</a>. The app doesn&rsquo;t work in some cases. That&rsquo;s because I only use the free-tier <a href="https://www.shinyapps.io/">shinyapps.io</a>, whose monthly active hour is 25 hours. So I decided not spend too much time to optimize the view experience in this section.</p>
 <div class='iframe-container'>
-<iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
+  <iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
 </div>
 <h2 id="references">References</h2>
 <ul>
@@ -122,15 +129,16 @@ $$</p>
 <div class="book-expand">
   <label>
     <div class="book-expand-head flex justify-between">
-      <span>r code for this post</span>
+      <span>Code for this post</span>
       <span>↕</span>
     </div>
     <input type="checkbox" class="hidden" />
     <div class="book-expand-content markdown-inner">
-      <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R&#39;</span><span class="p">)</span>
-<span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R&#39;</span><span class="p">)</span>
-<span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/06-leaflet-plot.R&#39;</span><span class="p">)</span>
-<span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/07-datatable.R&#39;</span><span class="p">)</span>
+      <div class="highlight"><pre class="chroma"><code class="language-batch" data-lang="batch"><span class="k">SET</span> <span class="s2">&#34;fetch=source(&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/01-fetch-data.R&#39;)&#34;</span>
+<span class="k">SET</span> <span class="s2">&#34;ggplotly=source(&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/03-ggplotly-plot.R&#39;)&#34;</span>
+<span class="k">SET</span> <span class="s2">&#34;leaflet=source(&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/06-leaflet-plot.R&#39;)&#34;</span>
+<span class="k">SET</span> <span class="s2">&#34;datatable=source(&#39;https://raw.githubusercontent.com/zhongjzsb/COVID-19/master/R/07-datatable.R&#39;)&#34;</span>
+Rscript -e <span class="s2">&#34;</span><span class="nv">%fetch%</span><span class="s2">; </span><span class="nv">%ggplotly%</span><span class="s2">; </span><span class="nv">%leaflet%</span><span class="s2">; </span><span class="nv">%datatable%</span><span class="s2">&#34;</span>
 </code></pre></div>
     </div>
   </label>

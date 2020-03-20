@@ -21,7 +21,9 @@
       <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
-Leaflet Plot DataTable The current state of COVID-19. Select the device you&amp;rsquo;r using to browse the table.</description>
+Leaflet Plot It&amp;rsquo;s a 5-level leaflet plot.
+The html file can be accessed here.
+Navigate the map in landscape mode in mobile device.</description>
     </item>
     
     <item>
