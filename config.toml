@@ -128,7 +128,7 @@ disqusShortname = "zhongjzsb"
 
   # for hello-friend-ng
   [languages.en.params.logo]
-      logoText = "/home/jingyu"
+      logoText = "$ cd /home/jingyu"
       logoHomeLink = "/"
 
   [params.logo]
