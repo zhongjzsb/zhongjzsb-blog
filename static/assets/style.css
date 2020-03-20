@@ -51,3 +51,24 @@ th {
 .iframe-r-dt > div {
   background-color: gray;
 }
+
+/* background image */
+.bg-img {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.03;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s;
+}
+
+.show-bg-img {
+  z-index: 100;
+  opacity: 1;
+  cursor: pointer;
+}

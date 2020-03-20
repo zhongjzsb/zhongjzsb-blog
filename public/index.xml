@@ -13,6 +13,18 @@
     
     
     <item>
+      <title>Artifact 2?</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/artifact-2/</link>
+      <pubDate>Fri, 20 Mar 2020 18:20:51 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/artifact-2/</guid>
+      <description>I randomly browse my steam library today. Then a ARTIFACT post shows up.
+
+OMG, I was missing Artifact so much!
+Come on. Give me some hopes.</description>
+    </item>
+    
+    <item>
       <title>Bag of 2020</title>
       <link>https://zhongjzsb.com/posts/jackie-posts/my-new-bag/</link>
       <pubDate>Mon, 16 Mar 2020 12:06:30 -0400</pubDate>
@@ -103,15 +115,6 @@ Sometimes you can find us in media</description>
       
       <guid>https://zhongjzsb.com/posts/jackie-posts/2020-02-22-jackie-test/</guid>
       <description>More to come This is a test for Jackie with comments in her article 🌟</description>
-    </item>
-    
-    <item>
-      <title>My Emacs Init File</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2019-11-24-my-emacs-init-file/</link>
-      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
-      <description>Steps  install ido-vertical install company install solarized-dark install ess install yasnippet install poly-R install smex install expand-region install aggressive-indent install org-bullet install session install undo-tree install auto-complete install anzu add molokai-theme-kit.el in to .emacs.d  Can be found in simplenote file.</description>
     </item>
     
   </channel>
