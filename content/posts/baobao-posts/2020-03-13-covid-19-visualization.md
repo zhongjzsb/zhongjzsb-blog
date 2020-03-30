@@ -21,9 +21,7 @@ $$
 
 I create a shiny app in DigitalOcean with my own shiny server. It's saved [here](https://app.zhongjzsb.com/COVID-19-dashboard/)
 
-[![](https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png)](https://app.zhongjzsb.com/COVID-19-dashboard/)
-
-
+[![covid-19-dashboard](https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png)](https://app.zhongjzsb.com/COVID-19-dashboard/)
 
 ## Leaflet Plot
 
@@ -61,7 +59,6 @@ The current state of COVID-19. Select the device to browse the table.
 </div>
 {{< /tab >}}
 {{< /tabs >}}
-
 
 ## Geo Plots for China, US and the World (ggplot + geom_sf)
 
