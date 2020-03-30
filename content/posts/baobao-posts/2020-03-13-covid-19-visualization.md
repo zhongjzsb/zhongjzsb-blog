@@ -117,15 +117,24 @@ The plots are ranking from the most the the least of the top 20 countries.
 
 This is a shinyapp locating [here](https://zhongjzsb.shinyapps.io/covid-19/). The app doesn't work in some cases. That's because I only use the free-tier [shinyapps.io](https://www.shinyapps.io/), whose monthly active hour is 25 hours. So I decided not spend too much time to optimize the view experience in this section.
 
+{{< hint  warning >}}
+
+This simple shiny doesn't work any more because JHU changed their data format. And I created new shiny app with flexdashboard [here](https://app.zhongjzsb.com/COVID-19-dashboard/).
+
+```html
 <div class='iframe-container'>
   <iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
 </div>
+```
+
+{{< /hint >}}
 
 ## References
 
 - The data source is from [JHU CSSE](https://github.com/CSSEGISandData/COVID-19)
 - Code is saved in [github](https://github.com/zhongjzsb/COVID-19).
-- The contents are scheduled to update daily.
+- The dashboard github is [here](https://github.com/zhongjzsb/COVID-19-dashboard).
+- The contents are not scheduled to update daily any more because the change of JHU data format. However, you can go to the flexdashboard [here](https://app.zhongjzsb.com/COVID-19-dashboard/) to check the "latest" update of COVID-19 (maybe 1 day delay).
 
 {{< expand "Code for this post" >}}
 

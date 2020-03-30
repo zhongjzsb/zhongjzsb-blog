@@ -163,14 +163,20 @@ $$</p>
 <p><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true" alt="alt"></a></p>
 <h2 id="shiny-app">Shiny App</h2>
 <p>This is a shinyapp locating <a href="https://zhongjzsb.shinyapps.io/covid-19/">here</a>. The app doesn&rsquo;t work in some cases. That&rsquo;s because I only use the free-tier <a href="https://www.shinyapps.io/">shinyapps.io</a>, whose monthly active hour is 25 hours. So I decided not spend too much time to optimize the view experience in this section.</p>
-<div class='iframe-container'>
-  <iframe src="https://zhongjzsb.shinyapps.io/covid-19/"></iframe>
-</div>
+<blockquote class="book-hint warning">
+  <p>This simple shiny doesn&rsquo;t work any more because JHU changed their data format. And I created new shiny app with flexdashboard <a href="https://app.zhongjzsb.com/COVID-19-dashboard/">here</a>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#39;iframe-container&#39;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://zhongjzsb.shinyapps.io/covid-19/&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div>
+</blockquote>
+
 <h2 id="references">References</h2>
 <ul>
 <li>The data source is from <a href="https://github.com/CSSEGISandData/COVID-19">JHU CSSE</a></li>
 <li>Code is saved in <a href="https://github.com/zhongjzsb/COVID-19">github</a>.</li>
-<li>The contents are scheduled to update daily.</li>
+<li>The dashboard github is <a href="https://github.com/zhongjzsb/COVID-19-dashboard">here</a>.</li>
+<li>The contents are not scheduled to update daily any more because the change of JHU data format. However, you can go to the flexdashboard <a href="https://app.zhongjzsb.com/COVID-19-dashboard/">here</a> to check the &ldquo;latest&rdquo; update of COVID-19 (maybe 1 day delay).</li>
 </ul>
 <div class="book-expand">
   <label>
