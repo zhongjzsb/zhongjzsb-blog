@@ -10,6 +10,21 @@
         <atom:link href="https://zhongjzsb.com/posts/baobao-posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>Len Ford Park</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/len-ford-park/</link>
+            <pubDate>Sun, 29 Mar 2020 22:01:40 -0400</pubDate>
+            
+            <guid>https://zhongjzsb.com/posts/baobao-posts/len-ford-park/</guid>
+            <description>We visit Len Ford Park yesterday. A very small park, about 100 meters long along with the Ontario lake.
+A road with tree around sits towards the center of the lake.</description>
+            <content type="html"><![CDATA[<p>We visit Len Ford Park yesterday. A very small park, about 100 meters long along with the Ontario lake.</p>
+<p>A road with tree around sits towards the center of the lake.</p>
+<p><img src="/static/images/2020-03-28-len-ford-park-1.png" alt=""></p>
+<p><img src="/static/images/2020-03-28-len-ford-park-2.png" alt=""></p>
+]]></content>
+        </item>
+        
+        <item>
             <title>Artifact 2?</title>
             <link>https://zhongjzsb.com/posts/baobao-posts/artifact-2/</link>
             <pubDate>Fri, 20 Mar 2020 18:20:51 -0400</pubDate>
@@ -35,14 +50,15 @@ Come on. Give me some hopes.</description>
             <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
-Leaflet Plot It&amp;rsquo;s a 5-level leaflet plot.
-The html file can be accessed from here.
-Navigate the map in landscape mode in mobile device.</description>
+Flexdashboard I create a shiny app in DigitalOcean with my own shiny server. It&amp;rsquo;s saved here</description>
             <content type="html"><![CDATA[<p>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.</p>
 <p>We will use the following formula a lot in this post.</p>
 <p>$$
 Current + Recovered + Death = Confirmed
 $$</p>
+<h2 id="flexdashboard">Flexdashboard</h2>
+<p>I create a shiny app in DigitalOcean with my own shiny server. It&rsquo;s saved <a href="https://app.zhongjzsb.com/COVID-19-dashboard/">here</a></p>
+<p><a href="https://app.zhongjzsb.com/COVID-19-dashboard/"><img src="https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png" alt=""></a></p>
 <h2 id="leaflet-plot">Leaflet Plot</h2>
 <p>It&rsquo;s a 5-level leaflet plot.</p>
 <p>The html file can be accessed from <a href="/images/leaflet-plot.html">here</a>.</p>

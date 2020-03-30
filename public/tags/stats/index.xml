@@ -21,9 +21,7 @@
       <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
-Leaflet Plot It&amp;rsquo;s a 5-level leaflet plot.
-The html file can be accessed from here.
-Navigate the map in landscape mode in mobile device.</description>
+Flexdashboard I create a shiny app in DigitalOcean with my own shiny server. It&amp;rsquo;s saved here</description>
     </item>
     
     <item>

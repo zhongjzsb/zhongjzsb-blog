@@ -17,6 +17,14 @@ $$
 Current + Recovered + Death = Confirmed
 $$
 
+## Flexdashboard
+
+I create a shiny app in DigitalOcean with my own shiny server. It's saved [here](https://app.zhongjzsb.com/COVID-19-dashboard/)
+
+[![](https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png)](https://app.zhongjzsb.com/COVID-19-dashboard/)
+
+
+
 ## Leaflet Plot
 
 It's a 5-level leaflet plot.

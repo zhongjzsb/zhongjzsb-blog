@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Len Ford Park</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/len-ford-park/</link>
+      <pubDate>Sun, 29 Mar 2020 22:01:40 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/len-ford-park/</guid>
+      <description>We visit Len Ford Park yesterday. A very small park, about 100 meters long along with the Ontario lake.
+A road with tree around sits towards the center of the lake.</description>
+    </item>
+    
+    <item>
       <title>Artifact 2?</title>
       <link>https://zhongjzsb.com/posts/baobao-posts/artifact-2/</link>
       <pubDate>Fri, 20 Mar 2020 18:20:51 -0400</pubDate>
@@ -45,9 +55,7 @@ Classic and elegant, can&amp;rsquo;t wait to show off lol
       <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
 We will use the following formula a lot in this post.
 $$ Current + Recovered + Death = Confirmed $$
-Leaflet Plot It&amp;rsquo;s a 5-level leaflet plot.
-The html file can be accessed from here.
-Navigate the map in landscape mode in mobile device.</description>
+Flexdashboard I create a shiny app in DigitalOcean with my own shiny server. It&amp;rsquo;s saved here</description>
     </item>
     
     <item>
@@ -106,15 +114,6 @@ Sometimes you can find us in media</description>
       
       <guid>https://zhongjzsb.com/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
       <description>Wox It&amp;rsquo;s an effective launcher in Windows. Everything It sets a database of all your contents in Windoes machine. [lightshot] Fast screenshot tools [pushbullet] Communicate your phone, mac, windows and web browers. [unlocker] Force to delete some &amp;lsquo;un-deletable&amp;rsquo; files. [treesize] Get all files&amp;rsquo; size in your machine.  Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
-    </item>
-    
-    <item>
-      <title>This is a jackie test</title>
-      <link>https://zhongjzsb.com/posts/jackie-posts/2020-02-22-jackie-test/</link>
-      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/jackie-posts/2020-02-22-jackie-test/</guid>
-      <description>More to come This is a test for Jackie with comments in her article 🌟</description>
     </item>
     
   </channel>
