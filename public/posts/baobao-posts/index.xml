@@ -16,11 +16,24 @@
             
             <guid>https://zhongjzsb.com/posts/baobao-posts/len-ford-park/</guid>
             <description>We visit Len Ford Park yesterday. A very small park, about 100 meters long along with the Ontario lake.
-A road with tree around sits towards the center of the lake.</description>
+A road with tree around sits towards the center of the lake.
+   Longly Tree Longly Trees          </description>
             <content type="html"><![CDATA[<p>We visit Len Ford Park yesterday. A very small park, about 100 meters long along with the Ontario lake.</p>
 <p>A road with tree around sits towards the center of the lake.</p>
-<p><img src="/images/2020-03-28-len-ford-park-1.png" alt=""></p>
-<p><img src="/images/2020-03-28-len-ford-park-2.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th align="center">Longly Tree</th>
+<th align="center">Longly Trees</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="/images/2020-03-28-len-ford-park-1.png" alt=""></td>
+<td align="center"><img src="/images/2020-03-28-len-ford-park-2.png" alt=""></td>
+</tr>
+</tbody>
+</table>
 ]]></content>
         </item>
         
