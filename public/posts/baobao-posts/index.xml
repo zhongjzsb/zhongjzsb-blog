@@ -29,8 +29,8 @@ A road with tree around sits towards the center of the lake.
 </thead>
 <tbody>
 <tr>
-<td align="center"><img src="/images/2020-03-28-len-ford-park-1.png" alt=""></td>
-<td align="center"><img src="/images/2020-03-28-len-ford-park-2.png" alt=""></td>
+<td align="center"><img src="/images/2020-03-28-len-ford-park-1.png" alt="len-ford-park-1"></td>
+<td align="center"><img src="/images/2020-03-28-len-ford-park-2.png" alt="len-ford-park-1"></td>
 </tr>
 </tbody>
 </table>
@@ -48,7 +48,7 @@ A road with tree around sits towards the center of the lake.
 OMG, I was missing Artifact so much!
 Come on. Give me some hopes.</description>
             <content type="html"><![CDATA[<p>I randomly browse my steam library today. Then a <a href="https://steamcommunity.com/gid/103582791461919240/announcements/detail/1821083382556531528">ARTIFACT post</a> shows up.</p>
-<p><a href="https://steamcommunity.com/gid/103582791461919240/announcements/detail/1821083382556531528"><img src="/images/artifact-under-construction.png" alt=""></a></p>
+<p><a href="https://steamcommunity.com/gid/103582791461919240/announcements/detail/1821083382556531528"><img src="/images/artifact-under-construction.png" alt="artifact"></a></p>
 <p>OMG, I was missing Artifact so much!</p>
 <p>Come on. Give me some hopes.</p>
 ]]></content>
@@ -71,7 +71,7 @@ Current + Recovered + Death = Confirmed
 $$</p>
 <h2 id="flexdashboard">Flexdashboard</h2>
 <p>I create a shiny app in DigitalOcean with my own shiny server. It&rsquo;s saved <a href="https://app.zhongjzsb.com/COVID-19-dashboard/">here</a></p>
-<p><a href="https://app.zhongjzsb.com/COVID-19-dashboard/"><img src="https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png" alt=""></a></p>
+<p><a href="https://app.zhongjzsb.com/COVID-19-dashboard/"><img src="https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png" alt="covid-19-dashboard"></a></p>
 <h2 id="leaflet-plot">Leaflet Plot</h2>
 <p>It&rsquo;s a 5-level leaflet plot.</p>
 <p>The html file can be accessed from <a href="/images/leaflet-plot.html">here</a>.</p>
