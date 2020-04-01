@@ -173,3 +173,9 @@ disqusShortname = "zhongjzsb"
 
 [markup.goldmark.renderer]
   unsafe= true
+
+[params.staticman]
+    endpoint = "https://zhongjzsb-staticman.herokuapp.com/v2/entry"
+    username = "zhongjzsb"
+    repository = "zhongjzsb-blog"
+    branch = "master"
