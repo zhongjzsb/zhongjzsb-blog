@@ -3,7 +3,7 @@ title: "COVID-19 Visualization"
 author: "Jingyu Bao"
 date: 2020-03-13T19:49:09-04:00
 slug: covid-19-visualization
-comment: true
+comments: true
 aliases:
   - /posts/baobao-posts/covid-19/
 draft: false

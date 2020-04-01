@@ -2,7 +2,7 @@ baseURL = "https://zhongjzsb.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "zhongjzsb"
-theme = "hugo-theme-hello-friend-ng"
+theme = "hello-friend-ng"
 ignoreFiles = [
   "\\.Rmd$",
   "\\.Rmdtest$", # the test Rmd files

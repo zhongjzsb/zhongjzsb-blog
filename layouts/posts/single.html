@@ -108,10 +108,16 @@
             </div>
         {{ end }}
 
-        {{ if .Params.comments }}
+        <!-- {{ if .Params.comments }}
           <div id="comments" class="thin">
                 {{- partial "comments.html" . -}}
             </div>
-        {{ end }}
+        {{ end }} -->
+
+        {{- if .Site.DisqusShortname }}
+            <div id="comments" class="thin">
+                {{ template "_internal/disqus.html" . }}
+            </div>
+        {{- end }}
     </main>
 {{ end }}
