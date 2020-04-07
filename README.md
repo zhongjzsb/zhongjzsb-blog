@@ -131,6 +131,13 @@
     unsafe= true
   ```
 
+- [ ] Add comment system. I added Disqus comment but felt the style is not good. So I decided to move to [staticman](https://staticman.net/). However, after I create the Heroku server with staticman and successfully added the comments, I realized that I need to put more time to create a nice comment style. So it becomes a to-do. The staticman setting is saved [here](./staticman.yml).
+  Some references:
+  - [running_staticman_on_static_hugo_blog_with_nested_comments](https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/). One thing to notice is that `cat key.pem` is not valid in Windows machine. So you need to copy the private key into the terminal (by directly concatenate the strings).
+  - [hugo-staticman-nested-replies-and-email-notifications](https://networkhobo.com/hugo-staticman-nested-replies-and-email-notifications/)
+  - [staticman-powered-gitlab-pages](https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/)
+  - A hugo theme with staticman support: [hugo-swift-theme](https://github.com/onweru/hugo-swift-theme)
+
 ## Site Management
 
 - [Google Search Console](https://search.google.com/search-console/about)

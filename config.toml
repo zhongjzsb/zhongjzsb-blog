@@ -88,7 +88,7 @@ disqusShortname = "zhongjzsb"
   code_copy_button = false # Turn on/off the code-copy-button for code-fields
 
   # Add custom css
-  customCSS = ["/assets/style.css", "/assets/book-style.css", '/assets/comments-style.css']
+  customCSS = ["/assets/style.css", "/assets/book-style.css"]
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.

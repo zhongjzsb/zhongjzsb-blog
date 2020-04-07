@@ -12,6 +12,7 @@ tags:
 - [pushbullet] Communicate your phone, mac, windows and web browers.
 - [unlocker] Force to delete some 'un-deletable' files.
 - [treesize] Get all files' size in your machine.
+- [autoruns]
 
 
 [Wox] with [Everything] can search 'everything' in your Windows machine.
@@ -19,3 +20,4 @@ tags:
 
 [Wox]: https://github.com/Wox-launcher/Wox
 [Everything]: https://www.voidtools.com/
+[autoruns]: https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns

@@ -369,7 +369,7 @@ Jackie and I was discussing about how many lights we need to buy.</p>
             <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
             
             <guid>https://zhongjzsb.com/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
-            <description>Wox It&amp;rsquo;s an effective launcher in Windows. Everything It sets a database of all your contents in Windoes machine. [lightshot] Fast screenshot tools [pushbullet] Communicate your phone, mac, windows and web browers. [unlocker] Force to delete some &amp;lsquo;un-deletable&amp;rsquo; files. [treesize] Get all files&amp;rsquo; size in your machine.  Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
+            <description>Wox It&amp;rsquo;s an effective launcher in Windows. Everything It sets a database of all your contents in Windoes machine. [lightshot] Fast screenshot tools [pushbullet] Communicate your phone, mac, windows and web browers. [unlocker] Force to delete some &amp;lsquo;un-deletable&amp;rsquo; files. [treesize] Get all files&amp;rsquo; size in your machine. autoruns  Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
             <content type="html"><![CDATA[<ul>
 <li><a href="https://github.com/Wox-launcher/Wox">Wox</a> It&rsquo;s an effective launcher in Windows.</li>
 <li><a href="https://www.voidtools.com/">Everything</a> It sets a database of all your contents in Windoes machine.</li>
@@ -377,6 +377,7 @@ Jackie and I was discussing about how many lights we need to buy.</p>
 <li>[pushbullet] Communicate your phone, mac, windows and web browers.</li>
 <li>[unlocker] Force to delete some &lsquo;un-deletable&rsquo; files.</li>
 <li>[treesize] Get all files&rsquo; size in your machine.</li>
+<li><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns">autoruns</a></li>
 </ul>
 <p><a href="https://github.com/Wox-launcher/Wox">Wox</a> with <a href="https://www.voidtools.com/">Everything</a> can search &lsquo;everything&rsquo; in your Windows machine.</p>
 ]]></content>
