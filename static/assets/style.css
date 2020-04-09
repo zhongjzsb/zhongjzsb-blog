@@ -59,7 +59,7 @@ th {
 .bg-img {
   width: 100vw;
   height: 100vh;
-  opacity: 0.03;
+  opacity: 0.04;
   z-index: -1;
   position: fixed;
   top: 0;
@@ -71,7 +71,7 @@ th {
 }
 
 .show-bg-img {
-  z-index: 100;
+  z-index: 1;
   opacity: 1;
   cursor: pointer;
 }

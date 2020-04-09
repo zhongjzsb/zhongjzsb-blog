@@ -26,7 +26,7 @@ I create a shiny app in DigitalOcean with my own shiny server. It's saved [here]
 
 [![covid-19-dashboard](https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png)](https://app.zhongjzsb.com/COVID-19-dashboard/)
 
-## Leaflet Plot
+## Leaflet Plot (updated on 2020-04-09)
 
 It's a 5-level leaflet plot.
 
@@ -46,7 +46,7 @@ Navigate the map in landscape mode in mobile device.
 | black     | white   | 1001  | 10000 |
 | black     | darkred | 10000 | Inf   | -->
 
-## DataTable
+## DataTable (updated on 2020-04-09)
 
 The current state of COVID-19. Select the device to browse the table.
 
@@ -63,7 +63,7 @@ The current state of COVID-19. Select the device to browse the table.
 {{< /tab >}}
 {{< /tabs >}}
 
-## Geo Plots for China, US and the World (ggplot + geom_sf)
+## Geo Plots for China and the World (ggplot + geom_sf, updated on 2020-04-09)
 
 Two types of geo plots here.
 
@@ -75,11 +75,9 @@ Two types of geo plots here.
 | Cumulative Confirmed Cases                 |
 | ------------------------------------------ |
 | [![alt][china_confirmed]][china_confirmed] |
-| [![alt][us_confirmed]][us_confirmed]       |
 | [![alt][world_confirmed]][world_confirmed] |
 
 [china_confirmed]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_confirmed.gif?raw=true
-[us_confirmed]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_confirmed.gif?raw=true
 [world_confirmed]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_confirmed.gif?raw=true
 
 {{< /tab >}}
@@ -88,17 +86,15 @@ Two types of geo plots here.
 | Remaining Cases                        |
 | -------------------------------------- |
 | [![alt][china_current]][china_current] |
-| [![alt][us_current]][us_current]       |
 | [![alt][world_current]][world_current] |
 
 [china_current]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_current.gif?raw=true
-[us_current]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_current.gif?raw=true
 [world_current]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_current.gif?raw=true
 
 {{< /tab >}}
 {{< /tabs >}}
 
-## HTML Plot (ggplotly)
+## HTML Plot (ggplotly, updated on 2020-04-09)
 
 Comparing China and outside of China.
 
@@ -108,7 +104,7 @@ The view experience in mobile device will be better if using landscape.
     <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
 </div>
 
-## Top 20 Countries Facet Plot (ggplot + facet_wrap)
+## Top 20 Countries Facet Plot (ggplot + facet_wrap, updated on 2020-04-09)
 
 The plots are ranking from the most the the least of the top 20 countries.
 

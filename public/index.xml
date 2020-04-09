@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>在家上班 (work from home)</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/work-from-home/</link>
+      <pubDate>Thu, 09 Apr 2020 08:50:40 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/work-from-home/</guid>
+      <description>从3月9号周一开始在家上班到今天，已经整整一个月。已经渐渐熟悉了在家工作的节奏。 偶然间觉得未来肯定会：
+ 越来越多的公司实行在家上班的政策，即使疫情过去。 会有很多金融书籍来诉说这段暴跌和暴涨的日子。  It has been one month since I started to work from home. I feel like
+ There will be more company apply work-from-home policy even after the virus. There will be lots of books talking about the extreme volatile financial market in 2020.  </description>
+    </item>
+    
+    <item>
       <title>Poet from Big Fish</title>
       <link>https://zhongjzsb.com/posts/baobao-posts/big-fish/</link>
       <pubDate>Mon, 30 Mar 2020 22:30:35 -0400</pubDate>
@@ -111,16 +122,6 @@ Flexdashboard I create a shiny app in DigitalOcean with my own shiny server. It&
       <description>Today our 💡 bulb in the second floor went out. It looks like this:
 ![special bulb](/images/special-bulb-york-mills.jpg){width=400px height=300px} --This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light. Jackie and I was discussing about how many lights we need to buy.
 So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed.</description>
-    </item>
-    
-    <item>
-      <title>You never know</title>
-      <link>https://zhongjzsb.com/about/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/about/</guid>
-      <description>Everyone is so busy. Nobody really care about who you are.
-Sometimes you can find us in media</description>
     </item>
     
   </channel>

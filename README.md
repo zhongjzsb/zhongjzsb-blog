@@ -30,7 +30,13 @@
 - To create new **markdown** file.
 
   ```shell
-  hugo new -k post /posts/baobao-posts/xx.md
+  hugo new -k posts /posts/baobao-posts/xx.md
+  ```
+
+  or simply
+
+  ```shell
+  hugo new /posts/baobao-posts/xx.md
   ```
 
 - To render single **Rmarkdown** file in **R**, use

@@ -10,6 +10,29 @@
         <atom:link href="https://zhongjzsb.com/posts/baobao-posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>在家上班 (work from home)</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/work-from-home/</link>
+            <pubDate>Thu, 09 Apr 2020 08:50:40 -0400</pubDate>
+            
+            <guid>https://zhongjzsb.com/posts/baobao-posts/work-from-home/</guid>
+            <description>从3月9号周一开始在家上班到今天，已经整整一个月。已经渐渐熟悉了在家工作的节奏。 偶然间觉得未来肯定会：
+ 越来越多的公司实行在家上班的政策，即使疫情过去。 会有很多金融书籍来诉说这段暴跌和暴涨的日子。  It has been one month since I started to work from home. I feel like
+ There will be more company apply work-from-home policy even after the virus. There will be lots of books talking about the extreme volatile financial market in 2020.  </description>
+            <content type="html"><![CDATA[<p>从3月9号周一开始在家上班到今天，已经整整一个月。已经渐渐熟悉了在家工作的节奏。
+偶然间觉得未来肯定会：</p>
+<ol>
+<li>越来越多的公司实行在家上班的政策，即使疫情过去。</li>
+<li>会有很多金融书籍来诉说这段暴跌和暴涨的日子。</li>
+</ol>
+<p>It has been one month since I started to work from home. I feel like</p>
+<ol>
+<li>There will be more company apply work-from-home policy even after the virus.</li>
+<li>There will be lots of books talking about the extreme volatile financial market in 2020.</li>
+</ol>
+]]></content>
+        </item>
+        
+        <item>
             <title>Poet from Big Fish</title>
             <link>https://zhongjzsb.com/posts/baobao-posts/big-fish/</link>
             <pubDate>Mon, 30 Mar 2020 22:30:35 -0400</pubDate>
@@ -103,7 +126,7 @@ $$</p>
 <h2 id="flexdashboard">Flexdashboard</h2>
 <p>I create a shiny app in DigitalOcean with my own shiny server. It&rsquo;s saved <a href="https://app.zhongjzsb.com/COVID-19-dashboard/">here</a>.</p>
 <p><a href="https://app.zhongjzsb.com/COVID-19-dashboard/"><img src="https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png" alt="covid-19-dashboard"></a></p>
-<h2 id="leaflet-plot">Leaflet Plot</h2>
+<h2 id="leaflet-plot-updated-on-2020-04-09">Leaflet Plot (updated on 2020-04-09)</h2>
 <p>It&rsquo;s a 5-level leaflet plot.</p>
 <p>The html file can be accessed from <a href="/images/leaflet-plot.html">here</a>.</p>
 <p>Navigate the map in landscape mode in mobile device.</p>
@@ -117,7 +140,7 @@ $$</p>
 | red       | white   | 101   | 1000  |
 | black     | white   | 1001  | 10000 |
 | black     | darkred | 10000 | Inf   | -->
-<h2 id="datatable">DataTable</h2>
+<h2 id="datatable-updated-on-2020-04-09">DataTable (updated on 2020-04-09)</h2>
 <p>The current state of COVID-19. Select the device to browse the table.</p>
 
 
@@ -133,7 +156,7 @@ $$</p>
   <iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
 </div></div></div>
 
-<h2 id="geo-plots-for-china-us-and-the-world-ggplot--geom_sf">Geo Plots for China, US and the World (ggplot + geom_sf)</h2>
+<h2 id="geo-plots-for-china-and-the-world-ggplot--geom_sf-updated-on-2020-04-09">Geo Plots for China and the World (ggplot + geom_sf, updated on 2020-04-09)</h2>
 <p>Two types of geo plots here.</p>
 <ul>
 <li>Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead.</li>
@@ -156,9 +179,6 @@ $$</p>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_confirmed.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_confirmed.gif?raw=true" alt="alt"></a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_confirmed.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_confirmed.gif?raw=true" alt="alt"></a></td>
-</tr>
-<tr>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_confirmed.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_confirmed.gif?raw=true" alt="alt"></a></td>
 </tr>
 </tbody>
@@ -175,21 +195,18 @@ $$</p>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_current.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_current.gif?raw=true" alt="alt"></a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_current.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/us_current.gif?raw=true" alt="alt"></a></td>
-</tr>
-<tr>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_current.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_current.gif?raw=true" alt="alt"></a></td>
 </tr>
 </tbody>
 </table></div></div>
 
-<h2 id="html-plot-ggplotly">HTML Plot (ggplotly)</h2>
+<h2 id="html-plot-ggplotly-updated-on-2020-04-09">HTML Plot (ggplotly, updated on 2020-04-09)</h2>
 <p>Comparing China and outside of China.</p>
 <p>The view experience in mobile device will be better if using landscape.</p>
 <div class='iframe-container'>
     <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
 </div>
-<h2 id="top-20-countries-facet-plot-ggplot--facet_wrap">Top 20 Countries Facet Plot (ggplot + facet_wrap)</h2>
+<h2 id="top-20-countries-facet-plot-ggplot--facet_wrap-updated-on-2020-04-09">Top 20 Countries Facet Plot (ggplot + facet_wrap, updated on 2020-04-09)</h2>
 <p>The plots are ranking from the most the the least of the top 20 countries.</p>
 <p><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/top20countries.png?raw=true" alt="alt"></a></p>
 <h2 id="shiny-app">Shiny App</h2>

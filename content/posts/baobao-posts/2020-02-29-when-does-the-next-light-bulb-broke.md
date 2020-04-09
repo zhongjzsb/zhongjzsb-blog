@@ -8,7 +8,7 @@ tags:
   - stats
 comments: no
 images:
-    - /images/special-bulb-york-mills.jpg
+  - /images/special-bulb-york-mills.jpg
 ---
 
 Today our :bulb: bulb in the second floor went out. It looks like this:
