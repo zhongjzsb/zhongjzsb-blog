@@ -17,6 +17,9 @@ The wind and waves from the lake were so heavy. Even the temperature was nice (a
 
 Here are the tree and trees.
 
-|                        Lonely Tree                         |                        Lonely Trees                        |
-| :--------------------------------------------------------: | :--------------------------------------------------------: |
-| ![len-ford-park-1](/images/2020-03-28-len-ford-park-1.png) | ![len-ford-park-1](/images/2020-03-28-len-ford-park-2.png) |
+|             Lonely Tree             |            Lonely Trees             |
+| :---------------------------------: | :---------------------------------: |
+| ![len-ford-park-1][len-ford-park-1] | ![len-ford-park-2][len-ford-park-2] |
+
+[len-ford-park-1]: https://user-images.githubusercontent.com/2069165/79087589-c3212e80-7d0d-11ea-8a70-57310059038a.png
+[len-ford-park-2]: https://user-images.githubusercontent.com/2069165/79087590-c3b9c500-7d0d-11ea-9de6-19afc64cc067.png

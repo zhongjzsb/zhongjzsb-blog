@@ -83,8 +83,8 @@ The wind and waves from the lake were so heavy. Even the temperature was nice (a
 </thead>
 <tbody>
 <tr>
-<td align="center"><img src="/images/2020-03-28-len-ford-park-1.png" alt="len-ford-park-1"></td>
-<td align="center"><img src="/images/2020-03-28-len-ford-park-2.png" alt="len-ford-park-1"></td>
+<td align="center"><img src="https://user-images.githubusercontent.com/2069165/79087589-c3212e80-7d0d-11ea-8a70-57310059038a.png" alt="len-ford-park-1"></td>
+<td align="center"><img src="https://user-images.githubusercontent.com/2069165/79087590-c3b9c500-7d0d-11ea-9de6-19afc64cc067.png" alt="len-ford-park-2"></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +102,7 @@ The wind and waves from the lake were so heavy. Even the temperature was nice (a
 OMG, I was missing Artifact so much!
 Come on. Give me some hopes.</description>
             <content type="html"><![CDATA[<p>I randomly browse my steam library today. Then a <a href="https://steamcommunity.com/gid/103582791461919240/announcements/detail/1821083382556531528">ARTIFACT post</a> shows up.</p>
-<p><a href="https://steamcommunity.com/gid/103582791461919240/announcements/detail/1821083382556531528"><img src="/images/artifact-under-construction.png" alt="artifact"></a></p>
+<p><a href="https://steamcommunity.com/gid/103582791461919240/announcements/detail/1821083382556531528"><img src="https://user-images.githubusercontent.com/2069165/79087702-2743f280-7d0e-11ea-9a4d-9b5497c2b54e.png" alt="artifact"></a></p>
 <p>OMG, I was missing Artifact so much!</p>
 <p>Come on. Give me some hopes.</p>
 ]]></content>
@@ -128,18 +128,10 @@ $$</p>
 <p><a href="https://app.zhongjzsb.com/COVID-19-dashboard/"><img src="https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png" alt="covid-19-dashboard"></a></p>
 <h2 id="leaflet-plot-updated-on-2020-04-09">Leaflet Plot (updated on 2020-04-09)</h2>
 <p>It&rsquo;s a 5-level leaflet plot.</p>
-<p>The html file can be accessed from <a href="/images/leaflet-plot.html">here</a>.</p>
 <p>Navigate the map in landscape mode in mobile device.</p>
 <div class='iframe-container'>
-  <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+  <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/leaflet-plot.html" allowfullscreen></iframe>
 </div>
-<!-- | Marker    | Icon    | Min   | Max   |
-| :-------- | :------ | :---- | :---- |
-| lightblue | white   | 1     | 10    |
-| orange    | white   | 11    | 100   |
-| red       | white   | 101   | 1000  |
-| black     | white   | 1001  | 10000 |
-| black     | darkred | 10000 | Inf   | -->
 <h2 id="datatable-updated-on-2020-04-09">DataTable (updated on 2020-04-09)</h2>
 <p>The current state of COVID-19. Select the device to browse the table.</p>
 
@@ -149,11 +141,11 @@ $$</p>
 <div class="book-tabs"><input type="radio" class="hidden" name="tabs-covid-19-DT" id="tabs-covid-19-DT-0" checked="checked" />
   <label for="tabs-covid-19-DT-0">Mobile</label>
   <div class="book-tabs-content markdown-inner"><div class='iframe-container iframe-r-dt'>
-  <iframe src="/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
+  <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
 </div></div><input type="radio" class="hidden" name="tabs-covid-19-DT" id="tabs-covid-19-DT-1"  />
   <label for="tabs-covid-19-DT-1">PC</label>
   <div class="book-tabs-content markdown-inner"><div class='iframe-container iframe-r-dt'>
-  <iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
+  <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT.html" allowfullscreen></iframe>
 </div></div></div>
 
 <h2 id="geo-plots-for-china-and-the-world-ggplot--geom_sf-updated-on-2020-04-09">Geo Plots for China and the World (ggplot + geom_sf, updated on 2020-04-09)</h2>
@@ -204,7 +196,7 @@ $$</p>
 <p>Comparing China and outside of China.</p>
 <p>The view experience in mobile device will be better if using landscape.</p>
 <div class='iframe-container'>
-    <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
+    <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/china-vs-outside.html" allowfullscreen></iframe>
 </div>
 <h2 id="top-20-countries-facet-plot-ggplot--facet_wrap-updated-on-2020-04-09">Top 20 Countries Facet Plot (ggplot + facet_wrap, updated on 2020-04-09)</h2>
 <p>The plots are ranking from the most the the least of the top 20 countries.</p>
@@ -357,13 +349,10 @@ Rscript -e <span class="s2">&#34;</span><span class="nv">%fetch%</span><span cla
             
             <guid>https://zhongjzsb.com/posts/baobao-posts/light-bulb-go-out/</guid>
             <description>Today our 💡 bulb in the second floor went out. It looks like this:
-![special bulb](/images/special-bulb-york-mills.jpg){width=400px height=300px} --This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light. Jackie and I was discussing about how many lights we need to buy.
+This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light. Jackie and I was discussing about how many lights we need to buy.
 So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed.</description>
             <content type="html"><![CDATA[<p>Today our 💡 bulb in the second floor went out. It looks like this:</p>
-<p><img src="/images/special-bulb-york-mills.jpg" alt="special bulb"></p>
-<!-- <center>
-![special bulb](/images/special-bulb-york-mills.jpg){width=400px height=300px}
-</center> -->
+<p><img src="https://user-images.githubusercontent.com/2069165/79087728-3dea4980-7d0e-11ea-8547-2af69b5b3545.jpg" alt="special-bulb"></p>
 <p>This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.
 Jackie and I was discussing about how many lights we need to buy.</p>
 <p>So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed. It comes out so natural but Jackie asked me why it is the case? So I did some search and this <a href="https://math.stackexchange.com/questions/2478820/exponential-bulbs">math stackexchange</a> has some explanation about this. I think the essential assumption is that</p>

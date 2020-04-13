@@ -30,21 +30,11 @@ I create a shiny app in DigitalOcean with my own shiny server. It's saved [here]
 
 It's a 5-level leaflet plot.
 
-The html file can be accessed from [here](/images/leaflet-plot.html).
-
 Navigate the map in landscape mode in mobile device.
 
 <div class='iframe-container'>
-  <iframe src="/images/leaflet-plot.html" allowfullscreen></iframe>
+  <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/leaflet-plot.html" allowfullscreen></iframe>
 </div>
-
-<!-- | Marker    | Icon    | Min   | Max   |
-| :-------- | :------ | :---- | :---- |
-| lightblue | white   | 1     | 10    |
-| orange    | white   | 11    | 100   |
-| red       | white   | 101   | 1000  |
-| black     | white   | 1001  | 10000 |
-| black     | darkred | 10000 | Inf   | -->
 
 ## DataTable (updated on 2020-04-09)
 
@@ -53,12 +43,12 @@ The current state of COVID-19. Select the device to browse the table.
 {{< tabs "covid-19-DT" >}}
 {{< tab "Mobile" >}}
 <div class='iframe-container iframe-r-dt'>
-  <iframe src="/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
+  <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
 </div>
 {{< /tab >}}
 {{< tab "PC" >}}
 <div class='iframe-container iframe-r-dt'>
-  <iframe src="/images/covid-19-DT.html" allowfullscreen></iframe>
+  <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT.html" allowfullscreen></iframe>
 </div>
 {{< /tab >}}
 {{< /tabs >}}
@@ -101,7 +91,7 @@ Comparing China and outside of China.
 The view experience in mobile device will be better if using landscape.
 
 <div class='iframe-container'>
-    <iframe src="/images/china-vs-outside.html" allowfullscreen></iframe>
+    <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/china-vs-outside.html" allowfullscreen></iframe>
 </div>
 
 ## Top 20 Countries Facet Plot (ggplot + facet_wrap, updated on 2020-04-09)
