@@ -19,14 +19,12 @@ ignoreFiles = [
 
 enableGitInfo = true
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
-# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
+
+hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
-# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-# copyright = "&copy; Jingyu Bao & Jackie Liu, {year}"
 
 googleAnalytics = "UA-159320532-1"
 disqusShortname = "zhongjzsb"
@@ -67,17 +65,16 @@ disqusShortname = "zhongjzsb"
   # lastModDisplay  = "Modified: "
 
   author = "Jingyu Bao" # create default author
-  # bio = "something about zhongjzsb"
   comment = true # add comment option in post
 
   # Metadata mostly used in document's head
-  description = "something about zhongjzsb"
+  description = "Jingyu Bao"
   images = [""]
   # themeColor = "#494f5c"
 
   homeSubtitle = "Life is a long memory time series"
   footerCopyright = '&#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  bgImg = "/images/special-bulb-york-mills.jpg"  # Homepage background-image URL
+  # bgImg = "/images/special-bulb-york-mills.jpg"  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/zhongjzsb/zhongjzsb-blog/commit/"
@@ -85,7 +82,7 @@ disqusShortname = "zhongjzsb"
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
   relatedPosts = false  # Add a related content section to all single posts page
-  code_copy_button = false # Turn on/off the code-copy-button for code-fields
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
   # Add custom css
   customCSS = ["/assets/style.css", "/assets/book-style.css"]
@@ -126,17 +123,18 @@ disqusShortname = "zhongjzsb"
   # path to the favicon, under "static"
   favicon = "favicon.ico"
 
-  # for hello-friend-ng
-  [languages.en.params.logo]
-      logoText = "$ cd /home/jingyu"
-      logoHomeLink = "/"
-
   [params.logo]
-  url = "logo.png"
-  width = 50
-  height = 50
-  alt = "Logo"
-
+    url = "logo.png"
+    width = 50
+    height = 50
+    logoText = "$ cd /home/jingyu"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    logoCursorAnimate  = "1.5s"
 
 [menu]
 
@@ -150,11 +148,6 @@ disqusShortname = "zhongjzsb"
     url = "/posts/jackie-posts/"
     weight = 20
 
-  # [[menu.main]]
-  #   name = "Notes"
-  #   url = "/notes/"
-  #   weight = 20
-
   [[menu.main]]
     name = "About"
     url = "/about"
@@ -165,11 +158,14 @@ disqusShortname = "zhongjzsb"
     url = "/tags/"
     weight = 50
 
-
   # [[menu.main]]
   #   name = "Book"
   #   url = "https://book.zhongjzsb.com"
   #   weight = 40
+
+[languages]
+  [languages.en]
+    subtitle  = "Jingyu Bao"
 
 [markup.goldmark.renderer]
   unsafe= true
