@@ -17,12 +17,12 @@ tags:
 6. install poly-R
 7. install smex
 8. install expand-region
-10. install aggressive-indent
-11. install org-bullet
-12. install session
-13. install undo-tree
-14. install auto-complete
-15. install anzu
+9. install aggressive-indent
+10. install org-bullet
+11. install session
+12. install undo-tree
+13. install auto-complete
+14. install anzu
 15. add molokai-theme-kit.el in to .emacs.d
 
 Can be found in simplenote file.
