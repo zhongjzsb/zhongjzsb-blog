@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Users/zhong/Dropbox/Github/Personal/zhongjzsb-blog",
+	"sourceRoot": "C:/Users/zhong/iCloudDrive/iCloud~is~workflow~my~workflows/Github/zhongjzsb-blog",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",

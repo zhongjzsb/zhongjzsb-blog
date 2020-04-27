@@ -10,6 +10,34 @@
         <atom:link href="https://zhongjzsb.com/posts/baobao-posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>宅在家的牢骚</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2020-04-26-time-pass-by-in-covid-period/</link>
+            <pubDate>Sun, 26 Apr 2020 20:33:12 -0400</pubDate>
+            
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2020-04-26-time-pass-by-in-covid-period/</guid>
+            <description>2020不知不觉就过去了快三分之一。 回头稍微看看，发现自己这一年都生活在对于各种事件的担心之中。 担心这担心那，其实也完全做不了任何事情。只不</description>
+            <content type="html"><![CDATA[<p>2020不知不觉就过去了快三分之一。
+回头稍微看看，发现自己这一年都生活在对于各种事件的担心之中。
+担心这担心那，其实也完全做不了任何事情。只不过无故添加一些心情，让自己看起来很焦虑。</p>
+<p>可是今年这种情况，谁不是一直活在担心之中呢？
+我不是第一个也不是最后一个。</p>
+<p>或者可以这么想，哪一年，无论是哪种情况，大部分人不是活在担心之中呢？
+焦虑是常态，可不应该是最终形态。</p>
+<p>每天的焦虑份额到了，再琢磨琢磨也没用了。此时便可以放下包袱开始做实事了。
+确实有自己可以做的事情，但是急不来，时间还是最后的解药。</p>
+<p>在家上班的时间过得尤其的快，每天一睁眼开始在书房上班，随便吃点中饭下午看看交易就到5-6点了。吃了晚饭再开个会，写个总结就9点快十点了。有时候忙的话还要再加点班。
+而偶尔的dota underlords也不能落下来，打两把就该睡觉了。
+甚至周末也不得清闲还偶尔有会要开。</p>
+<p>一转身在家都已经7周多，都快不知道上班的感觉，也快不知道英文该怎么说了。</p>
+<p>偶尔在家附近散步，天气这么好，连我这么宅的人也不经感叹，</p>
+<blockquote>
+<p><strong>NND，辜负了好春光啊！</strong></p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/2069165/80325123-dfd75f00-8801-11ea-9d4b-806f9d887d7b.jpg" alt="2020-04-06-york-mills"></p>
+]]></content>
+        </item>
+        
+        <item>
             <title>在家上班 (work from home)</title>
             <link>https://zhongjzsb.com/posts/baobao-posts/work-from-home/</link>
             <pubDate>Thu, 09 Apr 2020 08:50:40 -0400</pubDate>
@@ -423,15 +451,13 @@ Jackie and I was discussing about how many lights we need to buy.</p>
             
             <guid>https://zhongjzsb.com/posts/baobao-posts/2019-10-28-back-to-github/</guid>
             <description>Finally Something about github: if you want to delete commit from github, here are the steps you want to use (Reference website):
- git reset &amp;ndash;hard &amp;lt;commit-id&amp;gt; git push origin -f  </description>
+git reset --hard \&amp;lt;commit-id\&amp;gt;git push origin -f</description>
             <content type="html"><![CDATA[<h2 id="finally">Finally</h2>
 <h2 id="something-about-github">Something about github:</h2>
 <p>if you want to delete commit from github, here are the steps you want to use (<a href="https://gist.github.com/CrookedNumber/8964442#targetText=To%20remove%20the%20last%20commit,to%20remove%20even%20more%20commits">Reference website</a>):</p>
-<ol>
-<li>git reset &ndash;hard &lt;commit-id&gt;</li>
-<li>git push origin -f</li>
-</ol>
-]]></content>
+<pre><code class="language-git" data-lang="git">git reset --hard \&lt;commit-id\&gt;
+git push origin -f
+</code></pre>]]></content>
         </item>
         
         <item>

@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>宅在家的牢骚</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2020-04-26-time-pass-by-in-covid-period/</link>
+      <pubDate>Sun, 26 Apr 2020 20:33:12 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-04-26-time-pass-by-in-covid-period/</guid>
+      <description>2020不知不觉就过去了快三分之一。 回头稍微看看，发现自己这一年都生活在对于各种事件的担心之中。 担心这担心那，其实也完全做不了任何事情。只不</description>
+    </item>
+    
+    <item>
       <title>在家上班 (work from home)</title>
       <link>https://zhongjzsb.com/posts/baobao-posts/work-from-home/</link>
       <pubDate>Thu, 09 Apr 2020 08:50:40 -0400</pubDate>
@@ -109,17 +118,6 @@ Flexdashboard I create a shiny app in DigitalOcean with my own shiny server. It&
       
       <guid>https://zhongjzsb.com/posts/jackie-posts/2020-02-29-the-year-of-mouse/</guid>
       <description>happy anniversary</description>
-    </item>
-    
-    <item>
-      <title>When Will the Next Light Bulb Go Out?</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/light-bulb-go-out/</link>
-      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/light-bulb-go-out/</guid>
-      <description>Today our 💡 bulb in the second floor went out. It looks like this:
-This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light. Jackie and I was discussing about how many lights we need to buy.
-So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed.</description>
     </item>
     
   </channel>
