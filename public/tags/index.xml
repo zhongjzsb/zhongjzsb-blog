@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 09 Apr 2020 08:50:40 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 08:44:57 -0400</lastBuildDate>
     
 	<atom:link href="https://zhongjzsb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>life</title>
       <link>https://zhongjzsb.com/tags/life/</link>
-      <pubDate>Thu, 09 Apr 2020 08:50:40 -0400</pubDate>
+      <pubDate>Mon, 04 May 2020 08:44:57 -0400</pubDate>
       
       <guid>https://zhongjzsb.com/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>toronto</title>
+      <link>https://zhongjzsb.com/tags/toronto/</link>
+      <pubDate>Mon, 04 May 2020 08:44:57 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/tags/toronto/</guid>
       <description></description>
     </item>
     
@@ -36,15 +45,6 @@
       <pubDate>Mon, 30 Mar 2020 22:30:35 -0400</pubDate>
       
       <guid>https://zhongjzsb.com/tags/random/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>toronto</title>
-      <link>https://zhongjzsb.com/tags/toronto/</link>
-      <pubDate>Sun, 29 Mar 2020 22:01:40 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/toronto/</guid>
       <description></description>
     </item>
     

@@ -12,6 +12,8 @@ longitude: -79.40348690805885
 latitude: 43.7437232285033
 weather: 7 °C and Rain
 tags:
+    - life
+    - toronto
 ---
 
 2020不知不觉就过去了快三分之一。

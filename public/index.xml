@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>活在2019年的极乐迪斯科</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2020-05-06-disco-elysium/</link>
+      <pubDate>Wed, 06 May 2020 14:14:32 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-05-06-disco-elysium/</guid>
+      <description>最近在steam上玩极乐迪斯科(disco elysium)。还没有通关，目前刚帮助几个阳极舞曲爱好者在废弃的教堂里面开了个夜店。 而夜店名，很</description>
+    </item>
+    
+    <item>
+      <title>足球梦</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2020-05-04-football-dream/</link>
+      <pubDate>Mon, 04 May 2020 08:44:57 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-05-04-football-dream/</guid>
+      <description>前天晚上半夜睡不着觉，脑子里面不停的盘旋， 妄图解决phd期间未能解决的科研问题。 直到第二天凌晨五点多才终于睡了3个多小时。 于是昨晚10点不到</description>
+    </item>
+    
+    <item>
       <title>宅在家的牢骚</title>
       <link>https://zhongjzsb.com/posts/baobao-posts/2020-04-26-time-pass-by-in-covid-period/</link>
       <pubDate>Sun, 26 Apr 2020 20:33:12 -0400</pubDate>
@@ -100,24 +118,6 @@ Flexdashboard I create a shiny app in DigitalOcean with my own shiny server. It&
       <guid>https://zhongjzsb.com/posts/baobao-posts/index-market-cap-in-us-market/</guid>
       <description>List of index and the percent over total US stock market. source from wikipedia and the offical websites.
    Index Market Cap (%) Comment     S&amp;amp;P 500 80%    S&amp;amp;P 400 7%    S&amp;amp;P 600 3%    S&amp;amp;P 1500 90%    S&amp;amp;P 100 51%    Russell 3000 98%    Russell 1000 88.2% 90% of Russell 3000   Russell 2000 9.</description>
-    </item>
-    
-    <item>
-      <title>Blog Setup</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</link>
-      <pubDate>Sat, 29 Feb 2020 10:30:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</guid>
-      <description>I finally set-up my blog with netlify.</description>
-    </item>
-    
-    <item>
-      <title>The year of mouse</title>
-      <link>https://zhongjzsb.com/posts/jackie-posts/2020-02-29-the-year-of-mouse/</link>
-      <pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/jackie-posts/2020-02-29-the-year-of-mouse/</guid>
-      <description>happy anniversary</description>
     </item>
     
   </channel>
