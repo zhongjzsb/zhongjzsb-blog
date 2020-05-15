@@ -5,27 +5,22 @@ fields:
 - type: text
   name: title
   label: title
-- type: datetime
-  name: slug
+- name: slug
+  type: text
+  config:
+    required: false
   label: slug
-- type: text
-  name: author
-  label: author
 - type: datetime
   name: date
   label: date
+  default: now
+- type: text
+  name: author
+  label: author
 - type: text
   name: location
   label: location
-- type: number
-  name: longitude
-  label: longitude
-- type: number
-  name: latitude
-  label: latitude
-- type: text
-  name: weather
-  label: weather
-- type: text
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: tags
