@@ -25,8 +25,6 @@ tags:
 这爱凡客大哥是从2019穿越回来的吧。
 ![2020-05-06-disco-elysium](https://user-images.githubusercontent.com/2069165/81214334-b5299b00-8fa5-11ea-91aa-307b031b2aa5.jpg)
 
-
-
 另外，还有大爱
 **_弱水三千我只取一尿饮_**
 (Leather Jacket Pissf\*\*\*\*t)
