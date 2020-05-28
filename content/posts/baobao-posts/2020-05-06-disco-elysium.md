@@ -32,3 +32,7 @@ tags:
 **_花花世界我一人干翻_**
 (Leather Jacket Fuck the World)两个朋克。
 就凭这翻译大哥大姐们的心思，真的爱了这游戏。
+
+后记：
+已经通关了，开启hardcore模式。
+
