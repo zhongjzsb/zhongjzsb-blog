@@ -1,0 +1,26 @@
+---
+label: regular-front-matter
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
+- type: datetime
+  name: date
+  label: date
+  default: now
+- type: text
+  name: author
+  label: author
+- type: text
+  name: location
+  label: location
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
