@@ -12,6 +12,8 @@ longitude: -79.40330496513214
 latitude: 43.74373807094853
 weather: 12 °C and Partly Cloudy
 tags:
+    - game
+    - chinese
 ---
 
 最近在steam上玩极乐迪斯科(disco elysium)。还没有通关，目前刚帮助几个阳极舞曲爱好者在废弃的教堂里面开了个夜店。
