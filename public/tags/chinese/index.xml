@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>game on zhongjzsb</title>
-    <link>https://zhongjzsb.com/tags/game/</link>
-    <description>Recent content in game on zhongjzsb</description>
+    <title>chinese on zhongjzsb</title>
+    <link>https://zhongjzsb.com/tags/chinese/</link>
+    <description>Recent content in chinese on zhongjzsb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 06 May 2020 14:14:32 -0400</lastBuildDate>
     
-	<atom:link href="https://zhongjzsb.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhongjzsb.com/tags/chinese/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,18 +19,6 @@
       
       <guid>https://zhongjzsb.com/posts/baobao-posts/2020-05-06-disco-elysium/</guid>
       <description>最近在steam上玩极乐迪斯科(disco elysium)。还没有通关，目前刚帮助几个阳极舞曲爱好者在废弃的教堂里面开了个夜店。 而夜店名，很</description>
-    </item>
-    
-    <item>
-      <title>Artifact 2?</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/artifact-2/</link>
-      <pubDate>Fri, 20 Mar 2020 18:20:51 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/artifact-2/</guid>
-      <description>I randomly browse my steam library today. Then a ARTIFACT post shows up.
-
-OMG, I was missing Artifact so much!
-Come on. Give me some hopes.</description>
     </item>
     
   </channel>

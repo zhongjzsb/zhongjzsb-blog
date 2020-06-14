@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 04 May 2020 08:44:57 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 00:51:12 -0400</lastBuildDate>
     
 	<atom:link href="https://zhongjzsb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>food</title>
+      <link>https://zhongjzsb.com/tags/food/</link>
+      <pubDate>Sun, 14 Jun 2020 00:51:12 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>toronto</title>
+      <link>https://zhongjzsb.com/tags/toronto/</link>
+      <pubDate>Sun, 14 Jun 2020 00:51:12 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/tags/toronto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chinese</title>
+      <link>https://zhongjzsb.com/tags/chinese/</link>
+      <pubDate>Wed, 06 May 2020 14:14:32 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/tags/chinese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game</title>
+      <link>https://zhongjzsb.com/tags/game/</link>
+      <pubDate>Wed, 06 May 2020 14:14:32 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/tags/game/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>life</title>
@@ -18,15 +54,6 @@
       <pubDate>Mon, 04 May 2020 08:44:57 -0400</pubDate>
       
       <guid>https://zhongjzsb.com/tags/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>toronto</title>
-      <link>https://zhongjzsb.com/tags/toronto/</link>
-      <pubDate>Mon, 04 May 2020 08:44:57 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/toronto/</guid>
       <description></description>
     </item>
     
@@ -58,15 +85,6 @@
     </item>
     
     <item>
-      <title>game</title>
-      <link>https://zhongjzsb.com/tags/game/</link>
-      <pubDate>Fri, 20 Mar 2020 18:20:51 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>stats</title>
       <link>https://zhongjzsb.com/tags/stats/</link>
       <pubDate>Fri, 13 Mar 2020 19:49:09 -0400</pubDate>
@@ -81,24 +99,6 @@
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhongjzsb.com/tags/finance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://zhongjzsb.com/tags/blog/</link>
-      <pubDate>Sat, 29 Feb 2020 10:30:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tools</title>
-      <link>https://zhongjzsb.com/tags/tools/</link>
-      <pubDate>Sat, 29 Feb 2020 10:30:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/tools/</guid>
       <description></description>
     </item>
     

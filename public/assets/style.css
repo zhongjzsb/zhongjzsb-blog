@@ -76,3 +76,11 @@ th {
   opacity: 1;
   cursor: pointer;
 }
+
+.img-center {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
