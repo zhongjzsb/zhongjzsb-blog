@@ -1,7 +1,7 @@
 ---
 title: Top 4 Worldwide in Dota Underlords
 slug: 2020-06-27-dota-underlords-rank
-draft: true
+draft: false
 author: Jingyu Bao
 date: 2020-06-27T15:50:43-04:00
 location: >
