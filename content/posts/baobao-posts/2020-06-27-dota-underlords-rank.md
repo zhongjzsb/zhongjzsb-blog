@@ -17,12 +17,13 @@ tags:
 
 I finally hit Rank 4 worldwide in Dota Underlords! We will see what's next :laughing: :laughing: :laughing:
 
-![2020-06-27-dota-underlords-rankl](https://user-images.githubusercontent.com/2069165/85930966-8b4a7180-b88e-11ea-8035-a2c4b0f41f6b.png)
+{{< figure src="https://user-images.githubusercontent.com/2069165/85949320-16297b80-b924-11ea-829e-ac9d6c9a0c7b.png" alt="rank-4"  class="median" >}}
+
 
 And I hit rank 3 on 2020-06-28!
 
-![2020-06-28-underlords-rank-3](https://user-images.githubusercontent.com/2069165/85939082-9fb75a00-b8e0-11ea-8b01-f7cc0c17eedc.png)
+{{< figure src="https://user-images.githubusercontent.com/2069165/85949331-22add400-b924-11ea-9146-2e189ab7c201.png" alt="rank-3"  class="median" >}}
 
-Then I moved to rank 2 because zzj didn't play 5 games in the last 5 days. :dancer: :dancer: :dancer:
+Then I finally got rank 2 because zzj didn't play 5 games in the last 5 days. :dancer: :dancer: :dancer:
 
-![2020-06-28-underlords-rank-2](https://user-images.githubusercontent.com/2069165/85947984-1faee580-b91c-11ea-92f5-335639c49aee.png)
+{{< figure src="https://user-images.githubusercontent.com/2069165/85949337-2d686900-b924-11ea-91a5-df27684dfdc0.png" alt="rank-2"  class="median" >}}
