@@ -1,5 +1,5 @@
 ---
-title: Top 4 Worldwide in Dota Underlords
+title: Top 3 Worldwide in Dota Underlords
 slug: 2020-06-27-dota-underlords-rank
 draft: false
 author: Jingyu Bao
@@ -18,3 +18,7 @@ tags:
 I finally hit Rank 4 worldwide in Dota Underlords! We will see what's next :laughing: :laughing: :laughing:
 
 ![2020-06-27-dota-underlords-rankl](https://user-images.githubusercontent.com/2069165/85930966-8b4a7180-b88e-11ea-8035-a2c4b0f41f6b.png)
+
+And I hit rank 3 on 2020-06-28!
+
+![2020-06-28-underlords-rank-3](https://user-images.githubusercontent.com/2069165/85939082-9fb75a00-b8e0-11ea-8b01-f7cc0c17eedc.png)
