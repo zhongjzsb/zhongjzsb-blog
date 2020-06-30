@@ -12,7 +12,7 @@ longitude: -79.403420319538
 latitude: 43.74389049910099
 weather: 28 °C and Mostly Cloudy
 tags:
-    - thought
+    - game
 ---
 
 I finally hit Rank 4 worldwide in Dota Underlords! We will see what's next :laughing: :laughing: :laughing:
