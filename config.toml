@@ -98,6 +98,10 @@ disqusShortname = "zhongjzsb"
     url = "https://www.twitch.tv/zhongjzsb"
 
   [[params.social]]
+    name = "youtube"
+    url = "https://www.youtube.com/channel/UC_IZnJmJKZ0ATq7yzxXUJAw"
+
+  [[params.social]]
     name = "linkedin"
     url = "http://linkedin.com/in/jingyu-bao"
 
