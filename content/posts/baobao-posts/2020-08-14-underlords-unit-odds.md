@@ -59,6 +59,17 @@ $$
 
 A spreadsheet for the calculation: [google sheet](https://docs.google.com/spreadsheets/d/1wpbQRhJELqM2gdfJxH_AuM421U1MPGg7cFqjyGBQjEg/edit?usp=sharing).
 
+Some general odds:
+
+Roll 1-cost unit at level 4
+![2020-08-14-underlords-unit-odds-1](https://user-images.githubusercontent.com/2069165/90294792-4afe7d00-de55-11ea-8754-b84d885fbda5.png)
+
+Roll 2-cost unit at level 5
+![2020-08-14-underlords-unit-odds-2](https://user-images.githubusercontent.com/2069165/90294790-4a65e680-de55-11ea-94b6-9375c8f19fab.png)
+
+Roll 3-cost unit at level 7
+![2020-08-14-underlords-unit-odds-3](https://user-images.githubusercontent.com/2069165/90294791-4a65e680-de55-11ea-9403-b0ed3f8e8918.png)
+
 ## Acknowledgment
 
 Thank you Grey and Amorian for the implementation of the `left` command in [17kmmrbot](https://github.com/Fortify-Labs/Fortify).
