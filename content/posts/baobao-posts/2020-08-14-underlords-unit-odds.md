@@ -12,7 +12,7 @@ longitude: -79.40351753907835
 latitude: 43.74372370681631
 weather: 29 °C and Clear
 tags:
-    - thought
+    - game
 ---
 
 The general question is:
