@@ -23,12 +23,12 @@ The general question is:
 
 There are several assumptions here. It might change due to future updates.
 
-|                              |   1-cost    |   2-cost    |   3-cost    |   4-cost    |   5-cost   |
-| :--------------------------: | :---------: | :---------: | :---------: | :---------: | :--------: |
-|    Number of Unique Unit     |     15      |     15      |     15      |     11      |     7      |
-|  Number of Copies per Unit   |     30      |     20      |     18      |     12      |     10     |
-|    Total Number of Units     | 450 $(C_1)$ | 300 $(C_2)$ | 270 $(C_3)$ | 180 $(C_4)$ | 70 $(C_5)$ |
-|          Shop Odds           |    $p_1$    |    $p_2$    |    $p_3$    |    $p_4$    |   $p_5$    |
+|                                     |   1-cost    |   2-cost    |   3-cost    |   4-cost    |   5-cost   |
+| :---------------------------------: | :---------: | :---------: | :---------: | :---------: | :--------: |
+|        Number of Unique Unit        |     15      |     15      |     15      |     11      |     7      |
+|      Number of Copies per Unit      |     30      |     20      |     18      |     12      |     10     |
+|        Total Number of Units        | 450 $(C_1)$ | 300 $(C_2)$ | 270 $(C_3)$ | 180 $(C_4)$ | 70 $(C_5)$ |
+|              Shop Odds              |    $p_1$    |    $p_2$    |    $p_3$    |    $p_4$    |   $p_5$    |
 | Total numbers of exist units[^note] |    $o_1$    |    $o_2$    |    $o_3$    |    $o_4$    |   $o_5$    |
 
 [^note]: This includes all the units on the board, bench and shop.
@@ -48,6 +48,8 @@ If there is a blacklist for the roll, it will become a bit complex since we need
 $$
 P_{single} = p_i * \frac{x}{C_i - o_i - b}
 $$
+
+A simpler way to think about the blacklist is: it reduces the number of unique units. For example, if we want a 1-cost unit and the shop has 2 different 1-cost units. If we hit reroll, the number of unique 1-cost units become 13 instead of 15. In this case, the calculation of $o_1$ needs to exclude these 2 1-cost units in the shop.
 
 Finally, the target unit occurs in the next shop (at least one) would be
 
