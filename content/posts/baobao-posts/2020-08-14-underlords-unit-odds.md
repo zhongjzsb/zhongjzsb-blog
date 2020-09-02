@@ -1,5 +1,5 @@
 ---
-title: Underlords Unit Odds
+title: Dota Underlords Unit Odds
 slug: 2020-08-14-underlords-unit-odds
 draft: false
 author: Jingyu Bao
