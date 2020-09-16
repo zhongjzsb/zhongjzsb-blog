@@ -21,13 +21,13 @@ The general question is:
 
 ## Assumptions
 
-There are several assumptions here. It might change due to future updates.
+There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
 
 |                                     |   1-cost    |   2-cost    |   3-cost    |   4-cost    |   5-cost   |
 | :---------------------------------: | :---------: | :---------: | :---------: | :---------: | :--------: |
-|        Number of Unique Unit        |     15      |     15      |     15      |     11      |     7      |
+|        Number of Unique Unit        |     16      |     14      |     13      |     12      |     7      |
 |      Number of Copies per Unit      |     30      |     20      |     18      |     12      |     10     |
-|        Total Number of Units        | 450 $(C_1)$ | 300 $(C_2)$ | 270 $(C_3)$ | 180 $(C_4)$ | 70 $(C_5)$ |
+|        Total Number of Units        | 480 $(C_1)$ | 240 $(C_2)$ | 234 $(C_3)$ | 144 $(C_4)$ | 70 $(C_5)$ |
 |              Shop Odds              |    $p_1$    |    $p_2$    |    $p_3$    |    $p_4$    |   $p_5$    |
 | Total numbers of exist units[^note] |    $o_1$    |    $o_2$    |    $o_3$    |    $o_4$    |   $o_5$    |
 
@@ -64,16 +64,22 @@ A spreadsheet for the calculation: [google sheet](https://docs.google.com/spread
 Some general odds:
 
 Roll 1-cost unit at level 4
-![2020-08-14-underlords-unit-odds-1](https://user-images.githubusercontent.com/2069165/90294792-4afe7d00-de55-11ea-8754-b84d885fbda5.png)
+![2020-08-14-underlords-unit-odds-1](https://user-images.githubusercontent.com/2069165/93388916-6d5f2e00-f839-11ea-9b44-87e60a54a750.png)
 
 Roll 2-cost unit at level 5
-![2020-08-14-underlords-unit-odds-2](https://user-images.githubusercontent.com/2069165/90294790-4a65e680-de55-11ea-94b6-9375c8f19fab.png)
+![2020-08-14-underlords-unit-odds-2](https://user-images.githubusercontent.com/2069165/93388922-6f28f180-f839-11ea-8986-fe34187164b4.png)
 
 Roll 3-cost unit at level 7
-![2020-08-14-underlords-unit-odds-3](https://user-images.githubusercontent.com/2069165/90294791-4a65e680-de55-11ea-9403-b0ed3f8e8918.png)
+![2020-08-14-underlords-unit-odds-3](https://user-images.githubusercontent.com/2069165/93388923-70f2b500-f839-11ea-94e2-c8525b6c6e64.png)
+
+## Tips for rolling
+
+1. Go for un-contested units
+2. The more existing units of the same costs, the better odds you have. If you are going for un-contested units and in good health, you can be patient.
+3. Assuming you are rolling for 3-cost unit, you will definitely roll if you see 3 different non-target 3-cost units in the shop. That will blacklist 3 3-cost unit. This will improve the odds a lot.
 
 ## Acknowledgment
 
-Thank you Grey and Amorian for the implementation of the `left` command in [17kmmrbot](https://github.com/Fortify-Labs/Fortify).
+Thank you Grey and Amorian for the implementation of [fortify](https://fortify.gg/) and the `left` command in [17kmmrbot](https://github.com/Fortify-Labs/Fortify).
 
 KEKW
