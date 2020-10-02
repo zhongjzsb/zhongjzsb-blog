@@ -49,7 +49,7 @@ $$
 P_{single} = p_i * \frac{x}{C_i - o_i - b}
 $$
 
-A simpler way to think about the blacklist is: it reduces the number of unique units. For example, if we want a 1-cost unit and the shop has 2 different 1-cost units. If we hit reroll, the number of unique 1-cost units become 13 instead of 15. In this case, the calculation of $o_1$ needs to exclude these 2 1-cost units in the shop.
+A simpler way to think about the blacklist is: it reduces the number of unique units. For example, if we want a 1-cost unit and the current shop has 2 different 1-cost units. If we hit reroll, the number of unique 1-cost units become 14 instead of 16. In this case, the calculation of $o_1$ needs to exclude these 2 1-cost units in the shop.
 
 Finally, the target unit occurs in the next shop (at least one) would be
 
