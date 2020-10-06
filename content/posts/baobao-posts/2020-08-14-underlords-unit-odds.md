@@ -27,7 +27,7 @@ There are several assumptions here. It might change due to future updates. (Upda
 | :---------------------------------: | :---------: | :---------: | :---------: | :---------: | :--------: |
 |        Number of Unique Unit        |     16      |     14      |     13      |     12      |     7      |
 |      Number of Copies per Unit      |     30      |     20      |     18      |     12      |     10     |
-|        Total Number of Units        | 480 $(C_1)$ | 240 $(C_2)$ | 234 $(C_3)$ | 144 $(C_4)$ | 70 $(C_5)$ |
+|        Total Number of Units        | 480 $(C_1)$ | 280 $(C_2)$ | 234 $(C_3)$ | 144 $(C_4)$ | 70 $(C_5)$ |
 |              Shop Odds              |    $p_1$    |    $p_2$    |    $p_3$    |    $p_4$    |   $p_5$    |
 | Total numbers of exist units[^note] |    $o_1$    |    $o_2$    |    $o_3$    |    $o_4$    |   $o_5$    |
 
