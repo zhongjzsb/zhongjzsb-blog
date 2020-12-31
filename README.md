@@ -144,6 +144,8 @@
   - [staticman-powered-gitlab-pages](https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/)
   - A hugo theme with staticman support: [hugo-swift-theme](https://github.com/onweru/hugo-swift-theme)
 
+- [X] added bilibili shortcuts based on [here](https://www.programmersought.com/article/79886036118/)
+
 ## Site Management
 
 - [Google Search Console](https://search.google.com/search-console/about)

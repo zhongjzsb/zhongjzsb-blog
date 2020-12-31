@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Jingyu Bao">
+<meta name="description" content="The general question is:
+ What is the odd that my unit will show up in the next roll?
+ Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
+    1-cost 2-cost 3-cost 4-cost 5-cost     Number of Unique Unit 16 14 13 12 7   Number of Copies per Unit 30 20 18 12 10   Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$   Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$   Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$    Odds Assume you want a $i$-cost unit." />
+<meta name="keywords" content=", game" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/" />
+
+
+
+    <title>
+        
+            Dota Underlords Unit Odds ::  Jingyu Bao
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.cbd9ce6c3a26d6c4a5eb4b8834c18d83518654bd8bac1fc8160486f336181c9a.css">
+
+
+    
+        <link rel="stylesheet" type="text/css" href="/assets/style.css">
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/assets/book-style.css">
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/assets/image-style.css">
+    
+
+
+
+<meta itemprop="name" content="Dota Underlords Unit Odds">
+<meta itemprop="description" content="The general question is:
+ What is the odd that my unit will show up in the next roll?
+ Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
+    1-cost 2-cost 3-cost 4-cost 5-cost     Number of Unique Unit 16 14 13 12 7   Number of Copies per Unit 30 20 18 12 10   Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$   Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$   Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$    Odds Assume you want a $i$-cost unit.">
+<meta itemprop="datePublished" content="2020-08-14T14:56:17-04:00" />
+<meta itemprop="dateModified" content="2020-10-06T13:07:38-04:00" />
+<meta itemprop="wordCount" content="410">
+<meta itemprop="image" content="https://zhongjzsb.com/"/>
+
+
+
+<meta itemprop="keywords" content="game," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://zhongjzsb.com/"/>
+
+<meta name="twitter:title" content="Dota Underlords Unit Odds"/>
+<meta name="twitter:description" content="The general question is:
+ What is the odd that my unit will show up in the next roll?
+ Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
+    1-cost 2-cost 3-cost 4-cost 5-cost     Number of Unique Unit 16 14 13 12 7   Number of Copies per Unit 30 20 18 12 10   Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$   Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$   Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$    Odds Assume you want a $i$-cost unit."/>
+
+
+
+
+
+    <meta property="article:published_time" content="2020-08-14 14:56:17 -0400 EDT" />
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/jingyu</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   animation-duration:1.5s;">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://zhongjzsb.com/posts/baobao-posts/">Baobao</a></li><li><a href="https://zhongjzsb.com/posts/jackie-posts/">Jackie</a></li><li><a href="https://zhongjzsb.com/about">About</a></li><li><a href="https://zhongjzsb.com/tags/">Archive</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span> 
+
+    <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+    </span>
+    </span>
+
+    
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?3c6b46e4659e6066f2ef58599300211d";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</header>
+
+            <div class="content">
+                
+
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/">Dota Underlords Unit Odds</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <p>The general question is:</p>
+<blockquote>
+<p><em><strong>What is the odd that my unit will show up in the next roll?</strong></em></p>
+</blockquote>
+<h2 id="assumptions">Assumptions</h2>
+<p>There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">1-cost</th>
+<th style="text-align:center">2-cost</th>
+<th style="text-align:center">3-cost</th>
+<th style="text-align:center">4-cost</th>
+<th style="text-align:center">5-cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Number of Unique Unit</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">Number of Copies per Unit</td>
+<td style="text-align:center">30</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td style="text-align:center">Total Number of Units</td>
+<td style="text-align:center">480 $(C_1)$</td>
+<td style="text-align:center">280 $(C_2)$</td>
+<td style="text-align:center">234 $(C_3)$</td>
+<td style="text-align:center">144 $(C_4)$</td>
+<td style="text-align:center">70 $(C_5)$</td>
+</tr>
+<tr>
+<td style="text-align:center">Shop Odds</td>
+<td style="text-align:center">$p_1$</td>
+<td style="text-align:center">$p_2$</td>
+<td style="text-align:center">$p_3$</td>
+<td style="text-align:center">$p_4$</td>
+<td style="text-align:center">$p_5$</td>
+</tr>
+<tr>
+<td style="text-align:center">Total numbers of exist units<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></td>
+<td style="text-align:center">$o_1$</td>
+<td style="text-align:center">$o_2$</td>
+<td style="text-align:center">$o_3$</td>
+<td style="text-align:center">$o_4$</td>
+<td style="text-align:center">$o_5$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="odds">Odds</h2>
+<p>Assume you want a $i$-cost unit. And you know there are $x$ units left in the pool.</p>
+<p>First we need to know what is the probably the unit occurs in one slot of the shop.</p>
+<p>If there is no blacklist for the roll, that is</p>
+<p>$$P_{single} = p_i * \frac{x}{C_i - o_i}$$</p>
+<p>If there is a blacklist for the roll, it will become a bit complex since we need to know the number of units left for the blacklisted units. Assume it&rsquo;s $b$. The formula for $P_{single}$ will become</p>
+<p>$$
+P_{single} = p_i * \frac{x}{C_i - o_i - b}
+$$</p>
+<p>A simpler way to think about the blacklist is: it reduces the number of unique units. For example, if we want a 1-cost unit and the current shop has 2 different 1-cost units. If we hit reroll, the number of unique 1-cost units become 14 instead of 16. In this case, the calculation of $o_1$ needs to exclude these 2 1-cost units in the shop.</p>
+<p>Finally, the target unit occurs in the next shop (at least one) would be</p>
+<p>$$
+P = 1 - (1 - P_{single})^5
+$$</p>
+<h2 id="spreadsheet">Spreadsheet</h2>
+<p>A spreadsheet for the calculation: <a href="https://docs.google.com/spreadsheets/d/1wpbQRhJELqM2gdfJxH_AuM421U1MPGg7cFqjyGBQjEg/edit?usp=sharing">google sheet</a>.</p>
+<p>Some general odds:</p>
+<p>Roll 1-cost unit at level 4
+<img src="https://user-images.githubusercontent.com/2069165/93388916-6d5f2e00-f839-11ea-9b44-87e60a54a750.png" alt="2020-08-14-underlords-unit-odds-1"></p>
+<p>Roll 2-cost unit at level 5
+<img src="https://user-images.githubusercontent.com/2069165/93388922-6f28f180-f839-11ea-8986-fe34187164b4.png" alt="2020-08-14-underlords-unit-odds-2"></p>
+<p>Roll 3-cost unit at level 7
+<img src="https://user-images.githubusercontent.com/2069165/93388923-70f2b500-f839-11ea-94e2-c8525b6c6e64.png" alt="2020-08-14-underlords-unit-odds-3"></p>
+<h2 id="tips-for-rolling">Tips for rolling</h2>
+<ol>
+<li>Go for un-contested units</li>
+<li>The more existing units of the same costs, the better odds you have. If you are going for un-contested units and in good health, you can be patient.</li>
+<li>Assuming you are rolling for 3-cost unit, you will definitely roll if you see 3 different non-target 3-cost units in the shop. That will blacklist 3 3-cost unit. This will improve the odds a lot.</li>
+</ol>
+<h2 id="acknowledgment">Acknowledgment</h2>
+<p>Thank you Grey and Amorian for the implementation of <a href="https://fortify.gg/">fortify</a> and the <code>left</code> command in <a href="https://github.com/Fortify-Labs/Fortify">17kmmrbot</a>.</p>
+<p>KEKW</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>This includes all the units on the board, bench and shop. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-feather">
+                    <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                    <line x1="16" y1="8" x2="2" y2="22"></line>
+                    <line x1="17.5" y1="15" x2="9" y2="15"></line>
+                </svg>Jingyu Bao</p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://zhongjzsb.com/tags/game">game</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>410 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-08-14 14:56 -04:00</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="https://github.com/zhongjzsb/zhongjzsb-blog/commit/494327fa59f548afc4d8debe1053dddb154edde4" target="_blank" rel="noopener">494327f</a> @ 2020-10-06</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="https://zhongjzsb.com/posts/baobao-posts/2020-10-10-hiking-weeks/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">Hiking Weeks</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://zhongjzsb.com/posts/baobao-posts/2020-08-03-road-to-home/">
+                                <span class="button__text">Road To Home</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+            <div id="comments" class="thin">
+                <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "zhongjzsb" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span> 
+            <span><a href="https://zhongjzsb.com/">Jingyu Bao</a></span> 
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a
+                    href="https://zhongjzsb.com/posts/index.xml" target="_blank" title="rss"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-rss">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1"></circle>
+                    </svg></a></span>
+        </div>
+    </div>
+
+    
+
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [
+                ['$', '$'],
+                ['\\(', '\\)']
+            ],
+            displayMath: [
+                ['$$', '$$']
+            ],
+            processEscapes: true,
+            processEnvironments: true,
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            TeX: {
+                equationNumbers: {
+                    autoNumber: "AMS"
+                },
+                extensions: ["AMSmath.js", "AMSsymbols.js"]
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        
+        
+        
+        var all = MathJax.Hub.getAllJax(),
+            i;
+        for (i = 0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+
+    MathJax.Hub.Config({
+        
+        TeX: {
+            equationNumbers: {
+                autoNumber: "AMS"
+            }
+        }
+    });
+</script>
+    
+
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+            <span><a href="/disclaimer/">Disclaimer</a></span>
+        </div>
+    </div>
+</footer>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-159320532-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+    </body>
+</html>

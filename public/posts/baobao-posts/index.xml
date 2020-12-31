@@ -10,6 +10,200 @@
         <atom:link href="https://zhongjzsb.com/posts/baobao-posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>Hiking Weeks</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2020-10-10-hiking-weeks/</link>
+            <pubDate>Sat, 10 Oct 2020 23:44:07 -0400</pubDate>
+            
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2020-10-10-hiking-weeks/</guid>
+            <description>It&amp;rsquo;s October already. It has been 6 months for everyone here work from home.
+Sometimes, you will walk on the road and see the big blue sky. Until then, you will realize the world is spinning and life is still going on.
+Awenda Park: York Regional Forest 1: York Regional Forest 2: Elora Gorge: </description>
+            <content type="html"><![CDATA[<p>It&rsquo;s October already. It has been 6 months for everyone here work from home.</p>
+<p>Sometimes, you will walk on the road and see the big blue sky. Until then, you will realize the world is spinning and life is still going on.</p>
+<p>Awenda Park:
+<img src="https://user-images.githubusercontent.com/2069165/95699129-ab215d80-0c11-11eb-9496-d1363592dcfa.jpg" alt="hiking-week-awenda-park-1"></p>
+<p>York Regional Forest 1:
+<img src="https://user-images.githubusercontent.com/2069165/95699136-af4d7b00-0c11-11eb-9ebc-90b4026fbab3.jpg" alt="hiking-week-york-regional-forest-1"></p>
+<p>York Regional Forest 2:
+<img src="https://user-images.githubusercontent.com/2069165/95699139-afe61180-0c11-11eb-80ca-8de73325e8bb.jpg" alt="hiking-week-york-regional-forest-2"></p>
+<p>Elora Gorge:
+<img src="https://user-images.githubusercontent.com/2069165/95699132-abb9f400-0c11-11eb-88c3-01bfd5742569.JPG" alt="hiking-week-elora-gorge-1"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Dota Underlords Unit Odds</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/</link>
+            <pubDate>Fri, 14 Aug 2020 14:56:17 -0400</pubDate>
+            
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/</guid>
+            <description>The general question is:
+ What is the odd that my unit will show up in the next roll?
+ Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
+    1-cost 2-cost 3-cost 4-cost 5-cost     Number of Unique Unit 16 14 13 12 7   Number of Copies per Unit 30 20 18 12 10   Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$   Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$   Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$    Odds Assume you want a $i$-cost unit.</description>
+            <content type="html"><![CDATA[<p>The general question is:</p>
+<blockquote>
+<p><em><strong>What is the odd that my unit will show up in the next roll?</strong></em></p>
+</blockquote>
+<h2 id="assumptions">Assumptions</h2>
+<p>There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">1-cost</th>
+<th style="text-align:center">2-cost</th>
+<th style="text-align:center">3-cost</th>
+<th style="text-align:center">4-cost</th>
+<th style="text-align:center">5-cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Number of Unique Unit</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">Number of Copies per Unit</td>
+<td style="text-align:center">30</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td style="text-align:center">Total Number of Units</td>
+<td style="text-align:center">480 $(C_1)$</td>
+<td style="text-align:center">280 $(C_2)$</td>
+<td style="text-align:center">234 $(C_3)$</td>
+<td style="text-align:center">144 $(C_4)$</td>
+<td style="text-align:center">70 $(C_5)$</td>
+</tr>
+<tr>
+<td style="text-align:center">Shop Odds</td>
+<td style="text-align:center">$p_1$</td>
+<td style="text-align:center">$p_2$</td>
+<td style="text-align:center">$p_3$</td>
+<td style="text-align:center">$p_4$</td>
+<td style="text-align:center">$p_5$</td>
+</tr>
+<tr>
+<td style="text-align:center">Total numbers of exist units<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></td>
+<td style="text-align:center">$o_1$</td>
+<td style="text-align:center">$o_2$</td>
+<td style="text-align:center">$o_3$</td>
+<td style="text-align:center">$o_4$</td>
+<td style="text-align:center">$o_5$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="odds">Odds</h2>
+<p>Assume you want a $i$-cost unit. And you know there are $x$ units left in the pool.</p>
+<p>First we need to know what is the probably the unit occurs in one slot of the shop.</p>
+<p>If there is no blacklist for the roll, that is</p>
+<p>$$P_{single} = p_i * \frac{x}{C_i - o_i}$$</p>
+<p>If there is a blacklist for the roll, it will become a bit complex since we need to know the number of units left for the blacklisted units. Assume it&rsquo;s $b$. The formula for $P_{single}$ will become</p>
+<p>$$
+P_{single} = p_i * \frac{x}{C_i - o_i - b}
+$$</p>
+<p>A simpler way to think about the blacklist is: it reduces the number of unique units. For example, if we want a 1-cost unit and the current shop has 2 different 1-cost units. If we hit reroll, the number of unique 1-cost units become 14 instead of 16. In this case, the calculation of $o_1$ needs to exclude these 2 1-cost units in the shop.</p>
+<p>Finally, the target unit occurs in the next shop (at least one) would be</p>
+<p>$$
+P = 1 - (1 - P_{single})^5
+$$</p>
+<h2 id="spreadsheet">Spreadsheet</h2>
+<p>A spreadsheet for the calculation: <a href="https://docs.google.com/spreadsheets/d/1wpbQRhJELqM2gdfJxH_AuM421U1MPGg7cFqjyGBQjEg/edit?usp=sharing">google sheet</a>.</p>
+<p>Some general odds:</p>
+<p>Roll 1-cost unit at level 4
+<img src="https://user-images.githubusercontent.com/2069165/93388916-6d5f2e00-f839-11ea-9b44-87e60a54a750.png" alt="2020-08-14-underlords-unit-odds-1"></p>
+<p>Roll 2-cost unit at level 5
+<img src="https://user-images.githubusercontent.com/2069165/93388922-6f28f180-f839-11ea-8986-fe34187164b4.png" alt="2020-08-14-underlords-unit-odds-2"></p>
+<p>Roll 3-cost unit at level 7
+<img src="https://user-images.githubusercontent.com/2069165/93388923-70f2b500-f839-11ea-94e2-c8525b6c6e64.png" alt="2020-08-14-underlords-unit-odds-3"></p>
+<h2 id="tips-for-rolling">Tips for rolling</h2>
+<ol>
+<li>Go for un-contested units</li>
+<li>The more existing units of the same costs, the better odds you have. If you are going for un-contested units and in good health, you can be patient.</li>
+<li>Assuming you are rolling for 3-cost unit, you will definitely roll if you see 3 different non-target 3-cost units in the shop. That will blacklist 3 3-cost unit. This will improve the odds a lot.</li>
+</ol>
+<h2 id="acknowledgment">Acknowledgment</h2>
+<p>Thank you Grey and Amorian for the implementation of <a href="https://fortify.gg/">fortify</a> and the <code>left</code> command in <a href="https://github.com/Fortify-Labs/Fortify">17kmmrbot</a>.</p>
+<p>KEKW</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>This includes all the units on the board, bench and shop. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Road To Home</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2020-08-03-road-to-home/</link>
+            <pubDate>Mon, 03 Aug 2020 10:53:43 -0400</pubDate>
+            
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2020-08-03-road-to-home/</guid>
+            <description>After a small trial in Betty Sutherland Park, we were driving on 401 from west to east.
+The old rain just finished and A new rain is about to fall.</description>
+            <content type="html"><![CDATA[<p>After a small trial in Betty Sutherland Park, we were driving on 401 from west to east.</p>
+<p>The old rain just finished and A new rain is about to fall.</p>
+<p><img src="https://user-images.githubusercontent.com/2069165/89197026-14815200-d579-11ea-9b31-9a11a408119c.jpg" alt="road-to-home"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>The Last Stand of Underlords</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2020-06-30-the-last-stand-of-underlords/</link>
+            <pubDate>Tue, 30 Jun 2020 16:10:41 -0400</pubDate>
+            
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2020-06-30-the-last-stand-of-underlords/</guid>
+            <description>Live or Die?
+ source from steamdb</description>
+            <content type="html"><![CDATA[<p>Live or Die?</p>
+<iframe src="https://steamdb.info/embed/?appid=1046930" height="389px" width="100%" scrolling="no" frameborder="0"></iframe>
+<p><em>source from <a href="https://steamdb.info/app/1046930/graphs/">steamdb</a></em></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Top 2 Worldwide in Dota Underlords</title>
+            <link>https://zhongjzsb.com/posts/baobao-posts/2020-06-27-dota-underlords-rank/</link>
+            <pubDate>Sat, 27 Jun 2020 15:50:43 -0400</pubDate>
+            
+            <guid>https://zhongjzsb.com/posts/baobao-posts/2020-06-27-dota-underlords-rank/</guid>
+            <description>I finally hit Rank 4 worldwide in Dota Underlords! We will see what&amp;rsquo;s next 😆 😆 😆
+ And I hit rank 3 on 2020-06-28!
+ Then I finally got rank 2 because zzj didn&amp;rsquo;t play 5 games in the last 5 days. 💃 💃 💃
+ </description>
+            <content type="html"><![CDATA[<p>I finally hit Rank 4 worldwide in Dota Underlords! We will see what&rsquo;s next 😆 😆 😆</p>
+<figure class="median">
+    <img src="https://user-images.githubusercontent.com/2069165/85949320-16297b80-b924-11ea-829e-ac9d6c9a0c7b.png"
+         alt="rank-4"/> 
+</figure>
+
+<p>And I hit rank 3 on 2020-06-28!</p>
+<figure class="median">
+    <img src="https://user-images.githubusercontent.com/2069165/85949331-22add400-b924-11ea-9146-2e189ab7c201.png"
+         alt="rank-3"/> 
+</figure>
+
+<p>Then I finally got rank 2 because zzj didn&rsquo;t play 5 games in the last 5 days. 💃 💃 💃</p>
+<figure class="median">
+    <img src="https://user-images.githubusercontent.com/2069165/85949337-2d686900-b924-11ea-91a5-df27684dfdc0.png"
+         alt="rank-2"/> 
+</figure>
+
+]]></content>
+        </item>
+        
+        <item>
             <title>Watermelon Time</title>
             <link>https://zhongjzsb.com/posts/baobao-posts/2020-06-06-watermelon-time/</link>
             <pubDate>Sat, 06 Jun 2020 19:31:15 -0400</pubDate>
@@ -44,7 +238,7 @@
             <guid>https://zhongjzsb.com/posts/baobao-posts/2020-05-06-disco-elysium/</guid>
             <description>最近在steam上玩极乐迪斯科(disco elysium)。还没有通关，目前刚帮助几个阳极舞曲爱好者在废弃的教堂里面开了个夜店。 而夜店名，很</description>
             <content type="html"><![CDATA[<p>最近在steam上玩极乐迪斯科(disco elysium)。还没有通关，目前刚帮助几个阳极舞曲爱好者在废弃的教堂里面开了个夜店。
-而夜店名，很硬核的被叫做“极乐迪斯科”。💃 👯 💃 👯 💃 👯</p>
+而夜店名，很硬核的被叫做“极乐迪斯科”。💃 👯‍♀️ 💃 👯‍♀️ 💃 👯‍♀️</p>
 <p>作为一个酗酒，抽烟，嗑药的警探去调查一场发生在50年代的杀人事件。</p>
 <p>本来是想玩英文版本的，可是该游戏文本量巨大。冗长的英文对话读下来人都萎了。终于换成中文才能顺利玩下去。同时也发现了这个有趣的彩蛋。</p>
 <p>程序员大姐跟几个音乐爱好者牛头不对马嘴的对话。
@@ -191,14 +385,14 @@ The wind and waves from the lake were so heavy. Even the temperature was nice (a
 <table>
 <thead>
 <tr>
-<th align="center">Lonely Tree</th>
-<th align="center">Lonely Trees</th>
+<th style="text-align:center">Lonely Tree</th>
+<th style="text-align:center">Lonely Trees</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><img src="https://user-images.githubusercontent.com/2069165/79087589-c3212e80-7d0d-11ea-8a70-57310059038a.png" alt="len-ford-park-1"></td>
-<td align="center"><img src="https://user-images.githubusercontent.com/2069165/79087590-c3b9c500-7d0d-11ea-9de6-19afc64cc067.png" alt="len-ford-park-2"></td>
+<td style="text-align:center"><img src="https://user-images.githubusercontent.com/2069165/79087589-c3212e80-7d0d-11ea-8a70-57310059038a.png" alt="len-ford-park-1"></td>
+<td style="text-align:center"><img src="https://user-images.githubusercontent.com/2069165/79087590-c3b9c500-7d0d-11ea-9de6-19afc64cc067.png" alt="len-ford-park-2"></td>
 </tr>
 </tbody>
 </table>
@@ -256,11 +450,13 @@ $$</p>
   <label for="tabs-covid-19-DT-0">Mobile</label>
   <div class="book-tabs-content markdown-inner"><div class='iframe-container iframe-r-dt'>
   <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
-</div></div><input type="radio" class="hidden" name="tabs-covid-19-DT" id="tabs-covid-19-DT-1"  />
+</div>
+</div><input type="radio" class="hidden" name="tabs-covid-19-DT" id="tabs-covid-19-DT-1"  />
   <label for="tabs-covid-19-DT-1">PC</label>
   <div class="book-tabs-content markdown-inner"><div class='iframe-container iframe-r-dt'>
   <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT.html" allowfullscreen></iframe>
-</div></div></div>
+</div>
+</div></div>
 
 <h2 id="geo-plots-for-china-and-the-world-ggplot--geom_sf-updated-on-2020-04-09">Geo Plots for China and the World (ggplot + geom_sf, updated on 2020-04-09)</h2>
 <p>Two types of geo plots here.</p>
@@ -288,7 +484,8 @@ $$</p>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_confirmed.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_confirmed.gif?raw=true" alt="alt"></a></td>
 </tr>
 </tbody>
-</table></div><input type="radio" class="hidden" name="tabs-covid-19" id="tabs-covid-19-1"  />
+</table>
+</div><input type="radio" class="hidden" name="tabs-covid-19" id="tabs-covid-19-1"  />
   <label for="tabs-covid-19-1">Remaining</label>
   <div class="book-tabs-content markdown-inner"><table>
 <thead>
@@ -304,7 +501,8 @@ $$</p>
 <td><a href="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_current.gif?raw=true"><img src="https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_current.gif?raw=true" alt="alt"></a></td>
 </tr>
 </tbody>
-</table></div></div>
+</table>
+</div></div>
 
 <h2 id="html-plot-ggplotly-updated-on-2020-04-09">HTML Plot (ggplotly, updated on 2020-04-09)</h2>
 <p>Comparing China and outside of China.</p>
@@ -365,71 +563,71 @@ Rscript -e <span class="s2">&#34;</span><span class="nv">%fetch%</span><span cla
 <table>
 <thead>
 <tr>
-<th align="left">Index</th>
-<th align="left">Market Cap (%)</th>
-<th align="left">Comment</th>
+<th style="text-align:left">Index</th>
+<th style="text-align:left">Market Cap (%)</th>
+<th style="text-align:left">Comment</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/S%26P_500">S&amp;P 500</a></td>
-<td align="left">80%</td>
-<td align="left"></td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/S%26P_500">S&amp;P 500</a></td>
+<td style="text-align:left">80%</td>
+<td style="text-align:left"></td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/S%26P_400">S&amp;P 400</a></td>
-<td align="left">7%</td>
-<td align="left"></td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/S%26P_400">S&amp;P 400</a></td>
+<td style="text-align:left">7%</td>
+<td style="text-align:left"></td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/S%26P_600">S&amp;P 600</a></td>
-<td align="left">3%</td>
-<td align="left"></td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/S%26P_600">S&amp;P 600</a></td>
+<td style="text-align:left">3%</td>
+<td style="text-align:left"></td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/S%26P_1500">S&amp;P 1500</a></td>
-<td align="left">90%</td>
-<td align="left"></td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/S%26P_1500">S&amp;P 1500</a></td>
+<td style="text-align:left">90%</td>
+<td style="text-align:left"></td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/S%26P_100">S&amp;P 100</a></td>
-<td align="left">51%</td>
-<td align="left"></td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/S%26P_100">S&amp;P 100</a></td>
+<td style="text-align:left">51%</td>
+<td style="text-align:left"></td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/Russell_3000_Index">Russell 3000</a></td>
-<td align="left">98%</td>
-<td align="left"></td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Russell_3000_Index">Russell 3000</a></td>
+<td style="text-align:left">98%</td>
+<td style="text-align:left"></td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/Russell_1000_Index">Russell 1000</a></td>
-<td align="left">88.2%</td>
-<td align="left">90% of Russell 3000</td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Russell_1000_Index">Russell 1000</a></td>
+<td style="text-align:left">88.2%</td>
+<td style="text-align:left">90% of Russell 3000</td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/Russell_2000_Index">Russell 2000</a></td>
-<td align="left">9.8%</td>
-<td align="left">10% of Russell 3000</td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Russell_2000_Index">Russell 2000</a></td>
+<td style="text-align:left">9.8%</td>
+<td style="text-align:left">10% of Russell 3000</td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/Russell_Top_50_Index">Russell Top 50</a></td>
-<td align="left">39.2%</td>
-<td align="left">40% of Russell 3000</td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Russell_Top_50_Index">Russell Top 50</a></td>
+<td style="text-align:left">39.2%</td>
+<td style="text-align:left">40% of Russell 3000</td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/Russell_Top_200_Index">Russell Top 200</a></td>
-<td align="left">68%</td>
-<td align="left">63% of Russell 1000 (wiki), 68% (official)</td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Russell_Top_200_Index">Russell Top 200</a></td>
+<td style="text-align:left">68%</td>
+<td style="text-align:left">63% of Russell 1000 (wiki), 68% (official)</td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/Russell_Midcap_Index">Russell MidCap</a></td>
-<td align="left">27.3%</td>
-<td align="left">31% of Russell 1000, 800 smallest companies in Russell 1000</td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Russell_Midcap_Index">Russell MidCap</a></td>
+<td style="text-align:left">27.3%</td>
+<td style="text-align:left">31% of Russell 1000, 800 smallest companies in Russell 1000</td>
 </tr>
 <tr>
-<td align="left"><a href="https://en.wikipedia.org/wiki/Russell_Microcap_Index">Russell Microcap</a></td>
-<td align="left">&lt; 3%</td>
-<td align="left">1000 smallest securities in Russell 2000</td>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Russell_Microcap_Index">Russell Microcap</a></td>
+<td style="text-align:left">&lt; 3%</td>
+<td style="text-align:left">1000 smallest securities in Russell 2000</td>
 </tr>
 </tbody>
 </table>
@@ -489,14 +687,14 @@ Jackie and I was discussing about how many lights we need to buy.</p>
             <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
             
             <guid>https://zhongjzsb.com/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
-            <description>Wox It&amp;rsquo;s an effective launcher in Windows. Everything It sets a database of all your contents in Windoes machine. [lightshot] Fast screenshot tools [pushbullet] Communicate your phone, mac, windows and web browers. [unlocker] Force to delete some &amp;lsquo;un-deletable&amp;rsquo; files. [treesize] Get all files&amp;rsquo; size in your machine. autoruns  Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
+            <description>Wox It&amp;rsquo;s an effective launcher in Windows. Everything It sets a database of all your contents in Windoes machine. [lightshot] Fast screenshot tools [pushbullet] Communicate your phone, mac, windows and web browers. [unlocker] Force to delete some &amp;lsquo;un-deletable&amp;rsquo; files. [treesize] Get all files&#39; size in your machine. autoruns  Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
             <content type="html"><![CDATA[<ul>
 <li><a href="https://github.com/Wox-launcher/Wox">Wox</a> It&rsquo;s an effective launcher in Windows.</li>
 <li><a href="https://www.voidtools.com/">Everything</a> It sets a database of all your contents in Windoes machine.</li>
 <li>[lightshot] Fast screenshot tools</li>
 <li>[pushbullet] Communicate your phone, mac, windows and web browers.</li>
 <li>[unlocker] Force to delete some &lsquo;un-deletable&rsquo; files.</li>
-<li>[treesize] Get all files&rsquo; size in your machine.</li>
+<li>[treesize] Get all files' size in your machine.</li>
 <li><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns">autoruns</a></li>
 </ul>
 <p><a href="https://github.com/Wox-launcher/Wox">Wox</a> with <a href="https://www.voidtools.com/">Everything</a> can search &lsquo;everything&rsquo; in your Windows machine.</p>

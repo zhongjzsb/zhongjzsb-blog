@@ -7,10 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 06 May 2020 14:14:32 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2020 14:56:17 -0400</lastBuildDate><atom:link href="https://zhongjzsb.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dota Underlords Unit Odds</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/</link>
+      <pubDate>Fri, 14 Aug 2020 14:56:17 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/</guid>
+      <description>The general question is:
+ What is the odd that my unit will show up in the next roll?
+ Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
+    1-cost 2-cost 3-cost 4-cost 5-cost     Number of Unique Unit 16 14 13 12 7   Number of Copies per Unit 30 20 18 12 10   Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$   Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$   Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$    Odds Assume you want a $i$-cost unit.</description>
+    </item>
     
-	<atom:link href="https://zhongjzsb.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Last Stand of Underlords</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2020-06-30-the-last-stand-of-underlords/</link>
+      <pubDate>Tue, 30 Jun 2020 16:10:41 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-06-30-the-last-stand-of-underlords/</guid>
+      <description>Live or Die?
+ source from steamdb</description>
+    </item>
     
+    <item>
+      <title>Top 2 Worldwide in Dota Underlords</title>
+      <link>https://zhongjzsb.com/posts/baobao-posts/2020-06-27-dota-underlords-rank/</link>
+      <pubDate>Sat, 27 Jun 2020 15:50:43 -0400</pubDate>
+      
+      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-06-27-dota-underlords-rank/</guid>
+      <description>I finally hit Rank 4 worldwide in Dota Underlords! We will see what&amp;rsquo;s next 😆 😆 😆
+ And I hit rank 3 on 2020-06-28!
+ Then I finally got rank 2 because zzj didn&amp;rsquo;t play 5 games in the last 5 days. 💃 💃 💃
+ </description>
+    </item>
     
     <item>
       <title>活在2019年的极乐迪斯科</title>
