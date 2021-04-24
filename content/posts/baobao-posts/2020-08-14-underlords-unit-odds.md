@@ -64,13 +64,13 @@ A spreadsheet for the calculation: [google sheet](https://docs.google.com/spread
 Some general odds:
 
 Roll 1-cost unit at level 4
-![2020-08-14-underlords-unit-odds-1](https://user-images.githubusercontent.com/2069165/93388916-6d5f2e00-f839-11ea-9b44-87e60a54a750.png)
+![2020-08-14-underlords-unit-odds-1](https://user-images.githubusercontent.com/2069165/115974221-37013400-a529-11eb-9e69-f5cab078ff6d.png)
 
 Roll 2-cost unit at level 5
-![2020-08-14-underlords-unit-odds-2](https://user-images.githubusercontent.com/2069165/93388922-6f28f180-f839-11ea-8986-fe34187164b4.png)
+![2020-08-14-underlords-unit-odds-2](https://user-images.githubusercontent.com/2069165/115974222-37013400-a529-11eb-9105-b115c387c2a2.png)
 
 Roll 3-cost unit at level 7
-![2020-08-14-underlords-unit-odds-3](https://user-images.githubusercontent.com/2069165/93388923-70f2b500-f839-11ea-94e2-c8525b6c6e64.png)
+![2020-08-14-underlords-unit-odds-3](https://user-images.githubusercontent.com/2069165/115974223-3799ca80-a529-11eb-9097-e0c61b046035.png)
 
 ## Tips for rolling
 
@@ -81,5 +81,6 @@ Roll 3-cost unit at level 7
 ## Acknowledgment
 
 Thank you Grey and Amorian for the implementation of [fortify](https://fortify.gg/) and the `left` command in [17kmmrbot](https://github.com/Fortify-Labs/Fortify).
+PS: thanks for Draysen's English tips.
 
 KEKW
