@@ -13,7 +13,7 @@ images:
 
 Today our :bulb: bulb in the second floor went out. It looks like this:
 
-![special-bulb][special-bulb]
+{{< figure src="https://user-images.githubusercontent.com/2069165/79087728-3dea4980-7d0e-11ea-8547-2af69b5b3545.jpg" title="" width="70%" >}}
 
 This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.
 Jackie and I was discussing about how many lights we need to buy.
@@ -31,5 +31,3 @@ Once we agreed on this exponential assumption. It linked to [Poisson Distributio
 In this case, the bulb is installed in 2017 and the best estimate of this bulb is 3 years as we only have one sample. We will then expect the next light bulb will go out in 3 years.
 
 We don't need to buy two lights if we think 3 years is long time. :smile:
-
-[special-bulb]: https://user-images.githubusercontent.com/2069165/79087728-3dea4980-7d0e-11ea-8547-2af69b5b3545.jpg
