@@ -81,6 +81,7 @@ Roll 3-cost unit at level 7
 ## Acknowledgment
 
 Thank you Grey and Amorian for the implementation of [fortify](https://fortify.gg/) and the `left` command in [17kmmrbot](https://github.com/Fortify-Labs/Fortify).
+
 PS: thanks for Draysen's English tips.
 
 KEKW
