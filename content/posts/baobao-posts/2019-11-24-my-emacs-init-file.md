@@ -24,5 +24,3 @@ tags:
 13. install auto-complete
 14. install anzu
 15. add molokai-theme-kit.el in to .emacs.d
-
-Can be found in simplenote file.

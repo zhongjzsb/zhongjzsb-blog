@@ -2,6 +2,7 @@
 title:  "Back to Github"
 author: Jingyu Bao
 date:   2019-10-28
+draft: true
 tags:
     - life
     - github
