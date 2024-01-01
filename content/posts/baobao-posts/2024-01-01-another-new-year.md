@@ -2,7 +2,7 @@
 title: "Another New Year"
 date: 2024-01-01T17:04:04-05:00
 author: Jingyu Bao
-slug: 2024-new-year
+slug: new-year-2024
 draft: false
 tags:
     - life
