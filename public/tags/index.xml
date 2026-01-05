@@ -2,101 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on zhongjzsb</title>
-    <link>https://zhongjzsb.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on zhongjzsb</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 10 Oct 2020 23:44:07 -0400</lastBuildDate><atom:link href="https://zhongjzsb.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jan 2026 22:20:52 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hiking</title>
-      <link>https://zhongjzsb.com/tags/hiking/</link>
-      <pubDate>Sat, 10 Oct 2020 23:44:07 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/hiking/</guid>
+      <title>Life</title>
+      <link>http://localhost:1313/tags/life/</link>
+      <pubDate>Sun, 04 Jan 2026 16:46:36 -0500</pubDate>
+      <guid>http://localhost:1313/tags/life/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>toronto</title>
-      <link>https://zhongjzsb.com/tags/toronto/</link>
-      <pubDate>Sat, 10 Oct 2020 23:44:07 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/toronto/</guid>
+      <title>Photo</title>
+      <link>http://localhost:1313/tags/photo/</link>
+      <pubDate>Thu, 17 Mar 2022 23:38:42 -0400</pubDate>
+      <guid>http://localhost:1313/tags/photo/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>game</title>
-      <link>https://zhongjzsb.com/tags/game/</link>
+      <title>Memory</title>
+      <link>http://localhost:1313/tags/memory/</link>
+      <pubDate>Thu, 08 Apr 2021 05:38:42 -0400</pubDate>
+      <guid>http://localhost:1313/tags/memory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Toronto</title>
+      <link>http://localhost:1313/tags/toronto/</link>
+      <pubDate>Sun, 21 Mar 2021 23:44:19 -0400</pubDate>
+      <guid>http://localhost:1313/tags/toronto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pku</title>
+      <link>http://localhost:1313/tags/pku/</link>
+      <pubDate>Wed, 30 Dec 2020 19:07:56 -0500</pubDate>
+      <guid>http://localhost:1313/tags/pku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hiking</title>
+      <link>http://localhost:1313/tags/hiking/</link>
+      <pubDate>Sat, 10 Oct 2020 23:44:07 -0400</pubDate>
+      <guid>http://localhost:1313/tags/hiking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game</title>
+      <link>http://localhost:1313/tags/game/</link>
       <pubDate>Fri, 14 Aug 2020 14:56:17 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/game/</guid>
+      <guid>http://localhost:1313/tags/game/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>thought</title>
-      <link>https://zhongjzsb.com/tags/thought/</link>
+      <title>Thought</title>
+      <link>http://localhost:1313/tags/thought/</link>
       <pubDate>Mon, 03 Aug 2020 10:53:43 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/thought/</guid>
+      <guid>http://localhost:1313/tags/thought/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>food</title>
-      <link>https://zhongjzsb.com/tags/food/</link>
+      <title>Food</title>
+      <link>http://localhost:1313/tags/food/</link>
       <pubDate>Sun, 14 Jun 2020 00:51:12 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/food/</guid>
+      <guid>http://localhost:1313/tags/food/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>chinese</title>
-      <link>https://zhongjzsb.com/tags/chinese/</link>
+      <title>Chinese</title>
+      <link>http://localhost:1313/tags/chinese/</link>
       <pubDate>Wed, 06 May 2020 14:14:32 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/chinese/</guid>
+      <guid>http://localhost:1313/tags/chinese/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>life</title>
-      <link>https://zhongjzsb.com/tags/life/</link>
-      <pubDate>Mon, 04 May 2020 08:44:57 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>中文</title>
-      <link>https://zhongjzsb.com/tags/%E4%B8%AD%E6%96%87/</link>
-      <pubDate>Thu, 09 Apr 2020 08:50:40 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/%E4%B8%AD%E6%96%87/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>random</title>
-      <link>https://zhongjzsb.com/tags/random/</link>
-      <pubDate>Mon, 30 Mar 2020 22:30:35 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/random/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>travel</title>
-      <link>https://zhongjzsb.com/tags/travel/</link>
-      <pubDate>Sun, 29 Mar 2020 22:01:40 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/tags/travel/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

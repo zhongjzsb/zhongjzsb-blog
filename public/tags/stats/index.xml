@@ -1,35 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>stats on zhongjzsb</title>
-    <link>https://zhongjzsb.com/tags/stats/</link>
-    <description>Recent content in stats on zhongjzsb</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <title>Stats on zhongjzsb</title>
+    <link>http://localhost:1313/tags/stats/</link>
+    <description>Recent content in Stats on zhongjzsb</description>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 13 Mar 2020 19:49:09 -0400</lastBuildDate><atom:link href="https://zhongjzsb.com/tags/stats/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Apr 2021 18:22:48 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>COVID-19 Visualization</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/covid-19-visualization/</link>
+      <link>http://localhost:1313/posts/baobao-posts/covid-19-visualization/</link>
       <pubDate>Fri, 13 Mar 2020 19:49:09 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/covid-19-visualization/</guid>
-      <description>We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.
-We will use the following formula a lot in this post.
-$$ Current + Recovered + Death = Confirmed $$
-Flexdashboard I create a shiny app in DigitalOcean with my own shiny server. It&amp;rsquo;s saved here.</description>
+      <guid>http://localhost:1313/posts/baobao-posts/covid-19-visualization/</guid>
+      <description>&lt;p&gt;We are living the history. COVID-19 has been spreading the world for more than 3 months. It originally started in China. At his moment, more than 100 countries has been affected by the virus.&lt;/p&gt;&#xA;&lt;p&gt;We will use the following formula a lot in this post.&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;Current + Recovered + Death = Confirmed&#xA;$$&lt;/p&gt;&#xA;&lt;h2 id=&#34;flexdashboard&#34;&gt;Flexdashboard&lt;/h2&gt;&#xA;&lt;p&gt;I create a shiny app in DigitalOcean with my own shiny server. It&amp;rsquo;s saved &lt;a href=&#34;https://app.zhongjzsb.com/COVID-19-dashboard/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://app.zhongjzsb.com/COVID-19-dashboard/&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zhongjzsb/COVID-19-dashboard/master/flexdashboard-screenshot.png&#34; alt=&#34;covid-19-dashboard&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>When Will the Next Light Bulb Go Out?</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/light-bulb-go-out/</link>
+      <link>http://localhost:1313/posts/baobao-posts/light-bulb-go-out/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/light-bulb-go-out/</guid>
-      <description>Today our 💡 bulb in the second floor went out. It looks like this:
-This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light. Jackie and I was discussing about how many lights we need to buy.
-So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed.</description>
+      <guid>http://localhost:1313/posts/baobao-posts/light-bulb-go-out/</guid>
+      <description>&lt;p&gt;Today our &amp;#x1f4a1; bulb in the second floor went out. It looks like this:&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/79087728-3dea4980-7d0e-11ea-8547-2af69b5b3545.jpg&#34; width=&#34;70%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;This is a special light so that we cannot buy a general bulb to replace the old one. The only option left to us is to buy a new whole light.&#xA;Jackie and I was discussing about how many lights we need to buy.&lt;/p&gt;&#xA;&lt;p&gt;So first thing comes to my mind is that the lifetime of a bulb is exponentially distributed. It comes out so natural but Jackie asked me why it is the case? So I did some search and this &lt;a href=&#34;https://math.stackexchange.com/questions/2478820/exponential-bulbs&#34;&gt;math stackexchange&lt;/a&gt; has some explanation about this. I think the essential assumption is that&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

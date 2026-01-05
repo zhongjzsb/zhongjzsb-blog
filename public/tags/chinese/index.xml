@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>chinese on zhongjzsb</title>
-    <link>https://zhongjzsb.com/tags/chinese/</link>
-    <description>Recent content in chinese on zhongjzsb</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <title>Chinese on zhongjzsb</title>
+    <link>http://localhost:1313/tags/chinese/</link>
+    <description>Recent content in Chinese on zhongjzsb</description>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 06 May 2020 14:14:32 -0400</lastBuildDate><atom:link href="https://zhongjzsb.com/tags/chinese/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jun 2020 20:52:28 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/chinese/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>活在2019年的极乐迪斯科</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-05-06-disco-elysium/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2020-05-06-disco-elysium/</link>
       <pubDate>Wed, 06 May 2020 14:14:32 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-05-06-disco-elysium/</guid>
-      <description>最近在steam上玩极乐迪斯科(disco elysium)。还没有通关，目前刚帮助几个阳极舞曲爱好者在废弃的教堂里面开了个夜店。 而夜店名，很</description>
+      <guid>http://localhost:1313/posts/baobao-posts/2020-05-06-disco-elysium/</guid>
+      <description>&lt;p&gt;最近在steam上玩极乐迪斯科(disco elysium)。还没有通关，目前刚帮助几个阳极舞曲爱好者在废弃的教堂里面开了个夜店。&#xA;而夜店名，很硬核的被叫做“极乐迪斯科”。&amp;#x1f483; &amp;#x1f46f; &amp;#x1f483; &amp;#x1f46f; &amp;#x1f483; &amp;#x1f46f;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hiking on zhongjzsb</title>
-    <link>https://zhongjzsb.com/tags/hiking/</link>
-    <description>Recent content in hiking on zhongjzsb</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <title>Hiking on zhongjzsb</title>
+    <link>http://localhost:1313/tags/hiking/</link>
+    <description>Recent content in Hiking on zhongjzsb</description>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 10 Oct 2020 23:44:07 -0400</lastBuildDate><atom:link href="https://zhongjzsb.com/tags/hiking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 19:19:25 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hiking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hiking Weeks</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-10-10-hiking-weeks/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2020-10-10-hiking-weeks/</link>
       <pubDate>Sat, 10 Oct 2020 23:44:07 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-10-10-hiking-weeks/</guid>
-      <description>It&amp;rsquo;s October already. It has been 6 months for everyone here work from home.
-Sometimes, you will walk on the road and see the big blue sky. Until then, you will realize the world is spinning and life is still going on.
-Awenda Park: York Regional Forest 1: York Regional Forest 2: Elora Gorge: </description>
+      <guid>http://localhost:1313/posts/baobao-posts/2020-10-10-hiking-weeks/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s October already. It has been 6 months for everyone here work from home.&lt;/p&gt;&#xA;&lt;p&gt;Sometimes, you will walk on the road and see the big blue sky. Until then, you will realize the world is spinning and life is still going on.&lt;/p&gt;&#xA;&lt;p&gt;Awenda Park:&#xA;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/95699129-ab215d80-0c11-11eb-9496-d1363592dcfa.jpg&#34; alt=&#34;hiking-week-awenda-park-1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;York Regional Forest 1:&#xA;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/95699136-af4d7b00-0c11-11eb-9ebc-90b4026fbab3.jpg&#34; alt=&#34;hiking-week-york-regional-forest-1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;York Regional Forest 2:&#xA;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/95699139-afe61180-0c11-11eb-80ca-8de73325e8bb.jpg&#34; alt=&#34;hiking-week-york-regional-forest-2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Elora Gorge:&#xA;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/95699132-abb9f400-0c11-11eb-88c3-01bfd5742569.JPG&#34; alt=&#34;hiking-week-elora-gorge-1&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

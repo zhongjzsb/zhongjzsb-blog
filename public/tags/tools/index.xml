@@ -1,51 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tools on zhongjzsb</title>
-    <link>https://zhongjzsb.com/tags/tools/</link>
-    <description>Recent content in tools on zhongjzsb</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <title>Tools on zhongjzsb</title>
+    <link>http://localhost:1313/tags/tools/</link>
+    <description>Recent content in Tools on zhongjzsb</description>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 29 Feb 2020 10:30:00 +0000</lastBuildDate><atom:link href="https://zhongjzsb.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Aug 2021 09:54:15 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Setup</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</link>
+      <link>http://localhost:1313/posts/baobao-posts/blog-setup/</link>
       <pubDate>Sat, 29 Feb 2020 10:30:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/blog-setup/</guid>
-      <description>I finally set-up my blog with netlify.</description>
+      <guid>http://localhost:1313/posts/baobao-posts/blog-setup/</guid>
+      <description>&lt;p&gt;I finally set-up my blog with &lt;a href=&#34;https://www.netlify.com&#34;&gt;netlify&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My Windows Tools</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-02-24-my-windows-tools/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2020-02-24-my-windows-tools/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
-      <description>Wox It&amp;rsquo;s an effective launcher in Windows. Everything It sets a database of all your contents in Windoes machine. [lightshot] Fast screenshot tools [pushbullet] Communicate your phone, mac, windows and web browers. [unlocker] Force to delete some &amp;lsquo;un-deletable&amp;rsquo; files. [treesize] Get all files&#39; size in your machine. autoruns  Wox with Everything can search &amp;lsquo;everything&amp;rsquo; in your Windows machine.</description>
+      <guid>http://localhost:1313/posts/baobao-posts/2020-02-24-my-windows-tools/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Wox-launcher/Wox&#34;&gt;Wox&lt;/a&gt; It&amp;rsquo;s an effective launcher in Windows.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.voidtools.com/&#34;&gt;Everything&lt;/a&gt; It sets a database of all your contents in Windoes machine.&lt;/li&gt;&#xA;&lt;li&gt;[lightshot] Fast screenshot tools&lt;/li&gt;&#xA;&lt;li&gt;[pushbullet] Communicate your phone, mac, windows and web browers.&lt;/li&gt;&#xA;&lt;li&gt;[unlocker] Force to delete some &amp;lsquo;un-deletable&amp;rsquo; files.&lt;/li&gt;&#xA;&lt;li&gt;[treesize] Get all files&amp;rsquo; size in your machine.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns&#34;&gt;autoruns&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Wox-launcher/Wox&#34;&gt;Wox&lt;/a&gt; with &lt;a href=&#34;https://www.voidtools.com/&#34;&gt;Everything&lt;/a&gt; can search &amp;rsquo;everything&amp;rsquo; in your Windows machine.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My Emacs Init File</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2019-11-24-my-emacs-init-file/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2019-11-24-my-emacs-init-file/</link>
       <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
-      <description>Steps  install ido-vertical install company install solarized-dark install ess install yasnippet install poly-R install smex install expand-region install aggressive-indent install org-bullet install session install undo-tree install auto-complete install anzu add molokai-theme-kit.el in to .emacs.d  Can be found in simplenote file.</description>
+      <guid>http://localhost:1313/posts/baobao-posts/2019-11-24-my-emacs-init-file/</guid>
+      <description>&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;install ido-vertical&lt;/li&gt;&#xA;&lt;li&gt;install company&lt;/li&gt;&#xA;&lt;li&gt;install solarized-dark&lt;/li&gt;&#xA;&lt;li&gt;install ess&lt;/li&gt;&#xA;&lt;li&gt;install yasnippet&lt;/li&gt;&#xA;&lt;li&gt;install poly-R&lt;/li&gt;&#xA;&lt;li&gt;install smex&lt;/li&gt;&#xA;&lt;li&gt;install expand-region&lt;/li&gt;&#xA;&lt;li&gt;install aggressive-indent&lt;/li&gt;&#xA;&lt;li&gt;install org-bullet&lt;/li&gt;&#xA;&lt;li&gt;install session&lt;/li&gt;&#xA;&lt;li&gt;install undo-tree&lt;/li&gt;&#xA;&lt;li&gt;install auto-complete&lt;/li&gt;&#xA;&lt;li&gt;install anzu&lt;/li&gt;&#xA;&lt;li&gt;add molokai-theme-kit.el in to .emacs.d&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Document Tools</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2017-03-15-document-tools/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</guid>
-      <description>Emacs is funny.
-Atom is slow.
-Sublime is the final choice?
-You will see.</description>
+      <guid>http://localhost:1313/posts/baobao-posts/2017-03-15-document-tools/</guid>
+      <description>&lt;p&gt;Emacs is funny.&lt;/p&gt;&#xA;&lt;p&gt;Atom is slow.&lt;/p&gt;&#xA;&lt;p&gt;Sublime is the final choice?&lt;/p&gt;&#xA;&lt;p&gt;You will see.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

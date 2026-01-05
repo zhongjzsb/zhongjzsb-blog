@@ -1,69 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>random on zhongjzsb</title>
-    <link>https://zhongjzsb.com/tags/random/</link>
-    <description>Recent content in random on zhongjzsb</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <title>Random on zhongjzsb</title>
+    <link>http://localhost:1313/tags/random/</link>
+    <description>Recent content in Random on zhongjzsb</description>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 30 Mar 2020 22:30:35 -0400</lastBuildDate><atom:link href="https://zhongjzsb.com/tags/random/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Apr 2020 22:48:13 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/random/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poet from Big Fish</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/big-fish/</link>
+      <link>http://localhost:1313/posts/baobao-posts/big-fish/</link>
       <pubDate>Mon, 30 Mar 2020 22:30:35 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/big-fish/</guid>
-      <description>I keep thinking about the poet Norther Winslow in the small town called Spectre in the movie Big-Fish, who wrote the following amazing poem in 12 years.
-The grass so green.
-Skies so blue.
-Spectre is really great!
-But come on, there&amp;rsquo;re only three lines! Then he complained
- This is why you don&amp;rsquo;t show work in progress.
- If you keep learning the basics of abc and the ABC of xyz, you are a Spectre poet!</description>
+      <guid>http://localhost:1313/posts/baobao-posts/big-fish/</guid>
+      <description>&lt;p&gt;I keep thinking about the poet &lt;a href=&#34;https://www.imdb.com/title/tt0319061/characters/nm0000114&#34;&gt;&lt;em&gt;Norther Winslow&lt;/em&gt;&lt;/a&gt; in the small town called Spectre in the movie &lt;a href=&#34;https://en.wikipedia.org/wiki/Big_Fish&#34;&gt;Big-Fish&lt;/a&gt;, who wrote the following amazing poem in 12 years.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xD;&#xA;  &lt;p&gt;&lt;em&gt;The grass so green.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Skies so blue.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Spectre is really great!&lt;/em&gt;&lt;/p&gt;&#xA;&#xD;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&#xA;&lt;p&gt;But come on, there&amp;rsquo;re only three lines! Then he complained&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This is why you don&amp;rsquo;t show work in progress.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;If you keep learning the basics of abc and the ABC of xyz, you are a Spectre poet! &amp;#x1f606;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bag of 2020</title>
-      <link>https://zhongjzsb.com/posts/jackie-posts/my-new-bag/</link>
+      <link>http://localhost:1313/posts/jackie-posts/my-new-bag/</link>
       <pubDate>Mon, 16 Mar 2020 12:06:30 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/jackie-posts/my-new-bag/</guid>
-      <description>A sweet birthday treat to myself 😄
-The new Gucci sylvie 1969 in beige, a stunning masterpiece!
-Classic and elegant, can&amp;rsquo;t wait to show off lol
-         </description>
+      <guid>http://localhost:1313/posts/jackie-posts/my-new-bag/</guid>
+      <description>&lt;p&gt;A sweet birthday treat to myself &amp;#x1f604;&lt;/p&gt;&#xA;&lt;p&gt;The new Gucci sylvie 1969 in beige, a stunning masterpiece!&lt;/p&gt;&#xA;&lt;p&gt;Classic and elegant, can&amp;rsquo;t wait to show off lol&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/79087383-1646b180-7d0d-11ea-9b29-a71238213c1b.png&#34; alt=&#34;gucci1&#34;&gt;&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/79087384-1777de80-7d0d-11ea-9f9b-3caac2736d2c.png&#34; alt=&#34;gucci2&#34;&gt;&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/79087386-18a90b80-7d0d-11ea-8c8f-0688622fc664.png&#34; alt=&#34;gucci3&#34;&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
-    
     <item>
       <title>The year of mouse</title>
-      <link>https://zhongjzsb.com/posts/jackie-posts/2020-02-29-the-year-of-mouse/</link>
+      <link>http://localhost:1313/posts/jackie-posts/2020-02-29-the-year-of-mouse/</link>
       <pubDate>Sat, 29 Feb 2020 06:22:38 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/jackie-posts/2020-02-29-the-year-of-mouse/</guid>
-      <description>happy anniversary</description>
+      <guid>http://localhost:1313/posts/jackie-posts/2020-02-29-the-year-of-mouse/</guid>
+      <description>&lt;p&gt;happy anniversary&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>This is a jackie test</title>
-      <link>https://zhongjzsb.com/posts/jackie-posts/2020-02-22-jackie-test/</link>
+      <link>http://localhost:1313/posts/jackie-posts/2020-02-22-jackie-test/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/jackie-posts/2020-02-22-jackie-test/</guid>
-      <description>More to come This is a test for Jackie with comments in her article 🌟</description>
+      <guid>http://localhost:1313/posts/jackie-posts/2020-02-22-jackie-test/</guid>
+      <description>&lt;h2 id=&#34;more-to-come&#34;&gt;More to come&lt;/h2&gt;&#xA;&lt;p&gt;This is a test for Jackie with comments in her article &amp;#x1f31f;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Document Tools</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2017-03-15-document-tools/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2017-03-15-document-tools/</guid>
-      <description>Emacs is funny.
-Atom is slow.
-Sublime is the final choice?
-You will see.</description>
+      <guid>http://localhost:1313/posts/baobao-posts/2017-03-15-document-tools/</guid>
+      <description>&lt;p&gt;Emacs is funny.&lt;/p&gt;&#xA;&lt;p&gt;Atom is slow.&lt;/p&gt;&#xA;&lt;p&gt;Sublime is the final choice?&lt;/p&gt;&#xA;&lt;p&gt;You will see.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

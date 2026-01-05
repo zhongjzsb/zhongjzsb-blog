@@ -2,112 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zhongjzsb</title>
-    <link>https://zhongjzsb.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on zhongjzsb</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 10 Oct 2020 23:44:07 -0400</lastBuildDate><atom:link href="https://zhongjzsb.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jan 2026 22:20:52 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello New Year</title>
+      <link>http://localhost:1313/posts/baobao-posts/new-year-2026/</link>
+      <pubDate>Sun, 04 Jan 2026 16:46:36 -0500</pubDate>
+      <guid>http://localhost:1313/posts/baobao-posts/new-year-2026/</guid>
+      <description>&lt;p&gt;去年迎来了新的家庭成员T。R去了新的学校成长了很多。&lt;/p&gt;&#xA;&lt;p&gt;新的一年希望能够继续保持积极的健身和打球，和Q一起认真的生活。&lt;/p&gt;&#xA;&lt;p&gt;最近在听 Three little birds。 &amp;ldquo;Every little thing gonna be alright&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Another New Year</title>
+      <link>http://localhost:1313/posts/baobao-posts/new-year-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 17:04:04 -0500</pubDate>
+      <guid>http://localhost:1313/posts/baobao-posts/new-year-2024/</guid>
+      <description>&lt;p&gt;又是新的一年。&lt;/p&gt;&#xA;&lt;p&gt;很多时候过的匆匆，都不知道怎么就又到了年底。&lt;/p&gt;&#xA;&lt;p&gt;2023倒是不太一样。这一年还能数得出来是怎么过来的。年初爸妈来多，后来搬了两次家，工作上多了帮手P，开始explore更多的策略，运动上开始rowing，生活上跟Q也更默契了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CN Tower in Fog</title>
+      <link>http://localhost:1313/posts/baobao-posts/cn-tower-in-fog/</link>
+      <pubDate>Thu, 17 Mar 2022 23:38:42 -0400</pubDate>
+      <guid>http://localhost:1313/posts/baobao-posts/cn-tower-in-fog/</guid>
+      <description>&lt;p&gt;What a beautiful view, like walking on the clouds.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/159186298-5262a10f-caf5-46fa-a162-d882b956d31d.jpg&#34; alt=&#34;cn-tower-in-fog&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>来不及说再见</title>
+      <link>http://localhost:1313/posts/baobao-posts/too-late-to-say-goodbye/</link>
+      <pubDate>Thu, 08 Apr 2021 05:38:42 -0400</pubDate>
+      <guid>http://localhost:1313/posts/baobao-posts/too-late-to-say-goodbye/</guid>
+      <description>&lt;p&gt;昨晚梦到和好几拨人一起吃散伙饭。在某个记忆中校园附近的餐厅里面觥筹交错。跟他们畅饮着，相互损对方。同时也知道很多年，甚至这一辈子也不会再相见却始终努力记得这一次。梦境里的我嚎啕大哭，用力的在心里喊着，这是我经历过最好的散伙饭。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>小浣熊</title>
+      <link>http://localhost:1313/posts/baobao-posts/little-raccoon/</link>
+      <pubDate>Sun, 21 Mar 2021 23:44:19 -0400</pubDate>
+      <guid>http://localhost:1313/posts/baobao-posts/little-raccoon/</guid>
+      <description>&lt;p&gt;最近天气极好，今天跟Jackie出来溜达。&lt;/p&gt;&#xA;&lt;p&gt;看到一只浣熊在树上徘徊，肥大的身子让树枝晃动的厉害。&lt;/p&gt;&#xA;&lt;p&gt;我凑过去给他拍照，他很疑惑的停了下来看着我。&lt;/p&gt;&#xA;&lt;p&gt;不知道是想要让我过去帮他，还是希望我赶快走开别看这尴尬的一幕。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>中二的我们</title>
+      <link>http://localhost:1313/posts/baobao-posts/pku-xygl-memories/</link>
+      <pubDate>Wed, 30 Dec 2020 19:07:56 -0500</pubDate>
+      <guid>http://localhost:1313/posts/baobao-posts/pku-xygl-memories/</guid>
+      <description>&lt;p&gt;2020马上要过去了。很不平凡的一年，经历了很多，也见证了很多。&lt;/p&gt;&#xA;&lt;p&gt;今天整理硬盘突然发现了10年前拍的短片。满满的中二气扑面而来，真是太欢乐了。&lt;/p&gt;&#xA;&lt;div class=&#34;iframe-container&#34;&gt;&#xA;    &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1sV411b7Dc&amp;page=1&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;&#xA;  &lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;那我就先祝为敬了，大家新年好！&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hiking Weeks</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-10-10-hiking-weeks/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2020-10-10-hiking-weeks/</link>
       <pubDate>Sat, 10 Oct 2020 23:44:07 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-10-10-hiking-weeks/</guid>
-      <description>It&amp;rsquo;s October already. It has been 6 months for everyone here work from home.
-Sometimes, you will walk on the road and see the big blue sky. Until then, you will realize the world is spinning and life is still going on.
-Awenda Park: York Regional Forest 1: York Regional Forest 2: Elora Gorge: </description>
+      <guid>http://localhost:1313/posts/baobao-posts/2020-10-10-hiking-weeks/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s October already. It has been 6 months for everyone here work from home.&lt;/p&gt;&#xA;&lt;p&gt;Sometimes, you will walk on the road and see the big blue sky. Until then, you will realize the world is spinning and life is still going on.&lt;/p&gt;&#xA;&lt;p&gt;Awenda Park:&#xA;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/95699129-ab215d80-0c11-11eb-9496-d1363592dcfa.jpg&#34; alt=&#34;hiking-week-awenda-park-1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;York Regional Forest 1:&#xA;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/95699136-af4d7b00-0c11-11eb-9ebc-90b4026fbab3.jpg&#34; alt=&#34;hiking-week-york-regional-forest-1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;York Regional Forest 2:&#xA;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/95699139-afe61180-0c11-11eb-80ca-8de73325e8bb.jpg&#34; alt=&#34;hiking-week-york-regional-forest-2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Elora Gorge:&#xA;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/95699132-abb9f400-0c11-11eb-88c3-01bfd5742569.JPG&#34; alt=&#34;hiking-week-elora-gorge-1&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dota Underlords Unit Odds</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2020-08-14-underlords-unit-odds/</link>
       <pubDate>Fri, 14 Aug 2020 14:56:17 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/</guid>
-      <description>The general question is:
- What is the odd that my unit will show up in the next roll?
- Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
-    1-cost 2-cost 3-cost 4-cost 5-cost     Number of Unique Unit 16 14 13 12 7   Number of Copies per Unit 30 20 18 12 10   Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$   Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$   Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$    Odds Assume you want a $i$-cost unit.</description>
+      <guid>http://localhost:1313/posts/baobao-posts/2020-08-14-underlords-unit-odds/</guid>
+      <description>&lt;p&gt;The general question is:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;What is the odd that my unit will show up in the next roll?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;assumptions&#34;&gt;Assumptions&lt;/h2&gt;&#xA;&lt;p&gt;There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1-cost&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;2-cost&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;3-cost&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;4-cost&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;5-cost&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Number of Unique Unit&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;16&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;14&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;13&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;12&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;7&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Number of Copies per Unit&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;30&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;20&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;18&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;12&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;10&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Total Number of Units&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;480 $(C_1)$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;280 $(C_2)$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;234 $(C_3)$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;144 $(C_4)$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;70 $(C_5)$&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Shop Odds&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$p_1$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$p_2$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$p_3$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$p_4$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$p_5$&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Total numbers of exist units&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$o_1$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$o_2$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$o_3$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$o_4$&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;$o_5$&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;odds&#34;&gt;Odds&lt;/h2&gt;&#xA;&lt;p&gt;Assume you want a $i$-cost unit. And you know there are $x$ units left in the pool.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Road To Home</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-08-03-road-to-home/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2020-08-03-road-to-home/</link>
       <pubDate>Mon, 03 Aug 2020 10:53:43 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-08-03-road-to-home/</guid>
-      <description>After a small trial in Betty Sutherland Park, we were driving on 401 from west to east.
-The old rain just finished and A new rain is about to fall.</description>
+      <guid>http://localhost:1313/posts/baobao-posts/2020-08-03-road-to-home/</guid>
+      <description>&lt;p&gt;After a small trial in Betty Sutherland Park, we were driving on 401 from west to east.&lt;/p&gt;&#xA;&lt;p&gt;The old rain just finished and A new rain is about to fall.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/2069165/89197026-14815200-d579-11ea-9b31-9a11a408119c.jpg&#34; alt=&#34;road-to-home&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Last Stand of Underlords</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-06-30-the-last-stand-of-underlords/</link>
+      <link>http://localhost:1313/posts/baobao-posts/2020-06-30-the-last-stand-of-underlords/</link>
       <pubDate>Tue, 30 Jun 2020 16:10:41 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-06-30-the-last-stand-of-underlords/</guid>
-      <description>Live or Die?
- source from steamdb</description>
+      <guid>http://localhost:1313/posts/baobao-posts/2020-06-30-the-last-stand-of-underlords/</guid>
+      <description>&lt;p&gt;Live or Die?&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://steamdb.info/embed/?appid=1046930&#34; height=&#34;389px&#34; width=&#34;100%&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;&lt;em&gt;source from &lt;a href=&#34;https://steamdb.info/app/1046930/graphs/&#34;&gt;steamdb&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Top 2 Worldwide in Dota Underlords</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-06-27-dota-underlords-rank/</link>
-      <pubDate>Sat, 27 Jun 2020 15:50:43 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-06-27-dota-underlords-rank/</guid>
-      <description>I finally hit Rank 4 worldwide in Dota Underlords! We will see what&amp;rsquo;s next 😆 😆 😆
- And I hit rank 3 on 2020-06-28!
- Then I finally got rank 2 because zzj didn&amp;rsquo;t play 5 games in the last 5 days. 💃 💃 💃
- </description>
-    </item>
-    
-    <item>
-      <title>Taro&#39;s Fish</title>
-      <link>https://zhongjzsb.com/posts/jackie-posts/2020-06-14-taro-s-fish/</link>
-      <pubDate>Sun, 14 Jun 2020 00:51:12 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/jackie-posts/2020-06-14-taro-s-fish/</guid>
-      <description>生鱼片点了Albacore Tuna和Torched Sea Bream很完美，甜虾尝起来像泥巴。Sushi食材搭配的很好。 Sashimi Rolls</description>
-    </item>
-    
-    <item>
-      <title>Frisbee Time</title>
-      <link>https://zhongjzsb.com/posts/jackie-posts/2020-06-07-frisbee-time/</link>
-      <pubDate>Sun, 07 Jun 2020 20:32:31 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/jackie-posts/2020-06-07-frisbee-time/</guid>
-      <description>Hoho!
-  </description>
-    </item>
-    
-    <item>
-      <title>Watermelon Time</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-06-06-watermelon-time/</link>
-      <pubDate>Sat, 06 Jun 2020 19:31:15 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-06-06-watermelon-time/</guid>
-      <description>The world inside my house is peaceful and quiet. But the world outside of my house is so crazy. Lots of big events happened in the past month. The relationship between US and China has been crashed into historical low. To transfer the angers from American people, Trump has been trying so hard to blame other people and countries. Street vendors (摆地摊) has been banned for</description>
-    </item>
-    
-    <item>
-      <title>活在2019年的极乐迪斯科</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-05-06-disco-elysium/</link>
-      <pubDate>Wed, 06 May 2020 14:14:32 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-05-06-disco-elysium/</guid>
-      <description>最近在steam上玩极乐迪斯科(disco elysium)。还没有通关，目前刚帮助几个阳极舞曲爱好者在废弃的教堂里面开了个夜店。 而夜店名，很</description>
-    </item>
-    
-    <item>
-      <title>足球梦</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/2020-05-04-football-dream/</link>
-      <pubDate>Mon, 04 May 2020 08:44:57 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/2020-05-04-football-dream/</guid>
-      <description>前天晚上半夜睡不着觉，脑子里面不停的盘旋， 妄图解决phd期间未能解决的科研问题。 直到第二天凌晨五点多才终于睡了3个多小时。 于是昨晚10点不到</description>
-    </item>
-    
   </channel>
 </rss>

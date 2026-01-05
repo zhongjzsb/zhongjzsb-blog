@@ -2,20 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>中文 on zhongjzsb</title>
-    <link>https://zhongjzsb.com/tags/%E4%B8%AD%E6%96%87/</link>
+    <link>http://localhost:1313/tags/%E4%B8%AD%E6%96%87/</link>
     <description>Recent content in 中文 on zhongjzsb</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 09 Apr 2020 08:50:40 -0400</lastBuildDate><atom:link href="https://zhongjzsb.com/tags/%E4%B8%AD%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2020 11:32:35 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E4%B8%AD%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在家上班 (work from home)</title>
-      <link>https://zhongjzsb.com/posts/baobao-posts/work-from-home/</link>
+      <link>http://localhost:1313/posts/baobao-posts/work-from-home/</link>
       <pubDate>Thu, 09 Apr 2020 08:50:40 -0400</pubDate>
-      
-      <guid>https://zhongjzsb.com/posts/baobao-posts/work-from-home/</guid>
-      <description>从3月9号周一开始在家上班到今天，已经整整一个月。已经渐渐熟悉了在家工作的节奏。 偶然间觉得未来肯定会： 越来越多的公司实行在家上班的政策，即使</description>
+      <guid>http://localhost:1313/posts/baobao-posts/work-from-home/</guid>
+      <description>&lt;p&gt;从3月9号周一开始在家上班到今天，已经整整一个月。已经渐渐熟悉了在家工作的节奏。&#xA;偶然间觉得未来肯定会：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;越来越多的公司实行在家上班的政策，即使疫情过去。&lt;/li&gt;&#xA;&lt;li&gt;会有很多金融书籍来诉说这段暴跌和暴涨的日子。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;It has been one month since I started to work from home. I feel like&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

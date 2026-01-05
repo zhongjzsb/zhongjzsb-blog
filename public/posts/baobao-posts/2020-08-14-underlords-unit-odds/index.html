@@ -1,78 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Jingyu Bao">
 <meta name="description" content="The general question is:
- What is the odd that my unit will show up in the next roll?
- Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
-    1-cost 2-cost 3-cost 4-cost 5-cost     Number of Unique Unit 16 14 13 12 7   Number of Copies per Unit 30 20 18 12 10   Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$   Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$   Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$    Odds Assume you want a $i$-cost unit." />
+What is the odd that my unit will show up in the next roll?
+Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
+1-cost 2-cost 3-cost 4-cost 5-cost Number of Unique Unit 16 14 13 12 7 Number of Copies per Unit 30 20 18 12 10 Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$ Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$ Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$ Odds Assume you want a $i$-cost unit. And you know there are $x$ units left in the pool.
+" />
 <meta name="keywords" content=", game" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/" />
+<link rel="canonical" href="http://localhost:1313/posts/baobao-posts/2020-08-14-underlords-unit-odds/" />
 
 
 
-    <title>
-        
-            Dota Underlords Unit Odds ::  Jingyu Bao
-        
-    </title>
+<title>
+     Dota Underlords Unit Odds ::  
+</title>
 
 
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
-    type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet" type="text/css">  
+<link rel="stylesheet" href="/main.min.78a541480c1586175c5d333c9e7b5b971e7e87b2dc61f558187aea7776cc455a.css"> 
 
 
 
-<link rel="stylesheet" href="/main.min.cbd9ce6c3a26d6c4a5eb4b8834c18d83518654bd8bac1fc8160486f336181c9a.css">
-
-
-    
-        <link rel="stylesheet" type="text/css" href="/assets/style.css">
-    
-
-    
-        <link rel="stylesheet" type="text/css" href="/assets/book-style.css">
-    
-
-    
-        <link rel="stylesheet" type="text/css" href="/assets/image-style.css">
-    
-
-
-
-<meta itemprop="name" content="Dota Underlords Unit Odds">
-<meta itemprop="description" content="The general question is:
- What is the odd that my unit will show up in the next roll?
- Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
-    1-cost 2-cost 3-cost 4-cost 5-cost     Number of Unique Unit 16 14 13 12 7   Number of Copies per Unit 30 20 18 12 10   Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$   Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$   Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$    Odds Assume you want a $i$-cost unit.">
-<meta itemprop="datePublished" content="2020-08-14T14:56:17-04:00" />
-<meta itemprop="dateModified" content="2020-10-06T13:07:38-04:00" />
-<meta itemprop="wordCount" content="410">
-<meta itemprop="image" content="https://zhongjzsb.com/"/>
-
-
-
-<meta itemprop="keywords" content="game," />
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://zhongjzsb.com/"/>
-
-<meta name="twitter:title" content="Dota Underlords Unit Odds"/>
-<meta name="twitter:description" content="The general question is:
- What is the odd that my unit will show up in the next roll?
- Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
-    1-cost 2-cost 3-cost 4-cost 5-cost     Number of Unique Unit 16 14 13 12 7   Number of Copies per Unit 30 20 18 12 10   Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$   Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$   Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$    Odds Assume you want a $i$-cost unit."/>
-
-
-
-
-
-    <meta property="article:published_time" content="2020-08-14 14:56:17 -0400 EDT" />
+  <meta itemprop="name" content="Dota Underlords Unit Odds">
+  <meta itemprop="description" content="The general question is:
+What is the odd that my unit will show up in the next roll?
+Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
+1-cost 2-cost 3-cost 4-cost 5-cost Number of Unique Unit 16 14 13 12 7 Number of Copies per Unit 30 20 18 12 10 Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$ Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$ Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$ Odds Assume you want a $i$-cost unit. And you know there are $x$ units left in the pool.">
+  <meta itemprop="datePublished" content="2020-08-14T14:56:17-04:00">
+  <meta itemprop="dateModified" content="2021-04-24T18:19:18-04:00">
+  <meta itemprop="wordCount" content="415">
+  <meta itemprop="keywords" content="Game">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dota Underlords Unit Odds">
+  <meta name="twitter:description" content="The general question is:
+What is the odd that my unit will show up in the next roll?
+Assumptions There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)
+1-cost 2-cost 3-cost 4-cost 5-cost Number of Unique Unit 16 14 13 12 7 Number of Copies per Unit 30 20 18 12 10 Total Number of Units 480 $(C_1)$ 280 $(C_2)$ 234 $(C_3)$ 144 $(C_4)$ 70 $(C_5)$ Shop Odds $p_1$ $p_2$ $p_3$ $p_4$ $p_5$ Total numbers of exist units1 $o_1$ $o_2$ $o_3$ $o_4$ $o_5$ Odds Assume you want a $i$-cost unit. And you know there are $x$ units left in the pool.">
+  
+<meta property="article:published_time" content="2020-08-14 14:56:17 -0400 EDT" /> 
 
 
 
@@ -83,10 +55,23 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159320532-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159320532-1');
+</script>
     </head>
 
-    <body class="dark-theme">
+    
+        <body>
+    
+    
         <div class="container">
             <header class="header">
     <span class="header__inner">
@@ -108,7 +93,7 @@
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://zhongjzsb.com/posts/baobao-posts/">Baobao</a></li><li><a href="https://zhongjzsb.com/posts/jackie-posts/">Jackie</a></li><li><a href="https://zhongjzsb.com/about">About</a></li><li><a href="https://zhongjzsb.com/tags/">Archive</a></li>
+    <ul class="menu__inner"><li><a href="/posts/baobao-posts/">Baobao</a></li><li><a href="/posts/jackie-posts/">Jackie</a></li><li><a href="/about">About</a></li><li><a href="/tags/">Archive</a></li>
     </ul>
 </nav>
 
@@ -157,7 +142,7 @@
 
         <article>
             <h1 class="post-title">
-                <a href="https://zhongjzsb.com/posts/baobao-posts/2020-08-14-underlords-unit-odds/">Dota Underlords Unit Odds</a>
+                <a href="http://localhost:1313/posts/baobao-posts/2020-08-14-underlords-unit-odds/">Dota Underlords Unit Odds</a>
             </h1>
 
             
@@ -165,63 +150,62 @@
             <div class="post-content">
                 <p>The general question is:</p>
 <blockquote>
-<p><em><strong>What is the odd that my unit will show up in the next roll?</strong></em></p>
-</blockquote>
+<p><em><strong>What is the odd that my unit will show up in the next roll?</strong></em></p></blockquote>
 <h2 id="assumptions">Assumptions</h2>
 <p>There are several assumptions here. It might change due to future updates. (Updated based on the 2020-08-27 patch)</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"></th>
-<th style="text-align:center">1-cost</th>
-<th style="text-align:center">2-cost</th>
-<th style="text-align:center">3-cost</th>
-<th style="text-align:center">4-cost</th>
-<th style="text-align:center">5-cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Number of Unique Unit</td>
-<td style="text-align:center">16</td>
-<td style="text-align:center">14</td>
-<td style="text-align:center">13</td>
-<td style="text-align:center">12</td>
-<td style="text-align:center">7</td>
-</tr>
-<tr>
-<td style="text-align:center">Number of Copies per Unit</td>
-<td style="text-align:center">30</td>
-<td style="text-align:center">20</td>
-<td style="text-align:center">18</td>
-<td style="text-align:center">12</td>
-<td style="text-align:center">10</td>
-</tr>
-<tr>
-<td style="text-align:center">Total Number of Units</td>
-<td style="text-align:center">480 $(C_1)$</td>
-<td style="text-align:center">280 $(C_2)$</td>
-<td style="text-align:center">234 $(C_3)$</td>
-<td style="text-align:center">144 $(C_4)$</td>
-<td style="text-align:center">70 $(C_5)$</td>
-</tr>
-<tr>
-<td style="text-align:center">Shop Odds</td>
-<td style="text-align:center">$p_1$</td>
-<td style="text-align:center">$p_2$</td>
-<td style="text-align:center">$p_3$</td>
-<td style="text-align:center">$p_4$</td>
-<td style="text-align:center">$p_5$</td>
-</tr>
-<tr>
-<td style="text-align:center">Total numbers of exist units<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></td>
-<td style="text-align:center">$o_1$</td>
-<td style="text-align:center">$o_2$</td>
-<td style="text-align:center">$o_3$</td>
-<td style="text-align:center">$o_4$</td>
-<td style="text-align:center">$o_5$</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"></th>
+          <th style="text-align: center">1-cost</th>
+          <th style="text-align: center">2-cost</th>
+          <th style="text-align: center">3-cost</th>
+          <th style="text-align: center">4-cost</th>
+          <th style="text-align: center">5-cost</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Number of Unique Unit</td>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">14</td>
+          <td style="text-align: center">13</td>
+          <td style="text-align: center">12</td>
+          <td style="text-align: center">7</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Number of Copies per Unit</td>
+          <td style="text-align: center">30</td>
+          <td style="text-align: center">20</td>
+          <td style="text-align: center">18</td>
+          <td style="text-align: center">12</td>
+          <td style="text-align: center">10</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Total Number of Units</td>
+          <td style="text-align: center">480 $(C_1)$</td>
+          <td style="text-align: center">280 $(C_2)$</td>
+          <td style="text-align: center">234 $(C_3)$</td>
+          <td style="text-align: center">144 $(C_4)$</td>
+          <td style="text-align: center">70 $(C_5)$</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Shop Odds</td>
+          <td style="text-align: center">$p_1$</td>
+          <td style="text-align: center">$p_2$</td>
+          <td style="text-align: center">$p_3$</td>
+          <td style="text-align: center">$p_4$</td>
+          <td style="text-align: center">$p_5$</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Total numbers of exist units<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></td>
+          <td style="text-align: center">$o_1$</td>
+          <td style="text-align: center">$o_2$</td>
+          <td style="text-align: center">$o_3$</td>
+          <td style="text-align: center">$o_4$</td>
+          <td style="text-align: center">$o_5$</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="odds">Odds</h2>
 <p>Assume you want a $i$-cost unit. And you know there are $x$ units left in the pool.</p>
@@ -241,11 +225,11 @@ $$</p>
 <p>A spreadsheet for the calculation: <a href="https://docs.google.com/spreadsheets/d/1wpbQRhJELqM2gdfJxH_AuM421U1MPGg7cFqjyGBQjEg/edit?usp=sharing">google sheet</a>.</p>
 <p>Some general odds:</p>
 <p>Roll 1-cost unit at level 4
-<img src="https://user-images.githubusercontent.com/2069165/93388916-6d5f2e00-f839-11ea-9b44-87e60a54a750.png" alt="2020-08-14-underlords-unit-odds-1"></p>
+<img src="https://user-images.githubusercontent.com/2069165/115974221-37013400-a529-11eb-9e69-f5cab078ff6d.png" alt="2020-08-14-underlords-unit-odds-1"></p>
 <p>Roll 2-cost unit at level 5
-<img src="https://user-images.githubusercontent.com/2069165/93388922-6f28f180-f839-11ea-8986-fe34187164b4.png" alt="2020-08-14-underlords-unit-odds-2"></p>
+<img src="https://user-images.githubusercontent.com/2069165/115974222-37013400-a529-11eb-9105-b115c387c2a2.png" alt="2020-08-14-underlords-unit-odds-2"></p>
 <p>Roll 3-cost unit at level 7
-<img src="https://user-images.githubusercontent.com/2069165/93388923-70f2b500-f839-11ea-94e2-c8525b6c6e64.png" alt="2020-08-14-underlords-unit-odds-3"></p>
+<img src="https://user-images.githubusercontent.com/2069165/115974223-3799ca80-a529-11eb-9097-e0c61b046035.png" alt="2020-08-14-underlords-unit-odds-3"></p>
 <h2 id="tips-for-rolling">Tips for rolling</h2>
 <ol>
 <li>Go for un-contested units</li>
@@ -254,15 +238,16 @@ $$</p>
 </ol>
 <h2 id="acknowledgment">Acknowledgment</h2>
 <p>Thank you Grey and Amorian for the implementation of <a href="https://fortify.gg/">fortify</a> and the <code>left</code> command in <a href="https://github.com/Fortify-Labs/Fortify">17kmmrbot</a>.</p>
+<p>PS: thanks for Draysen&rsquo;s English tips.</p>
 <p>KEKW</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p>This includes all the units on the board, bench and shop. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:1">
+<p>This includes all the units on the board, bench and shop.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 
             </div>
         </article>
@@ -278,13 +263,13 @@ $$</p>
                     <line x1="17.5" y1="15" x2="9" y2="15"></line>
                 </svg>Jingyu Bao</p>
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://zhongjzsb.com/tags/game">game</a></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://localhost:1313/tags/game">game</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>410 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>415 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-08-14 14:56 -04:00</p>
-                <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="https://github.com/zhongjzsb/zhongjzsb-blog/commit/494327fa59f548afc4d8debe1053dddb154edde4" target="_blank" rel="noopener">494327f</a> @ 2020-10-06</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="d5314d740912df45ccfb3a81ea3e385f73a354cc" target="_blank" rel="noopener">d5314d7</a> @ 2021-04-24</p>
         </div>
 
         
@@ -297,7 +282,7 @@ $$</p>
                 <div class="pagination__buttons">
                     
                         <span class="button previous">
-                            <a href="https://zhongjzsb.com/posts/baobao-posts/2020-10-10-hiking-weeks/">
+                            <a href="http://localhost:1313/posts/baobao-posts/2020-10-10-hiking-weeks/">
                                 <span class="button__icon">←</span>
                                 <span class="button__text">Hiking Weeks</span>
                             </a>
@@ -306,7 +291,7 @@ $$</p>
 
                     
                         <span class="button next">
-                            <a href="https://zhongjzsb.com/posts/baobao-posts/2020-08-03-road-to-home/">
+                            <a href="http://localhost:1313/posts/baobao-posts/2020-08-03-road-to-home/">
                                 <span class="button__text">Road To Home</span>
                                 <span class="button__icon">→</span>
                             </a>
@@ -319,8 +304,8 @@ $$</p>
         
             <div id="comments" class="thin">
                 <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+<script>
+    window.disqus_config = function () {
     
     
     
@@ -347,11 +332,11 @@ $$</p>
                 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; 2020</span> 
-            <span><a href="https://zhongjzsb.com/">Jingyu Bao</a></span> 
+            <span>&copy; 2026</span> 
+            <span><a href="http://localhost:1313/">Jingyu Bao</a></span> 
             <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
             <span> <a
-                    href="https://zhongjzsb.com/posts/index.xml" target="_blank" title="rss"><svg
+                    href="http://localhost:1313/posts/index.xml" target="_blank" title="rss"><svg
                         xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="feather feather-rss">
@@ -422,22 +407,7 @@ $$</p>
 
 
 
-
-<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
-    
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-159320532-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
+<script type="text/javascript" src="/bundle.min.63e1cd4087b02bc78961fcab2aaf77e957e2227557c73ab774f1cc4a9db0645e90d2403ca03e55eb0887e432e82aea10afe7f125052af6dd46cfea148ecbc663.js" integrity="sha512-Y&#43;HNQIewK8eJYfyrKq936VfiInVXxzq3dPHMSp2wZF6Q0kA8oD5V6wiH5DLoKuoQr&#43;fxJQUq9t1Gz&#43;oUjsvGYw=="></script>
 
 
 

@@ -27,7 +27,9 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 googleAnalytics = "UA-159320532-1"
-disqusShortname = "zhongjzsb"
+
+[services.disqus]
+  shortname = "zhongjzsb"
 
 [author]
   name = "Jingyu Bao"
@@ -64,8 +66,11 @@ disqusShortname = "zhongjzsb"
   dateformNumTime = "2006-01-02 15:04 -07:00"
   # lastModDisplay  = "Modified: "
 
-  author = "Jingyu Bao" # create default author
+  author = "Jingyu Bao" # create default author (fallback)
+  [params.Author]
+    name = "Jingyu Bao" # for .Site.Params.Author.name access
   comment = true # add comment option in post
+  disqusShortname = "zhongjzsb" # fallback for template compatibility
 
   # Metadata mostly used in document's head
   description = "Jingyu Bao"
