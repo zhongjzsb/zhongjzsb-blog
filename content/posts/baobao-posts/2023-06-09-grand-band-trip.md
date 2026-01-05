@@ -11,6 +11,6 @@ tags:
 
 Lots of fun there that summer.
 
-![grand-band-trip-1](https://github.com/user-attachments/assets/512c436d-27d1-4f7a-bf0a-2b50625ea696)
+![2023-06-09-grand-band-trip-1](https://github.com/user-attachments/assets/9726c2cd-db7f-4c8f-bc6d-c811afb24478)
 
-![grand-band-trip-2](https://github.com/user-attachments/assets/16215891-bbd3-400e-a1d1-771cb719cdb9)
+![2023-06-09-grand-band-trip-2](https://github.com/user-attachments/assets/5d6c6725-162c-40a0-a2a1-1ce0961fbb87)
