@@ -9,7 +9,7 @@ tags:
     - life
 ---
 
-Lots of fun there that summer.
+Lots of fun there this summer. 
 
 ![2023-06-09-grand-band-trip-1](/images/2023-06-09-Grand-Bend-trip-1.JPEG)
 
