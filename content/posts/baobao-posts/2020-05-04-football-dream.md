@@ -4,12 +4,6 @@ slug: 2020-05-04-football-dream
 draft: false
 author: Jingyu Bao
 date: 2020-05-04T08:44:57-04:00
-location: >
-    47 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
-longitude: -79.40350042336543
-latitude: 43.74380385939916
 weather: 7 °C and Mostly Cloudy
 tags:
     - life

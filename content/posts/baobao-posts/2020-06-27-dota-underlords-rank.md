@@ -4,12 +4,6 @@ slug: 2020-06-27-dota-underlords-rank
 draft: false
 author: Jingyu Bao
 date: 2020-06-27T15:50:43-04:00
-location: >
-    45 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
-longitude: -79.403420319538
-latitude: 43.74389049910099
 weather: 28 °C and Mostly Cloudy
 tags:
     - game

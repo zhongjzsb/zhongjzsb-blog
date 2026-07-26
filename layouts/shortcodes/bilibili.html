@@ -1,4 +1,10 @@
 <div class="iframe-container">
-    <iframe src="//player.bilibili.com/player.html?bvid={{.Get 0 }}&page={{ if .Get 1 }}{{.Get 1}}{{ else }}1{{end}}" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true">
+    <iframe
+      src="https://player.bilibili.com/player.html?bvid={{ .Get 0 }}&page={{ if .Get 1 }}{{ .Get 1 }}{{ else }}1{{ end }}"
+      title="Bilibili video"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    >
   </iframe>
 </div>

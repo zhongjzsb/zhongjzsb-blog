@@ -4,12 +4,6 @@ slug: 2020-04-26-time-pass-by-in-covid-period
 draft: false
 author: Jingyu Bao
 date: 2020-04-26T20:33:12-04:00
-location: >
-    47 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
-longitude: -79.40348690805885
-latitude: 43.7437232285033
 weather: 7 °C and Rain
 tags:
     - life

@@ -4,10 +4,6 @@ slug: 2020-10-10-hiking-weeks
 author: Jingyu Bao
 date: 2020-10-10T23:44:07-04:00
 draft: false
-location: >
-    47 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
 tags:
     - toronto
     - hiking

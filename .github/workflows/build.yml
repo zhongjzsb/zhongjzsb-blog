@@ -1,0 +1,40 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  hugo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          submodules: recursive
+
+      - name: Install Hugo
+        env:
+          HUGO_VERSION: "0.164.0"
+          HUGO_SHA256: "fea17b8c076f950bb2e9f9486667bdaa29422883888d509d63931c73e8a9b3a4"
+        run: |
+          archive="hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl --fail --location --silent --show-error \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${archive}" \
+            --output "${RUNNER_TEMP}/${archive}"
+          echo "${HUGO_SHA256}  ${RUNNER_TEMP}/${archive}" | sha256sum --check
+          tar --extract --gzip --file "${RUNNER_TEMP}/${archive}" --directory "${RUNNER_TEMP}" hugo
+          echo "${RUNNER_TEMP}" >> "${GITHUB_PATH}"
+
+      - name: Check JPEG metadata
+        run: node scripts/check-jpeg-metadata.mjs
+
+      - name: Build site
+        run: hugo --gc --minify --printPathWarnings --panicOnWarning

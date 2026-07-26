@@ -2,4 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
-/.history/
+.DS_Store
+.env
+.env.*
+!.env.example
+.history/
+.hugo_build.lock
+.vscode/
+node_modules/
+public/
+resources/_gen/

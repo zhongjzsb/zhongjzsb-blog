@@ -1,0 +1,26 @@
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" | default "Embedded content" -}}
+{{- $class := .Get "class" | default "iframe-container" -}}
+{{- $allowedOrigins := slice
+  "https://app.zhongjzsb.com/"
+  "https://steamdb.info/"
+  "https://zhongjzsb.shinyapps.io/"
+-}}
+{{- $allowed := false -}}
+{{- range $allowedOrigins -}}
+  {{- if hasPrefix $src . -}}
+    {{- $allowed = true -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $allowed -}}
+  {{- errorf "embed shortcode rejected unapproved URL %q in %s" $src .Position -}}
+{{- end -}}
+<div class="{{ $class }}">
+  <iframe
+    src="{{ $src }}"
+    title="{{ $title }}"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>

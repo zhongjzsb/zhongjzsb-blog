@@ -6,7 +6,7 @@
     </div>
     <input type="checkbox" class="hidden" />
     <div class="book-expand-content markdown-inner">
-      {{ .Inner | markdownify }}
+      {{ .Page.RenderString .Inner }}
     </div>
   </label>
 </div>

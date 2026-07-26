@@ -3,6 +3,7 @@ title: "COVID-19 Visualization"
 author: "Jingyu Bao"
 date: 2020-03-13T19:49:09-04:00
 slug: covid-19-visualization
+description: Historical COVID-19 maps, tables, and visualizations built with R.
 comments: true
 aliases:
   - /posts/baobao-posts/covid-19/
@@ -32,36 +33,29 @@ It's a 5-level leaflet plot.
 
 Navigate the map in landscape mode in mobile device.
 
-<div class='iframe-container'>
-  <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/leaflet-plot.html" allowfullscreen></iframe>
-</div>
+{{< embed src="https://app.zhongjzsb.com/COVID-19/static/images/leaflet-plot.html" title="COVID-19 leaflet map" >}}
 
 ## DataTable (updated on 2020-04-09)
 
-The current state of COVID-19. Select the device to browse the table.
+The current state of COVID-19. Select the table for your device.
 
-{{< tabs "covid-19-DT" >}}
-{{< tab "Mobile" >}}
-<div class='iframe-container iframe-r-dt'>
-  <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT-mobile.html" allowfullscreen></iframe>
-</div>
-{{< /tab >}}
-{{< tab "PC" >}}
-<div class='iframe-container iframe-r-dt'>
-  <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT.html" allowfullscreen></iframe>
-</div>
-{{< /tab >}}
-{{< /tabs >}}
+### Mobile
+
+{{< embed src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT-mobile.html" title="COVID-19 data table for mobile" class="iframe-container iframe-r-dt" >}}
+
+### Desktop
+
+{{< embed src="https://app.zhongjzsb.com/COVID-19/static/images/covid-19-DT.html" title="COVID-19 data table" class="iframe-container iframe-r-dt" >}}
 
 ## Geo Plots for China and the World (ggplot + geom_sf, updated on 2020-04-09)
 
-Two types of geo plots here.
+Two types of geo plots are shown below.
 
 - Confirmed (Number of Cumulative Confirmed Cases): the total number of cases in the region, no matter what the current state is, effected, recovered or dead.
 - Remaining (Number of Remaining Cases): it's the number of cumulative confirmed cases subtracts the numbers of recovered and dead cases.
 
-{{< tabs "covid-19" >}}
-{{< tab "Confirmed" >}}
+### Confirmed
+
 | Cumulative Confirmed Cases                 |
 | ------------------------------------------ |
 | [![alt][china_confirmed]][china_confirmed] |
@@ -70,8 +64,7 @@ Two types of geo plots here.
 [china_confirmed]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_confirmed.gif?raw=true
 [world_confirmed]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_confirmed.gif?raw=true
 
-{{< /tab >}}
-{{< tab "Remaining" >}}
+### Remaining
 
 | Remaining Cases                        |
 | -------------------------------------- |
@@ -81,18 +74,13 @@ Two types of geo plots here.
 [china_current]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/china_current.gif?raw=true
 [world_current]: https://github.com/zhongjzsb/COVID-19/blob/master/static/images/world_current.gif?raw=true
 
-{{< /tab >}}
-{{< /tabs >}}
-
 ## HTML Plot (ggplotly, updated on 2020-04-09)
 
 Comparing China and outside of China.
 
 The view experience in mobile device will be better if using landscape.
 
-<div class='iframe-container'>
-    <iframe src="https://app.zhongjzsb.com/COVID-19/static/images/china-vs-outside.html" allowfullscreen></iframe>
-</div>
+{{< embed src="https://app.zhongjzsb.com/COVID-19/static/images/china-vs-outside.html" title="COVID-19 cases in China compared with other countries" >}}
 
 ## Top 20 Countries Facet Plot (ggplot + facet_wrap, updated on 2020-04-09)
 

@@ -4,12 +4,6 @@ slug: 2020-06-06-watermelon-time
 draft: false
 author: Jingyu Bao
 date: 2020-06-06T19:31:15-04:00
-location: >
-    45 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
-longitude: -79.40329512971887
-latitude: 43.74379331244312
 weather: 21 °C and Mostly Cloudy
 tags:
     - toronto

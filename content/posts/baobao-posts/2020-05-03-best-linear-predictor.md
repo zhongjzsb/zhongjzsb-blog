@@ -4,12 +4,6 @@ slug: 2020-05-03-best-linear-predictor
 draft: true
 author: Jingyu Bao
 date: 2020-05-03T06:25:07-04:00
-location: >
-    45 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
-longitude: -79.40349908374226
-latitude: 43.74388504511769
 weather: 9 °C and Clear
 tags:
 ---
@@ -34,4 +28,3 @@ What we need to solve is following least square problem.
 $$
 \big(Z(x_0) - \hat{Z}(x_0)\big)^2 = \big(Z(x_0) - a_1Z(x_1) - a_2Z(x_2) - ... - a_nZ(x_n)\big)^2
 $$
-

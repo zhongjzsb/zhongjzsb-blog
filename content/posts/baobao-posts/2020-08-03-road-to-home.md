@@ -4,12 +4,6 @@ slug: 2020-08-03-road-to-home
 draft: false
 author: Jingyu Bao
 date: 2020-08-03T10:53:43-04:00
-location: >
-    47 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
-longitude: -79.40335169654669
-latitude: 43.7437482775827
 weather: 22 °C and Partly Cloudy
 tags:
     - thought

@@ -1,14 +1,19 @@
 [build]
   publish = "public"
-  command = "hugo"
+  command = "hugo --gc --minify"
 
-[context.production.environment]
-  HUGO_VERSION = "0.65.3"
+[build.environment]
+  HUGO_VERSION = "0.164.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.65.3"
+[[headers]]
+  for = "/*"
 
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.65.3"
+  [headers.values]
+    Content-Security-Policy = "base-uri 'self'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests"
+    Permissions-Policy = "camera=(), geolocation=(), microphone=(), payment=(), usb=()"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"

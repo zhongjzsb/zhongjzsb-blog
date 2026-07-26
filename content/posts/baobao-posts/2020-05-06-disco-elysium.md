@@ -4,12 +4,6 @@ slug: 2020-05-06-disco-elysium
 draft: false
 author: Jingyu Bao
 date: 2020-05-06T14:14:32-04:00
-location: >
-    47 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
-longitude: -79.40330496513214
-latitude: 43.74373807094853
 weather: 12 °C and Partly Cloudy
 tags:
     - game

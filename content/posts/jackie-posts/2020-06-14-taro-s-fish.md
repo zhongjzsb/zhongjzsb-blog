@@ -4,12 +4,6 @@ slug: 2020-06-14-taro-s-fish
 draft: false
 author: Jingqian Liu
 date: 2020-06-14T00:51:12-04:00
-location: >
-    45 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
-longitude: -79.40348852436456
-latitude: 43.74392310961227
 weather: 11 °C and Mostly Clear
 tags:
     - toronto

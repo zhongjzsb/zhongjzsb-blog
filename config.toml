@@ -1,5 +1,4 @@
 baseURL = "https://zhongjzsb.com/"
-languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "zhongjzsb"
 theme = "hello-friend-ng"
@@ -26,8 +25,9 @@ hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content languag
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-googleAnalytics = "UA-159320532-1"
-disqusShortname = "zhongjzsb"
+[services]
+  [services.disqus]
+    shortname = "zhongjzsb"
 
 [author]
   name = "Jingyu Bao"
@@ -103,7 +103,7 @@ disqusShortname = "zhongjzsb"
 
   [[params.social]]
     name = "linkedin"
-    url = "http://linkedin.com/in/jingyu-bao"
+    url = "https://linkedin.com/in/jingyu-bao"
 
   [[params.social]]
     name = "github"
@@ -115,14 +115,6 @@ disqusShortname = "zhongjzsb"
 
   # ---------------
   # copy from original config
-
-  # options for highlight.js (version, additional languages, and theme)
-  highlightjsVersion = "9.12.0"
-  highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-  highlightjsLang = ["r", "yaml"]
-  highlightjsTheme = "github"
-  MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-  MathJaxVersion = "2.7.5"
 
   # path to the favicon, under "static"
   favicon = "favicon.ico"
@@ -169,13 +161,8 @@ disqusShortname = "zhongjzsb"
 
 [languages]
   [languages.en]
+    locale = "en-US"
     subtitle  = "Jingyu Bao"
 
 [markup.goldmark.renderer]
-  unsafe= true
-
-[params.staticman]
-    endpoint = "https://zhongjzsb-staticman.herokuapp.com/v2/entry"
-    username = "zhongjzsb"
-    repository = "zhongjzsb-blog"
-    branch = "master"
+  unsafe = false

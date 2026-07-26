@@ -4,12 +4,6 @@ slug: 2020-08-14-underlords-unit-odds
 draft: false
 author: Jingyu Bao
 date: 2020-08-14T14:56:17-04:00
-location: >
-    47 York Mills Rd
-    Toronto ON M2P 1B6
-    Canada
-longitude: -79.40351753907835
-latitude: 43.74372370681631
 weather: 29 °C and Clear
 tags:
     - game
